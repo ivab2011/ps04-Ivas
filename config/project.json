@@ -1,6 +1,6 @@
 {
-  "publication_name": "",
-  "topic": "",
-  "audience": "",
-  "central_question": ""
+  "publication_name": "Agentic GRC",
+  "topic": "Governing agentic AI in critical infrastructure",
+  "audience": "Executives, risk, compliance and security leaders (CEO, COO, CFO, CISO), consultants and researchers working with critical-infrastructure operators in Europe and the US. They understand AI technology and their sector's regulations, but lack a clear view of the gaps in how current frameworks govern agentic AI.",
+  "central_question": "As AI agents start acting autonomously in critical infrastructure, which risks are real, which claims are hype, and what do current governance frameworks require operators to do?"
 }
