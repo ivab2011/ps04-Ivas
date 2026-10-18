@@ -1,4 +1,4 @@
-# Agentic GRC: Editorial Policy (version 1)
+# Agentic GRC: Editorial Policy (version 2)
 
 Owner: Iva Biscanic. This policy is supplied to the AI at every editorial stage
 (selection, briefs, articles, video scripts). The AI applies it; I review its decisions.
@@ -20,17 +20,27 @@ Accept material that bears directly on at least one of:
   FERC/NERC CIP, sector regulators, standards (e.g. ISO/IEC 42001), procurement rules.
 - **R3 AI data centres as critical infrastructure**: grid connection, reliability standards,
   energy demand, security, local opposition, and what this means for operators.
+- **R4 Governance precedents** (not about AI itself): how a regulator turns an emerging-technology
+  risk into concrete requirements for critical-infrastructure operators (exposure assessment,
+  migration plans, deadlines, verifiable readiness criteria), e.g. quantum-safe migration mandates.
+  **Guardrail:** R4 evidence may support only an analogy or inference about AI, labelled as such;
+  it must never be the only evidence for a claim about AI systems.
+An item counts as R1-R3 only if its text explicitly discusses AI, machine learning or autonomous
+agents. General OT or critical-infrastructure security content without AI is R4 or rejected.
 AI-enabled attacks on infrastructure are relevant **only** when the item changes what
 operators must do to govern their own AI systems; otherwise reject.
-Reject: general geopolitics, defence, consumer AI, product promotions, and AI news with no
-link to critical infrastructure or governance.
+Reject: general geopolitics, defence and military dependencies, macro-economic or industrial-policy
+debates, consumer AI, product promotions, and AI news with no link to critical infrastructure or
+governance. If an item fits none of R1-R4, reject it; do not stretch a category to fit.
 
 ## 3. Freshness and novelty
 - Only material published within the 30-day window is used (enforced mechanically before
   selection). Publication date and collection date are kept separate.
 - **Republished material** (e.g. "Archive" episodes, reposted recordings, refreshed dates on
   old articles) is **deferred** unless it contains something newly reported; the reason must
-  say what is old and what, if anything, is new.
+  say what is old and what, if anything, is new. Titles containing "Archive", "Rewind", "Encore"
+  or "Rebroadcast", or an introduction saying the recording is from an earlier date, signal
+  republication even when the feed date is new.
 - When a recent source discusses an older event, say so and state what is newly learned.
 - Several outlets repeating the same announcement count as **one underlying claim**, not
   independent corroboration.
@@ -41,6 +51,9 @@ link to critical infrastructure or governance.
   practitioners describing their own experience, published methods.
 - **Vendor and commercial content** (e.g. Dragos, IBM, AWS, consultancies) is usable but is a
   `source_claim`: note the commercial incentive and look for independent corroboration.
+  A vendor presenting or demonstrating its own platform, product series or service is
+  **promotional and rejected**, even when the tone is educational, unless it reports specific,
+  checkable results about AI in operations (what was deployed, where, with what outcome or failure).
 - Think-tank and podcast opinion is interpretation; label it as such.
 - Unsupported claims (no data, no method, no named source) are not used as facts.
 
@@ -67,3 +80,12 @@ words, no marketing tone. Every substantive claim is traceable to evidence.
 ## 9. Exclusions
 No undated material as evidence. No invented sources, quotes or numbers. No personal data
 about private individuals. AI-generated presentation is disclosed.
+
+## Change log
+- **v2 (2026-10-18)**, after reviewing live run 1 (docs/review_run1.md). The model accepted a vendor
+  platform walkthrough with no AI content that v1 already excluded (after rejecting it in an earlier call),
+  and stretched R3 to fit a non-AI regulatory item. Changes: stricter vendor rule (own-platform
+  walkthroughs are promotional); R1-R3 require explicit AI content; new R4 for governance precedents
+  with a guardrail; "do not stretch a category" rule; concrete republication signals; military
+  dependencies and industrial-policy debates added to the reject list.
+- **v1 (2026-10-18)**: initial policy.
