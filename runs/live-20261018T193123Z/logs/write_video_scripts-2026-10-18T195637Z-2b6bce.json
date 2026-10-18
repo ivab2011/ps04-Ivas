@@ -1,0 +1,13 @@
+{
+  "stage": "write_video_scripts",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-18T19:55:36Z",
+  "finished_at": "2026-10-18T19:56:37Z",
+  "tools": [
+    "openai:gpt-5.5"
+  ],
+  "cost_usd": null,
+  "errors": []
+}

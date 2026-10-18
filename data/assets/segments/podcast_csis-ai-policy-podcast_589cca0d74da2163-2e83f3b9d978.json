@@ -1,0 +1,560 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 35.4,
+  "text": "Welcome back to the AI Policy Podcast. I'm Alok Mehta, Director of the Wadwani AI Center at the Center for Strategic and International Studies. And I'm Nicole Lerera, a researcher with the Center. We have a really packed episode for you guys today. We're going to discuss new reports of rogue AI agents on the open internet, the outcomes of last week's U.S.-China summit, and remarks made by both Frontier Lab CEOs"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 35.4,
+  "end_seconds": 70.52,
+  "text": "and heads of state at the kickoff of the 81st session of the UNGA in New York. We are then going to wrap up with some updates on previously covered stories, including new state-level regulation of AI in California, Texas, and Virginia. Yeah, it's hard to believe it's only been two weeks since we last recorded a news roundup. It feels like it's been several years in terms of what's happened. Yeah, yeah, the updates just keep coming. But yeah, so we're going to kick off with more rogue AI agent activity on the open internet. And as you said, Alok, it seems every week we"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 70.52,
+  "end_seconds": 104.76,
+  "text": "have new updates, new cyber incidents to unpack. But this one does feel particularly significant because it is the first known case of AI hacking a government system. So basically what happened is back in June, OpenAI was doing internal training and testing for a model that was not intended for public release. And this model was given a research question to answer based on publicly available information. To answer that question, it went to an Australian government website, specifically the Services Australia's Medicare statistics reporting service"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 104.76,
+  "end_seconds": 137.96,
+  "text": "to search for relevant data to the question. And then when it searched that site, it was still struggling to come up with an answer. So to try and track down that information it was looking for, it hacked into the site and gained access to non-public information. Something to note here is that OpenAI has said that this would not happen today post-hugging face incident. The company said that with the strength and safeguards that were implemented after that incident, if this happened today, the new monitoring systems would have flagged"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 137.96,
+  "end_seconds": 169.8,
+  "text": "this activity and alerted a human researcher to stop the agents. And related to this story, OpenAI agents have also attempted to hack a website run by the U.S. Department of Education and targeted several other U.S. government websites. But those were more going after publicly available information, just not in a way that the website administrators had really intended when they set up the site. So, Alok, what would you say is significant about these new cyber incidents? Yeah, one of the things that people"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 169.8,
+  "end_seconds": 201.56,
+  "text": "have wondered after we've had now, you know, well over a dozen of these incidents, hugging face was the first, but since then many other revelations, is why there haven't been any sort of lawsuits or people suing in response. And one of the responses is often, you know, there were no damages. These were hacks, but there was no real significant harm done, no access to private information or anything like that. I think the most significant thing"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 202.76,
+  "end_seconds": 236.28,
+  "text": "from these new incidents is that now we're talking about situations where we're really sort of running into significant real damage. If a AI system is accessing, you know, a government server that has potentially private medical information, now there's real risk to that private information. And so, I think now we're going to really have more exploration of the question of are there real harms being caused by these agents,"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 236.28,
+  "end_seconds": 267.8,
+  "text": "not is it sort of some concerning activity, but ultimately things that didn't account for any real damage to any sort of specific group of people. I think also just there is a difference in kind when you have AI agents that are sort of interacting with government websites in ways that are not intended. This, you know, from the perspective of should we regulate or put more regulations on AI, I think"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 269.56,
+  "end_seconds": 303.96,
+  "text": "agents interacting or hacking with government websites is really going to raise more targeted questions for policymakers than, say, if they were targeting other kinds of websites. Yeah, yeah, absolutely agree with you there. And something else to note in line with what you were saying about seeing damages to specific people or specific groups in these incidents, in addition to those kind of hacks or unauthorized access to government websites, OpenAI also shared last Friday that it had discovered 53 cases in which images uploaded"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 303.96,
+  "end_seconds": 340.36,
+  "text": "by users to chatGBT were then posted to image hosting sites by rogue AI agents. And these images were part of the AI models training data. They came from accounts that allowed their data to be used in model training, and the company said they had already kind of disassociated these images from the accounts, anonymized them, put them through a privacy filter. But yeah, going back to your point about seeing specific damages done to specific people and the window for kind of legal repercussions there, it does seem like there could possibly"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 340.36,
+  "end_seconds": 374.2,
+  "text": "be a data privacy case to be made against OpenAI here, except that the images were already anonymized, and it seems difficult to trace those images back to a specific victim. Yeah, I think a couple of things to note here. One is when people say AI isn't regulated, that's not exactly true. There are a bunch of existing laws that apply to AI. Privacy is one of them, and so it does seem like there are potential privacy issues here. In terms of them being anonymized, I think one of the concerns privacy advocates have"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 374.2,
+  "end_seconds": 408.36,
+  "text": "repeatedly mentioned is that in many cases it's possible they de-anonymize information that has gone through these sort of processes, and so it's not necessarily a guarantee that just because they've done this process, you can't identify it back to a person. Maybe in this case, it's harder, but it's still possible to reverse-engineer things. The other is, even though there are privacy laws in the book, AI opens all sorts of new privacy issues, and so there was hope that after ChatGBT came out, they would finally spur the U.S. to pass"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 408.36,
+  "end_seconds": 442.52,
+  "text": "a federal privacy law and to do it in a way that updated it for the AI era, and unfortunately, we are still waiting for Congress to take action in that regard. Right, and on your first point, I'm no expert in data privacy laws or measures that these companies are taking, but it does sound like the privacy filter that's being applied to anonymize the data has more to do with the metadata, removing the names associated with the accounts, the location, etc., but we don't actually know what these images look like."
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 442.6,
+  "end_seconds": 475.8,
+  "text": "Obviously, they have not been shared by the company itself, so if these images were uploaded by a user, there is hypothetically some potential for, say, a user's face or some kind of recognizable, identifiable personal information to be in the image itself that couldn't necessarily be anonymized or taken out simply by putting it through a filter. So yeah, something to consider, but we'll definitely keep an eye on that story. Something else I wanted to raise that I found really interesting, really startling, was another report from Axios over the weekend,"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 476.68,
+  "end_seconds": 513.24,
+  "text": "which shared that OpenAI and Anthropic are currently investigating tens of thousands of these kinds of incidents in which frontier models, quote-unquote, took steps that outside evaluators would consider problematic. And Sam Altman has said that the team at OpenAI is facing petabytes of agent activity logs, which, for anyone who's not aware, a petabyte is equal to 1,000 terabytes, which is approximately 100 times the print collection of the United States Library of Congress. So to put it lightly, this seems really bad, and I want to read something that"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 513.24,
+  "end_seconds": 547.08,
+  "text": "Sam Altman said in his remarks to the UN General Assembly last week, which we'll touch on his speech a little more later in the episode, but he says, quote, I believe there are two ways the AI progress could go very badly that we have to avoid. First, we could lose control of the future to AI. The risk is that it moves so fast that people can no longer follow what's happening or intervene when needed. This would obviously be terrible, unquote. And I have to say, this sounds a lot like where we are now, where we're facing so many agent activity logs that there's just"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 547.08,
+  "end_seconds": 580.2,
+  "text": "not enough human experts to sift through them, not enough time in the world to sift through them. And we've already seen this dynamic where AI tools are necessary to kind of do this analysis, these post-mortems of these incidents. And it seems like that that dynamic is only going to be accelerated. But, Alok, what's your take on this current situation? I mean, it's definitely a cause of concern. I think there's some good news here. The good news is that a lot of what we're seeing in these instances is a lack of basic sort of"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 580.2,
+  "end_seconds": 614.2,
+  "text": "cybersecurity hygiene. A lot of these things are things we know how to stop and would have been stopped if the right cybersecurity practices had been implemented. So there are better ways to sandbox agents and make it harder for them to access the Internet. So that's the good news. The bad news is the sheer scale and speed at which things are moving. Like you said, when we're talking about tens of thousands of agents, we're talking about companies that are somewhere between five and ten years old. They don't have the staff, they don't have the"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 614.2,
+  "end_seconds": 645.64,
+  "text": "infrastructure, they don't have the capacity to do the kind of analysis and monitoring, or it seems like they don't have the capacity to do the types of analysis and monitoring for the scale of AI technology that they're putting into the world. I think that is definitely concerning. I think maybe equally concerning or more concerning is the fact that it doesn't seem like there's any world in which this happens at a smaller scale or slowly. In"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 645.64,
+  "end_seconds": 678.04,
+  "text": "fact, it only seems to be getting bigger and faster every week. Yeah. It's also worth pointing out that OpenAI has said repeatedly that of all of these incidents that are coming to light, the incident involving Hugging Face was the most severe, and that it's said multiple times with regard to these new incidents that have come to light after the Hugging Face attack that under the current safeguards, the safeguards they've now implemented, this would not have happened. So hopefully they've learned from the Hugging Face"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 678.04,
+  "end_seconds": 713.24,
+  "text": "incident, they've implemented these new safeguards, and those would be more effective going forward. And OpenAI has also taken steps to slow down or pause development of its models following these reports. It recently shared that it was pausing training of its AI models, and this is the second time the company has paused development in the past two months, the first being a two-week pause on reinforcement learning following the Hugging Face incident back in August. But I'm curious if you think this kind of stop, start, start again, stop again development cadence is looking to"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 713.24,
+  "end_seconds": 744.92,
+  "text": "become the new norm in the AI industry. This seems like something that's not super sustainable, but is there kind of another path forward here? I'm not sure it's a norm in the sense that to our knowledge, OpenAI is the only one that has taken this kind of action. I said it before, and I'll say it again, I think we have to give credit to OpenAI for taking this step. It's a costly step, and it does indicate that they're taking these incidents seriously. Doing this kind"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 744.92,
+  "end_seconds": 778.04,
+  "text": "of action that affects the entire company, especially when they're really locked in a very competitive race with other companies like Anthropic, has a real cost to the company. That being said, I'm not sure that it's the best for policymakers or for the public to have this kind of thing happening without a clear understanding of what would trigger it. Part of this trigger is that they've reached certain thresholds in their preparedness framework,"
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 778.04,
+  "end_seconds": 810.76,
+  "text": "and so they're implementing the safeguards that they think are appropriate for that. But I do think that we would benefit from more consistency across the industry and sort of when these things should happen, or the conditions under which they will happen, as well as just a little bit more information about what exactly is driving the companies to make these decisions. But that's things that, if the choices between them not pausing"
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 811.32,
+  "end_seconds": 846.68,
+  "text": "while they take steps to bolster their security or continuing to do it and trying to try to fix things, even as AI development goes full speed, I think the current situation is better. Yeah, and we'll talk a little bit more about the kind of potential for industry-wide standards or best practices in this kind of disclosure going forward in the episode. But I also want to touch briefly on what the responses from policymakers have been. So we saw recently"
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 848.52,
+  "end_seconds": 883.96,
+  "text": "the Florida Attorney General asked for an emergency injunction against OpenAI, and it cited this Axios report that OpenAI and Anthropic are together facing tens of thousands of security incidents with their models. And some context for this request is that Florida previously sued OpenAI in June for violating the state's Deceptive and Unfair Trade Practices Act for being negligent and grossly negligent in the design, marketing, sale, promotion, and distribution of CHAT-GBT. And the Attorney General has now requested a new temporary injunction from the"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 883.96,
+  "end_seconds": 915.8,
+  "text": "court on this case. So are we likely to see more reactions from policymakers going forward? It seems that there's just so much to keep up with coming out of these companies. So it's hard to imagine policymakers keeping up. I mean, I think the thing that shifted over the past few months after these incidents started coming to light is that a lot more people are thinking about it. You know, people in state governments, in the federal government, the general public,"
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 916.76,
+  "end_seconds": 948.68,
+  "text": "international organizations. And so, yeah, I think there'll be more investigations, there'll be more questions, there'll be more letters from policymakers to these companies, and there'll be more actions. And here's another example of the ways in which existing law can be applied to sort of do some kind of regulation or oversight over AI. So, you know, states have these consumer protection laws, and they can use them in cases where they"
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 948.68,
+  "end_seconds": 987.56,
+  "text": "need to take action to protect the public. And I think we'll likely see more of this in the future. And can you speak a bit to what can we expect as the outcome of this case in Florida? Let's say this temporary injunction is granted. What does that mean for OpenAI? And what does that mean for Chachapiti? I think it's unclear what would happen here. I don't think I have any priors on what the outcome could be. I do think it would be interesting to see, for example, if the court"
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 987.56,
+  "end_seconds": 1018.36,
+  "text": "sort of said that OpenAI products couldn't be made available in the state of Florida. I think that that's maybe not necessarily the outcome that people would want either. A lot of people use Chachapiti both for their business and in their personal lives. They do all sorts of important things. And so I think there's probably some sort of balance that policymakers really want, which is not to necessarily take the technology away entirely, but to figure out how to get that"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 1018.36,
+  "end_seconds": 1053.56,
+  "text": "technology into people's hands in a way that's safer or feels safer than the way people currently feel about it. Right. Well, we will continue to track that case as it moves forward. But switching gears a little bit, the highly anticipated summit between the U.S. and China took place last week. And though AI was on the agenda, it does appear that no substantial agreements were reached between Trump and Xi on coordinated safety measures between their respective countries. We do know that Treasury Secretary Scott Besson and the Chinese vice"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 1053.56,
+  "end_seconds": 1090.28,
+  "text": "premier in their meeting discussed establishing a kind of direct channel of communication between the U.S. and China for major AI incidents. And this is something that's been compared to the Cold War era hotline set up between the White House and the Kremlin following the Cuban missile crisis to prevent a nuclear crisis from escalating unintentionally. And the U.S. and China have also agreed to continue dialogue on the risks and benefits of AI with the next round of talks set for November. But look, there were hopes going into this summit that the firestorm of AI safety"
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 1090.28,
+  "end_seconds": 1125.56,
+  "text": "concerns, at least in the U.S., could be a kind of catalyst for, if not a coordinated slowdown between the two countries, the establishment of some kind of substantial safety mechanism. So in terms of those expectations, how would you rate this outcome? Yeah, definitely going into this, both because of the calls from industry to pace the frontier or slow down development, and then all these safety incidents that we just talked about. There is hope for substantive discussions around AI safety and governance. We've done a lot of"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 1125.56,
+  "end_seconds": 1157.0,
+  "text": "writing at the center about this, so I encourage you to look at some of that, some of those reports for more insight into how we were thinking about things going into the summit. In terms of outcomes, right, this is a relatively basic outcome. I mean, I think that a large part of that has to do with the fact that going into the summit, right, in the days and hours before the summit, the U.S. sort of clearly signaled that its primary concern was competition with China."
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 1157.0,
+  "end_seconds": 1187.8,
+  "text": "It was really concerned that slowing down the pace of AI development would harm the ability for the country and for companies in the country to compete with China and that it would provide China an unfair advantage, I guess. So like I said, I think it's a relatively basic outcome, it's essentially saying, you know, we have a way to talk and we promise to talk in the future."
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1188.76,
+  "end_seconds": 1220.36,
+  "text": "We don't have a lot of details on how the hotline would work. We don't know who's going to staff it. We don't know how seriously the governments are going to take it. And so I think, So, it's unclear whether this will significantly move the dial in any way on safety. I think the things I'm going to be looking for are, yes, you know, the U.S. and China agreed to talk about safety or governance issues again in a couple of months at the next summit. What's going to happen in between them?"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1220.36,
+  "end_seconds": 1251.6,
+  "text": "Are they going to be spending time talking through technical issues, very difficult issues around verification and definitions in the interim and how much progress they make there? As well as, you know, like seeing if they try to focus on sort of more substantive proposals. So for one example, right, that we've written about is there's a hotline that lets the U.S. and China talk to each other if there's a serious safety incident."
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1251.6,
+  "end_seconds": 1283.72,
+  "text": "That's sort of a reactive hotline. There's a different kind of hotline that's more proactive in which each country agrees to sort of monitor what is happening in that country more actively, monitor the AI companies that are headquartered in that country, and then find a way to proactively share that information. And I would hope that over time we would try to move in that more proactive direction instead of reactive direction, and we'll just have to see if that is the way that these two governments"
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1283.72,
+  "end_seconds": 1315.88,
+  "text": "are going to be thinking about it as well. Yeah. And we also got a little bit of a window into what the heads of state of both the U.S. and China are thinking going into this summit. Last week was the high-level general debate for the U.N. General Assembly, as I mentioned at the top of the episode. And Trump, in speaking at the Assembly on AI, he kind of doubled down on past messaging. He doubled down on the narrative, as you said, of an AI race between the U.S. and China."
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1315.88,
+  "end_seconds": 1349.24,
+  "text": "And he explicitly rejected calls for global coordination on AI, saying that the United States, quote, totally rejects any attempts to construct a globalist scheme to control AI, which he then goes on to say will now be referred to as superintelligence. And in his remarks, China's U.N. representative took quite a different approach. He called for global cooperation on AI, saying, quote, we should enhance alignment and coordination of AI development strategies, governance, and technical standards, and form a consensus-based"
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1349.24,
+  "end_seconds": 1384.96,
+  "text": "global governance framework at an early date so as to build institutional guardrails that preserve international peace and security. The representative also called out the United States, not explicitly, but saying, criticizing certain major powers' attempt to maintain their technological edge through monopoly in their quest for digital hegemony. So yeah, what are your takes on those remarks and kind of what they say about the prospect of bilateral agreement going forward? Look, I mean, I think you can agree with the sentiment that the U.S. and China are the"
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1384.96,
+  "end_seconds": 1419.72,
+  "text": "clear frontrunners in terms of where the technology is. And so in a lot of ways, the discussions between those two countries are going to be really important for governance. But that doesn't mean that you can or should ignore the rest of the world. What you see China say, this more inclusive approach is consistent with sort of how it's talked to a lot of the rest of the world before, the underlying rationale for when it set up Waco, the way it talks in particular to countries in Asia and Africa."
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1421.2,
+  "end_seconds": 1455.2,
+  "text": "And I think the U.S. should really probably engage more in those in those spaces. We recommend this in our paper on this. And the reason is that ultimately for U.S. technology to be successful, people have to use it. And that means people in the U.S. and people outside the U.S. And so that means building relationships with other countries. And one of the ways to do that is to give them a real voice in how that technology is"
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1455.2,
+  "end_seconds": 1486.6,
+  "text": "developed or at least a voice in sort of the approaches we take as a sort of a world in regulating or overseeing that technology. And I think that it is probably a missed opportunity for the U.S. not to engage more robustly in fora and talk about how U.S. technology and U.S. approaches can benefit them and and try to be more inclusive in terms of including their"
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1486.6,
+  "end_seconds": 1519.2,
+  "text": "voices in some of these conversations about regulation. I think ultimately that is probably going to be important for making sure that when people think about what technology to adopt, what technology to adopt, they think about American technology as much or more than Chinese technology. Right. And I think that this kind of dynamic and the merits of engaging with the middle powers on global governance, it's something that the Frontier Labs understand, at least"
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1519.2,
+  "end_seconds": 1553.68,
+  "text": "on some level. We can see that from the remarks given by Sam Altman and Dario Amadei at the UN Security Council also last week. They both kind of called for more global coordination on AI safety and AI security. So when we see this kind of direct opposition between what the Frontier Labs in the U.S. are calling for and what the White House is signaling, what avenues do you see for Frontier Labs to kind of move forward in pursuing more global collaboration on AI safety, on"
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1553.68,
+  "end_seconds": 1590.8,
+  "text": "standards, et cetera? Is there any potential for them to make progress on that, to move the needle without the U.S. government being on board? I mean, it's pretty hard to see them going really, really far if they're doing things that are in active opposition to what the U.S. government wants. But I think they can and are doing a lot here. We know that the major U.S. labs are having conversations about standards. You know, we've seen some unilateral actions from the labs to sort of do their own sort of"
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1590.8,
+  "end_seconds": 1622.48,
+  "text": "enhanced oversight. So in particular, Anthropic and OpenAI agreeing to embed external evaluators into their organization, they can unilaterally take steps to slow down. We talked about it earlier in the podcast, OpenAI slowing down. And so other labs can do that, too. I think the real challenge is that there are lots of concerns around the issue of regulatory capture. And so I think for this to really get traction, a few things have to happen."
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1622.48,
+  "end_seconds": 1659.92,
+  "text": "One is that it can't be seen as just an effort by the labs to oversee themselves in a way that blocks out competition, allows them to grade their own homework. That doesn't really get at the heart of the trust issues that a lot of people are skeptical of, of both AI technology and the companies that are developing that technology. And so I think ultimately, over time, it will need to involve a bigger tent. Second is, how can the labs do this in a way that does provide voice to a lot of these other"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1659.92,
+  "end_seconds": 1696.0,
+  "text": "places in the world where they're not necessarily developing frontier technology, but they'll be frontier AI technology, but they'll definitely be affected by it? And then third, can and should they engage with their technical Chinese counterparts on something that has more chance of becoming sort of broadly adopted by the worldwide AI industry instead of just something adopted by, say, the US AI industry? And what would be the incentives for their Chinese counterparts to participate in those"
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1696.0,
+  "end_seconds": 1727.04,
+  "text": "talks? I mean, the incentives are, they are also, you know, to some extent concerned about security issues. And a lot of the underlying dynamics are the same here, right? We know that at least in one incident, there was testing done of a Chinese model. This was by the UK Security Institute. It was capable of the same sort of hacking type behavior that we saw with OpenAI and"
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1727.04,
+  "end_seconds": 1760.44,
+  "text": "Anthropic and Meta models. And so they also want to build trust in their technology. And so they also will want to figure out how can we make our technology safer so that people feel like when they use it, it is not going to be risky to use it. That there are all sorts of reputational harms that are happening to OpenAI and Anthropic. And I think Chinese companies probably want to avoid that as well. So I think a lot of the incentives are the same."
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1760.44,
+  "end_seconds": 1792.36,
+  "text": "Obviously, Chinese labs prioritize different issues. They think about things differently. They have different priorities. The Chinese government has different priorities. But we know that technical researchers are talking all the time, including conversations between U.S. researchers and Chinese researchers. And I think there's a lot you can do in the technical space that doesn't run afoul of a lot of these complicated political questions and that can feed into those political"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1792.36,
+  "end_seconds": 1824.76,
+  "text": "discussions in a useful way. Right. Yeah, it'll be definitely, definitely be interesting to see how that unfolds over the coming weeks. But switching gears again a little bit, looking at other aspects of Trump's comments over the past week. He has said that he plans to appoint a new AI czar and create an AI force. And the president didn't provide any specifics about what this force would actually do. But it is definitely a signal of this full speed ahead mentality."
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1825.4,
+  "end_seconds": 1856.72,
+  "text": "So, yeah. Do you have any comments on that? What should we expect from an AI force? What might that look like? Yeah, I think there's a lot of stuff that the government can and should be doing around AI. For example, there are lots of different agencies that have some oversight authority over aspects of AI or certain vertical categories of AI applications. And it would be really useful to have sort of a centralized authority within the government"
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1856.72,
+  "end_seconds": 1887.92,
+  "text": "who can sort of coordinate all that and ensure there's some consistency. I think what I worry about when you talk about an AI force is, right, this is analogous to a space force. And President Trump set up the space force. But that's like a distinct domain of warfare. And so, in some ways, it makes sense, right? Like there's a sort of specific geography that's entailed and that approaching it from this sort of military perspective in some ways makes sense."
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1888.48,
+  "end_seconds": 1925.52,
+  "text": "But creating an AI force, AI is used broadly across the economy. It's not just the military or even the military forces. It's not just the military or even really significantly a military application. It does have military applications, but there are enormous numbers of applications happening in every other sector of the economy. And so that's, I think, too narrow a lens to look at it. And it's also unclear if the AI force will do, I think, the most important work in government,"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1926.08,
+  "end_seconds": 1960.8,
+  "text": "which is sort of coordinating all the different AI initiatives across government, including sort of overseeing AI, as well as figuring out how AI should be adopted broadly within government. And so I'm not convinced that an AI force, which presumably will be housed in the Department of Defense, is going to be able to serve that function. Yeah, we've also seen new progress on that front of AI adoption across government. On the day of recording this episode, we saw the White House launch a new site,"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1960.8,
+  "end_seconds": 1992.08,
+  "text": "America.gov, which is an AI-powered website designed to help users navigate resources provided by the federal government and websites that are spread across multiple agencies. So that seems like an effective application of AI there. Maybe, maybe. We'll have to see, right? It depends on how it's implemented. You know, AI hallucinates a lot, and that's gotten better over time, right? But the government, I think, has this special responsibility to make sure that the"
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1992.08,
+  "end_seconds": 2024.8,
+  "text": "information it's providing is accurate. And then on top of that, like a lot of the ways that people interact with government websites involves personal information, medical information, or social security numbers, or other private information. And so, figuring out a way to make sure that that information is protected is going to be really important. But I think beyond that, what I worry about is, you know, Americans, a lot of them are already skeptical about AI, and they feel like it's being forced down their throats in a lot"
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 2024.8,
+  "end_seconds": 2055.12,
+  "text": "of ways. And I'm not sure that a government website that says this is the best way, or this is a new way to interact with the federal government that's going to be more efficient than other websites is, I think it feeds into that narrative. And so, what I worry about is, will this website be updated, and will the other functionality in the government be neglected? And so, over time, people will be forced to interact with this, even though they don't want to. So we'll just have to see."
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 2055.12,
+  "end_seconds": 2089.04,
+  "text": "Yeah. In other news from the White House, as I mentioned before, the president is trying to rebrand AI as superintelligence. He kind of launched that word during his speech to the U.N. General Assembly last week, and he's already started to tell various parts of the government, such as the State Department, to use that word instead of AI. What would you read as his intentions with this kind of switch up? My read is that he knows AI has a branding problem, and this is an attempt to solve the"
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 2089.04,
+  "end_seconds": 2121.36,
+  "text": "branding problem, which is to say, here's this word that's got this negative connotation, and so I'm going to get rid of that word and put in another word. Unfortunately, I think no one outside of maybe the few parts of the government he can touch directly are going to use that word. Everyone knows it as AI. That's what they're going to use. I don't think superintelligence makes it sound less scary, either. Yeah, it feels more like a horizontal move there, in terms of the sentiment."
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 2122.16,
+  "end_seconds": 2157.04,
+  "text": "But yeah, in other updates coming out of the White House, we heard last Friday a federal appeals court chose to uphold the Pentagon's decision to label Anthropic a supply chain risk, writing that the DoD had, quote, ample support for its decision that the continued integration of CLAWD into the department's information systems by the department or as contractors presented a statutorily covered national security risk. And goes on to say that Anthropic admits that the company encodes restrictions into CLAWD"
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 2157.04,
+  "end_seconds": 2188.16,
+  "text": "that prevent the model from performing tasks that Anthropic wishes to prevent, which on more than one occasion have stopped CLAWD from performing tasks requested by government users. So, look, what is the path forward here for Anthropic? Is there an avenue for them to appeal this ruling? Is this kind of the end of the road for them? I mean, they can definitely appeal this ruling, right? This was a federal appeals court. It was not the Supreme Court. And ultimately, they're the final arbiter. So it can go up to the Supreme Court."
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 2189.6,
+  "end_seconds": 2222.96,
+  "text": "They also have another option here, which is that it was heard by the D.C. Circuit. And typically, cases are heard by a panel of judges. And you can't appeal. You can't petition the full court to listen to the case. And so I think that is something they may explore. It's called en banc. I think it's granted relatively rarely. But I've talked to some friends, and they said that sort of the roster of judges that they had deciding this case were particularly unfavorable to them."
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 2223.04,
+  "end_seconds": 2257.28,
+  "text": "And so it's always possible to appeal. You get a different ruling, and that may play into it. How likely is an appeal to go forward? Well, we've talked about this on the podcast before. We've heard of another ruling from California, a federal judge in San Francisco who struck down the designation. And he said that it violated the First Amendment. Because the government was retaliating against the anthropic for its public stance."
+ },
+ {
+  "segment_id": "s0068",
+  "start_seconds": 2257.28,
+  "end_seconds": 2294.0,
+  "text": "In a lot of ways, that rationale was the opposite of this case's rationale, which said that the DoD didn't have ample support and that public statements by officials indicated that this was primarily done in the spirit of indication, not because of substantive concerns about the model capabilities. And whenever there's a split in decisions, it makes it more likely that higher courts will hear the ruling. And so that may be a factor in the favor of anthropic if they want to appeal."
+ },
+ {
+  "segment_id": "s0069",
+  "start_seconds": 2295.76,
+  "end_seconds": 2327.76,
+  "text": "And so we will see where things go. Yeah, we'll continue to track that case. I'm sure this won't be the last time we're talking about the supply chain risk designation on this podcast, but pivoting now to kind of state level issues. We've talked on the show previously about how both Texas and Virginia have taken steps to regulate the build out of AI data centers in their states. And we have new activity on that front."
+ },
+ {
+  "segment_id": "s0070",
+  "start_seconds": 2327.76,
+  "end_seconds": 2362.64,
+  "text": "So on September 21st, the Texas governor issued a new directive halting the issuance of all data center permits by the state's Commission on Environmental Quality. And context for this is that the governor had previously directed the Public Utility Commission of Texas and the Electric Reliability Council of Texas to audit all data centers seeking connection to the state grid. That's something we covered in a previous news roundup on the podcast. And the governor also directed the Texas Water Development Board to enforce water use reporting"
+ },
+ {
+  "segment_id": "s0071",
+  "start_seconds": 2362.64,
+  "end_seconds": 2394.24,
+  "text": "requirements for data centers. And what this new directive does is it basically says that because this information being sought by the Public Utility Commission, the Electric Reliability Council, and the Water Development Board are all necessary to make informed decisions by each of those individual agencies. No other state agency can move forward with regulatory approvals for data centers until that information is acquired."
+ },
+ {
+  "segment_id": "s0072",
+  "start_seconds": 2394.96,
+  "end_seconds": 2430.56,
+  "text": "So Governor Abbott directed the Texas Commission on Environmental Quality to pause the issuance of all permits related to data center projects until the Electric Reliability Council completes its review. Can you speak a bit about what this directive does beyond what we kind of went over as the implications of that previous directive? Is this kind of just political posturing or is there a meaningful change in outcome here? I mean, it definitely represents an escalation in terms of, you know, previously,"
+ },
+ {
+  "segment_id": "s0073",
+  "start_seconds": 2431.84,
+  "end_seconds": 2463.44,
+  "text": "previously the requirement was for an audit. Now it's sort of a pause, probably a temporary pause, but that's a difference in kind. Is it like, is it performative? I don't think so, right? We know that the applications for use of Texas electricity resources, for example, far outstrip the ability for Texas to provide those resources. And so, I do think the state has a lot of questions to"
+ },
+ {
+  "segment_id": "s0074",
+  "start_seconds": 2464.08,
+  "end_seconds": 2497.68,
+  "text": "answer about, you know, given that there is not enough electricity to go around for all the data centers that want to be built or all the people who want to build data centers, how can you make, you know, the rational decisions there that are fair to the companies, fair to the people who distribute the electricity, and fair to the people who live in that state. And so, I think that this is, you know, substantive and they're difficult questions to answer. But the timing also comes"
+ },
+ {
+  "segment_id": "s0075",
+  "start_seconds": 2497.68,
+  "end_seconds": 2531.44,
+  "text": "right before we go into midterm elections and we know that data centers are, or at least some voters are thinking about data centers when they go into the polls, right? There's this nationwide sort of concern or pushback on data centers, not just in the communities where they're sort of slated to be built, but more broadly. And so, you know, things can be good politics for the governor, but also responsive to real issues. Right. And as I mentioned, Texas is not"
+ },
+ {
+  "segment_id": "s0076",
+  "start_seconds": 2531.44,
+  "end_seconds": 2565.28,
+  "text": "the only state where we've seen new updates on this front. The governor of Virginia also recently issued an executive order on data centers, which takes several steps. Notably, it prohibits state agencies from entering into new NDAs that prevent disclosure of material information about proposed data centers, incentives, resource demands, or community impacts. The executive order also directs the state's Department of Environmental Quality, which is Virginia's primary environmental permitting"
+ },
+ {
+  "segment_id": "s0077",
+  "start_seconds": 2565.28,
+  "end_seconds": 2595.92,
+  "text": "agency, to develop accelerated work plans for data center noise and for water regulations. So, what's kind of your read on this executive order? Yeah, I mean, we have talked on the show previously about how the concerns around data centers are bipartisan. We see action in Texas, a red state. In Virginia, a blue or purple state. We've seen action-related data centers in New York."
+ },
+ {
+  "segment_id": "s0078",
+  "start_seconds": 2595.92,
+  "end_seconds": 2625.92,
+  "text": "And so, I think one of the important things to note here is that this is a bipartisan issue in a time when there are not that many issues that people on both parties agree on. And then, I think the other thing I'll note is that I do think that NDAs around data centers are problematic. These data centers are big buildings, and in a lot of communities,"
+ },
+ {
+  "segment_id": "s0079",
+  "start_seconds": 2625.92,
+  "end_seconds": 2659.44,
+  "text": "they do provide benefits, tax benefits, community benefits, in some cases, you know, stabilizing or providing some reliability to infrastructure, but they do affect a lot of people as well. And I think that everyone benefits when more of that information is made public. And so, there are a lot of good things in this executive order that are responsive to what people are raising concerns about. And are you expecting to see more states adopt similar directives going"
+ },
+ {
+  "segment_id": "s0080",
+  "start_seconds": 2659.44,
+  "end_seconds": 2696.72,
+  "text": "forward? I do expect that more states will take action on data centers. But, you know, each state is different. And so, I think they'll take cues from each other, like we've seen with sort of state AI laws. But each thing will be slightly different, right? The Texas thing is very different than the Virginia thing, which is different than the New York thing. And so, a lot of the specifics will be different. Yeah. And kind of looking at what another state is doing on AI regulation. On December 18th, we saw a new executive order coming out of California Governor"
+ },
+ {
+  "segment_id": "s0081",
+  "start_seconds": 2696.72,
+  "end_seconds": 2733.84,
+  "text": "Kevin Newsom's office, giving the state's government operations agency two months to work with a group of AI experts and develop recommendations for potential amendments to existing California laws on AI safety and security. And this group is basically being asked to assess the technical feasibility and potential efficacy of a few really interesting amendments to existing California laws, which include requiring frontier labs to embed designated IVOs on site to conduct periodic"
+ },
+ {
+  "segment_id": "s0082",
+  "start_seconds": 2734.4,
+  "end_seconds": 2769.04,
+  "text": "audits of their internal processes, and also the creation of a kill switch for frontier models. So, this feels like a pretty meaningful step forward for AI safety. What do you think we can expect to see coming out of this group? It's interesting. In some ways, this feels a little like things have come full circle because, you know, California passed this frontier AI law, SB-53, that happened a year after this really heated discussion about another bill called SB-1047."
+ },
+ {
+  "segment_id": "s0083",
+  "start_seconds": 2770.0,
+  "end_seconds": 2800.32,
+  "text": "And one of the reasons that didn't pass is because there was a kill switch provision in there that people didn't like. And so now we see this idea come back. And that is, I think, reflective of the fact that the conversation about AI safety has changed so much in the past, especially, you know, three to six months, and that people are reopening ideas that they had considered and"
+ },
+ {
+  "segment_id": "s0084",
+  "start_seconds": 2800.32,
+  "end_seconds": 2835.84,
+  "text": "taken off the table because they were considered too outlandish. So, I think that's one interesting thing to note. And the other is, like, the focus on independent verification organizations or IVOs. We have talked about that on this show before. We had Brie Treese of Fathom to talk about the logic and importance of IVOs on the podcast before. And this is just another indication of how this IVO concept is increasingly becoming sort of consensus at the state level and probably"
+ },
+ {
+  "segment_id": "s0085",
+  "start_seconds": 2836.56,
+  "end_seconds": 2867.52,
+  "text": "of increasing interest at the federal level. In terms of what they put out, we know that after SB-1047, the governor set up a similar sort of task force. They produced a really good report, and I think that report directly fed into the contents of SB-53. And that bill passed, signed by the governor, and then went on to influence conversations in states all around"
+ },
+ {
+  "segment_id": "s0086",
+  "start_seconds": 2867.52,
+  "end_seconds": 2898.4,
+  "text": "the country as well as the federal government. And I think that is quite possible that this happens again. Yeah. And on the subject of IVOs, we also have seen action on the legislative front. The legislative session in California ended on August 31st. And over the past few weeks, Governor Newsom has signed several new bills regulating AI into law, which include Senate Bill 813. We've discussed previously on this podcast with Jason Elliott, I believe."
+ },
+ {
+  "segment_id": "s0087",
+  "start_seconds": 2899.6,
+  "end_seconds": 2937.12,
+  "text": "But this bill establishes a state framework for certifying IVOs to assess AI models and processes inside AI labs for safety, security, and potential risks. Yeah, there are some other bills that passed as well. Some of those have to do with third-party AI auditors, but other things have to do with what I would call this category of risks that are not sort of catastrophic safety or catastrophic risk-related, but sort of more sort of daily or"
+ },
+ {
+  "segment_id": "s0088",
+  "start_seconds": 2937.2,
+  "end_seconds": 2970.32,
+  "text": "sort of non-catastrophic risks. So, one of them has to do with synthetic digital replicas and several bills related to child safety. And I think that it's important to remember, like, we definitely do it. I think a lot of people in the AI community talk, especially in recent weeks, about the potential catastrophic risks, about cyber risk, about these AI agents. But there are all these other issues that make people concerned about AI,"
+ },
+ {
+  "segment_id": "s0089",
+  "start_seconds": 2970.88,
+  "end_seconds": 3006.88,
+  "text": "children's safety and privacy and deepfakes and the potential role of AI chatbots and sort of facilitating suicidal ideation. And these are things that people care about. They probably are also going to motivate voters when it comes to how they think about the midterm elections. And so, we see that California, it's definitely a pioneer in how it's approaching frontier regulation. It's also sort of a, it's passed a bunch of laws addressing these other kinds of"
+ },
+ {
+  "segment_id": "s0090",
+  "start_seconds": 3006.88,
+  "end_seconds": 3041.44,
+  "text": "risks from AI. And I think this is a recognition that AI is affecting people in a lot of ways and that there are a lot of things that the government can and probably should do to help mitigate those risks in terms of how they affect sort of the citizenry. Yeah, definitely. I think just goes to show it's not an either or question when it comes to regulating AI. We see sometimes people in the policy space say these catastrophic risks are"
+ },
+ {
+  "segment_id": "s0091",
+  "start_seconds": 3041.44,
+  "end_seconds": 3072.32,
+  "text": "just a distraction from the more mundane, the concrete risks that we're already seeing manifest. And this just seems like evidence that you don't have to just go after one or the other. You can set up guardrails around those more concrete risks around child safety, et cetera, while also moving the needle on frontier AI systems. Yeah. And I think that's a good place to end the podcast. We've covered a lot. I think the"
+ },
+ {
+  "segment_id": "s0092",
+  "start_seconds": 3072.32,
+  "end_seconds": 3124.24,
+  "text": "AI agents didn't realize that we were supposed to have an August recess. So, hopefully, they've learned their lesson and will give us a little bit of a break before we come back in two weeks. Yes. Fingers crossed, although I'm not feeling super optimistic given how things are playing out, but one can hope. Okay. Thanks, Alok. And we'll see our audience next time. See you in two weeks. The Wadwani AI Center's latest research and events. This podcast was produced by"
+ },
+ {
+  "segment_id": "s0093",
+  "start_seconds": 3124.24,
+  "end_seconds": 3129.52,
+  "text": "Sarah Baker and Nicole Herrera. See you next week."
+ }
+]

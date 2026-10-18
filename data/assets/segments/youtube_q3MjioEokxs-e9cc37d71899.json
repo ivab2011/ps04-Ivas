@@ -1,0 +1,26 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 33.2,
+  "text": "Have you ever wondered if your infrastructure is really secure? Have you been reading the news lately? The systems that keep the lights on, move our water, run our pipelines, protect our hospitals, power plants, refineries, treatment facilities, manufacturing floors, cameras, sensors and edge devices were never designed with cybersecurity in mind. And the teams defending them are usually outnumbered."
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 33.2,
+  "end_seconds": 69.24,
+  "text": "If you feel like you need to close the security gaps but aren't sure what to do, this channel is for you. I'm Nathaniel, and this is the XOT Defense Lab, where we tackle critical infrastructure defense. So, here's the deal. We'll do this one short video at a time, no fluff, no hour-long webinar, clear explanations and real walkthroughs inside the Dragos platform. How Dragos sees every asset, cuts through the noise to what actually matters, detects threats designed to interfere with critical infrastructure operations, and helps you respond"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 69.24,
+  "end_seconds": 100.48,
+  "text": "when it counts. In this series, we cover the fundamentals in the Dragos platform, demo the key workflows, and walkthrough real-world attack scenarios, and what to do when something goes wrong. Do you work hard protecting critical infrastructure? Come back so you can learn more about OT and IoT scenarios and use cases. Because threats aren't slowing down, and neither are we. And you can't protect what you can't see."
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 100.48,
+  "end_seconds": 116.72,
+  "text": "And that's exactly what the Dragos platform is built for, to help professionals like you safeguard civilization, one defender at a time. Like and subscribe to this channel, turn on notifications, and we will see you in the next one."
+ }
+]

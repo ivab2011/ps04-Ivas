@@ -1,0 +1,572 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 33.76,
+  "text": "One of the biggest surprises I had when I was talking to people about data centers was how rarely AI ever came up. Almost all their concerns, again, were about the infrastructure and its quality of life effects or about distrust of the corporations and the backroom deals that were being made that they thought were potentially screwing them over in this scenario. Welcome back to the AI Policy Podcast. I'm Alok Mehta, Director of the Wadwani AI Center here at"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 33.76,
+  "end_seconds": 64.8,
+  "text": "the Center for Strategic and International Studies. This week, I'm really excited to welcome Jasmine Sun to the show. AI data centers have become a flashpoint for policymakers across the country in the lead-up to the midterm elections, with polls showing that 7 in 10 Americans oppose new data center construction in their local area. These days, you'll be hard-pressed to find someone in Washington who cares deeply about this issue and has not had their views influenced in some way by Jasmine's reporting on the subject. Jasmine is a writer who covers AI and"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 64.8,
+  "end_seconds": 101.44,
+  "text": "Silicon Valley culture in her substack. Her writing has been featured in The Atlantic, The New York Times, The Wall Street Journal. Jasmine, thank you for joining us today. Thanks so much for having me. Yeah, so one of the reasons I reached out is because you had this really well-received article called No Data Centers in My Backyard. And I, and I think a lot of people I've talked to, consider it one of the best pieces out there in terms of reporting on data centers. And I really want to dive into that article. But before I do that, I sort of wanted to ask, sort of, did you"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 101.44,
+  "end_seconds": 134.72,
+  "text": "expect to become the data center reporter? Do you consider yourself a data center reporter? And this, is this an area you expect to continue to lean into? Yeah, I mean, I was really pleasantly surprised by the reaction to the piece. And I had a ton of fun reporting it. I learned a ton. I generally see myself as reporting on AI. I report on the AI industry. I report on its culture. I report on its impacts. I think a lot of the writing I do is focused on trying to make Silicon Valley and the rest of the world legible to each other. So a lot of times I'm writing pieces where I am either"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 134.72,
+  "end_seconds": 166.8,
+  "text": "explaining some belief about AI that Silicon Valley has, for example, this notion of the permanent underclass or jobs apocalypse. Other times it's more, we're seeing data centers rile up Americans all over the country, people expressing concerns. And I felt like the folks I knew in San Francisco where I'm based, the people in the AI industry just had no idea, no empathy, no sense of what was going on as to why people were so upset about the data centers. And frankly, like, I include myself in that category. Like, I knew that people were worried about some of the"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 166.8,
+  "end_seconds": 198.0,
+  "text": "environmental impacts, but it felt a bit abstract. And so when I was sort of unsatisfied reading, reporting myself, I was, of course, just trying to read the news and understand what was going on. I saw the polls coming out of sentiment getting more and more negative and negative in a bipartisan way, in a way that's like very rare, like to have an 80-20 bipartisan issue, right? Then I thought maybe the only way for me to really learn about this is to get on the road myself. And so I hadn't done data center reporting before. I would mostly focus on more like agents and software and chat"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 198.0,
+  "end_seconds": 231.76,
+  "text": "bots, right? But of course the physical buildout is maybe the primary way that a bunch of people experience AI in their lives is not necessarily using AI all day at work, but rather there is a new construction project that's in your city and you're seeing the trucks drive by, you're seeing people going to work. And so I think that it felt important to get a sense of like what is one of the largest infrastructure projects in history and to see what that looked like on the ground. And so I remember I had Fable, actually, it was the day that they cut off Fable because I was a"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 231.76,
+  "end_seconds": 263.76,
+  "text": "bit upset about this. I was planning in July my trip and I was like, well, I want to do a road trip. I want to visit multiple different data center sites, some of them where the project was shot down by protesters, some where there's active construction, and some where the data center is fully in operation. And so I mapped out a route, five days in Wisconsin, five days in Michigan, four different sites, and then tried to talk to a mix of activists, politicians and local officials, workers, like construction workers, and then also just like residents in the town who may or may not have any opinion on AI and data centers at all."
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 264.72,
+  "end_seconds": 296.64,
+  "text": "Yeah. So you did this road trip. I think that's one of the reasons the article stood out. There seems to be a relatively little in the way of reporting that is on the ground in the same way you did that. Do you have a sense of like why that is? Why isn't there more reporting like this? Why isn't there more engagement with the communities where this is happening? Yeah. I mean, there's a bunch of like kind of sad structural reasons, I think. I mean, you've been a journalist. You understand the business model of journalism doesn't really support a lot of deep reporting, right? You're paid by the word. And so if I'm getting paid by"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 296.64,
+  "end_seconds": 328.8,
+  "text": "the word for an article, well, it's a lot faster to read five articles from my desk in San Francisco, summarize them, and then write up my analysis than it is to spend what ended up being over a month planning and then going on this extended road trip, setting up meetings with all sorts of people, and then writing that up. And so one was just like I think a lot of folks, financially, like it just isn't that rational to do. And then the other thing is, of course, most journalists, like most folks in politics and media, reside in a few different coastal cities,"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 328.8,
+  "end_seconds": 361.52,
+  "text": "New York, DC, San Francisco. And so I think that there is just a disconnect between the issues and the AI issues that really resonate with policy folks and journalists in their cities, versus the kinds of things that, frankly, maybe the majority of people are experiencing in their daily lives, of which data centers is a big factor. And so I definitely hope to see more reporting on the road. I'm hoping to figure out more similar kinds of reporting to do on myself, maybe even outside of the US. Like I'm really interested in, we talk all the time about"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 361.52,
+  "end_seconds": 392.72,
+  "text": "AI's impact on labor markets, but how's it affecting, say, BPO workers in Manila or other cities where digital services are a big part of the economy. So yeah, I don't think there are a ton of structural incentives pointing in the direction of more field work, but I'm hopefully excited to get to do more of that kind of reporting myself. So I'm not going to be able to do justice to the article in terms of what's in there. So I would encourage the audience to sort of read it. There's a lot of color there and a lot of useful information that gives insight into what"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 392.8,
+  "end_seconds": 425.28,
+  "text": "is happening in terms of public reaction to data centers. But one thing that struck out to me sort of at a macro level is sort of how empathetic you were in your approach. In particular, I think there's this dynamic in the AI industry that a lot of the opposition to data centers comes from a place of lack of information or people acting on incomplete information, and that if we only were able to inform them better, give them the right data, that opposition"
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 425.28,
+  "end_seconds": 460.08,
+  "text": "would sort of melt away. And I don't think that's what you found. I don't think you found that people were uninformed, but that there were more complex dynamics going on. And I'd love if you could sort of talk through your experiences in terms of the people you talked to and sort of where the root of their opposition was coming from, in your opinion. Yeah, for sure. So I totally agree with your characterization that there's an assumption, I think, especially from folks in the AI industry and who haven't spent a lot of time in places where"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 460.08,
+  "end_seconds": 494.96,
+  "text": "data centers are being built, that the primary thing going on is everyone's watching too many TikToks about water use, right? And there is this pervasive idea that AI and data centers in particular require tremendous amounts of water, and that's the primary harm. And I think the reaction that a lot of folks in the industry have is, well, most of the new data centers all use closed-loop cooling systems. They actually don't use very much water. That's a myth because the water thing is a myth. Therefore, the whole backlash is overblown and fake and based on misinformation. And I think it's that last extrapolation that I found in my reporting"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 494.96,
+  "end_seconds": 525.36,
+  "text": "to not be true at all. It's certainly true that some people mentioned the water stuff or some people were concerned about environmental impacts. But I don't think that is the only reason people are worried. And I could articulate a few different buckets of concerns that folks had. So first, there's quality of life and the environment. I think quality of life was, frankly, the biggest one, which is I live near one of these things. I think it's ugly. I think it is noisy. During the two- or three-year construction process, there's going to be a lot"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 525.36,
+  "end_seconds": 557.84,
+  "text": "of traffic in the neighborhood. There's going to be a lot of bright flashing lights at night. I just don't like that this is a nuisance to me and it's in my neighborhood. Then there are these concerns around some of the bigger environmental and affordability impacts. You could say water, but also electricity use was one that came up more and more. And that is not just some sort of misinformation myth, right? So in Saline, Michigan, there's a Stargate data center being built that's planning to consume 1.4 gigawatts of electricity. That would be a 25% increase on"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 557.84,
+  "end_seconds": 588.16,
+  "text": "the state electricity provider DTE's total capacity. So they are going to need to build out a ton of new electrical infrastructure just to accommodate that. That's probably going to mean new gas plants, power plants. We don't know exactly what it looks like, but you are going to see higher emissions. You're going to see more construction than just the data center. And if the companies were not to cover the rate hikes that would result from this, you would also see electricity price increases for residents, right? And so I think that the energy concerns that a lot of people have, whether that comes from a place of being worried"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 588.16,
+  "end_seconds": 620.0,
+  "text": "about emissions or whether it comes from a place of being worried about their own electricity prices, that is quite valid. And you are also in Texas, for example, seeing a lot of data centers being built with their own behind the meter gas plants. Those again, contribute to emissions and pollution. And so I don't think that all of the environmental concerns are as overhyped as the water concern, right? And then finally, the thing that I think I had underrated the most when I had been just looking at the issue from afar is that it also felt like there is a pretty deep trust in democracy"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 620.0,
+  "end_seconds": 653.92,
+  "text": "issue going on, where a lot of times when I spoke to activists or folks who were upset about the data centers in their city, the reason was that the process by which the data center showed up felt extremely undemocratic. They were often deals arranged with local officials under NDA so that people heard about some big project showing up for many months, maybe even a year before they were allowed to know what the project was, what it would be for, which customer it was. The negotiations also happened in these backroom deals. So there's a sense of unfairness between"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 653.92,
+  "end_seconds": 684.24,
+  "text": "is my town of maybe a few thousand people going to be able to negotiate a fair deal from this trillion dollar company that's developing a data center? Are we going to get enough of community benefits or a tax advantage to make this worth it? And do we have the adequate protections against things like a stranded asset risk? One reason I went to Wisconsin and Michigan is because you had all of these sites where you might have had an auto factory before, some manufacturing plant. And a bunch of the time,"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 684.24,
+  "end_seconds": 714.64,
+  "text": "like in Janesville, when the GM auto plant closed down during the financial crisis, they left a brownfield where there's $30 million worth of hazardous waste cleanup left in the ground. And that brownfield has just been left there for the last 15, 20 years. Nobody's cleaned it up because of an EPA loophole. And so I think some of the residents there are, I think, fairly quite skeptical of what happens if they start building this data center, and then either that company goes out of business or the AI bubble pops or something happens. Are they just going to leave"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 714.64,
+  "end_seconds": 747.52,
+  "text": "us holding the bag and with all of this cleanup, right? And so I think there's this profound sense of there are these outside companies with a lot of money and a lot of power coming in and transforming our landscape. They're not having open and public conversations about exactly what they're doing and why they're doing it. They have all of these lawyers and money on their side. So I'm not sure if we are going to get a fair deal where the taxes or whatever jobs are created end up outweighing any quality of life costs the data center might enact."
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 748.08,
+  "end_seconds": 782.16,
+  "text": "And so I think it was that real sense of power asymmetry that people felt with their small towns negotiating with the big data center developers that I think I had most underrated until I actually spoke to people about what they were feeling. Well, let me press on this issue a little bit more. So all those things you flagged, they're theoretically sort of technical tools or approaches that data center developers can employ to deal with that. We've already seen NDAs sort of go away. You talked about some of the ways that people are trying to manage"
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 782.16,
+  "end_seconds": 818.4,
+  "text": "electricity use and water use to minimize the impact in communities. But it's also my sense from your reporting that there's also this underlying layer of distrust in the tech industry broadly. And that sort of when people are assessing risks and benefits of bringing data centers to their communities, one of the things they're doing is they're sort of discounting some of those benefits because they don't trust that they're going to materialize. Some of this is rooted in past experience. I think some of this is rooted in sort of this broader trend of mistrust"
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 819.36,
+  "end_seconds": 855.84,
+  "text": "directed towards the tech industry. Well, you can check me. Is that sort of an accurate read of your reporting? I think so, yeah. I mean, I've had some conversations in the couple months since the article I wrote with people who are in the AI or the data center industry. And they're asking, OK, so are you saying that if we cover the electricity rates, if we use closed-loop cooling, if we do all those things, then it's going to be OK? And I do think that at this point, the backlash has hit a point and the distrust has hit a point"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 855.84,
+  "end_seconds": 886.56,
+  "text": "where even when you give people great community benefits packages, like I think there's this town in Pennsylvania where residents are getting 10K each as a check, that still doesn't sort of quell the inherent suspicion that a lot of people have at these AI and tech companies and what's really going on. And so I could imagine a world where had a lot of these data center deals been conducted in a fair way to begin with, that might have prevented the backlash from getting to the"
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 886.56,
+  "end_seconds": 916.64,
+  "text": "current stage. So if there had never been these NDAs, for example. But at this point, I think there's just such a deep distrust and sense of shadiness that's gone on both at tech generally and then specifically at the data center deals that it's a little bit harder to win people over. Some of the issues here are that one is like, I don't think that people understand whether AI is going to be useful for them or good for society. I wasn't hearing when I had conversations with"
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 916.64,
+  "end_seconds": 947.92,
+  "text": "folks that there is a deep sense of it's definitely evil, it's definitely going to kill everyone, it's definitely going to take everyone's jobs. But a lot of people were very worried, for example, that what if AI is a bubble? They keep seeing headlines in the news that says maybe this thing is a bubble, maybe it's going to crash the financial markets. They look at their own lives and the way that they use AI and they think, you know, chat GPT is kind of useful for writing emails maybe or making memes or Googling stuff. But it doesn't feel like it's this trillion dollar thing. It feels like a widget, right? And if people sort of experiences with this technology,"
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 947.92,
+  "end_seconds": 978.08,
+  "text": "that's like a little widget doesn't match up with the scale of the investment. It has these sort of bubble like qualities. And that's where they start getting really worried about, you know, are these things going to turn into stranded assets? I know that they're making a lot of money off this technology and off building these data centers. But again, who's going to be left holding the bag was something I heard over and over. And again, these experiences are really informed by sort of past examples of multinational corporations, whether a car company or Foxconn in"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 978.08,
+  "end_seconds": 1011.6,
+  "text": "Wisconsin, showing up, making a big promise about economic benefit, and then pulling out or not necessarily following through if the numbers didn't shake out. And so I did sort of feel like there was this tie in of the data center backlash to pre existing concerns about money and politics and your local officials getting bribed by big corporations by a sense that, you know, outside corporations are happy to take advantage of our natural resources, our workers, and build and make"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 1011.6,
+  "end_seconds": 1045.04,
+  "text": "profit for themselves, but not actually build technologies that were really helping the people in those communities. And yeah, I think this is why I thought a lot about the phrase AI populism and why that's one of the frames I have for articulating what's going on with AI backlash is you already have a lot of distrust of big corporations of elites and elites include both politicians as well as these corporations. And AI sort of becomes the almost data centers in particular, almost the physical manifestation of this distrust of your politicians getting"
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 1045.04,
+  "end_seconds": 1075.2,
+  "text": "bribed or bought out by a big corporation to transform your local community and their image to make them money without ever asking you if this was something you wanted. And not only politicians, there's probably an element of sort of economic inequality at play here, like this idea that a lot of companies are going to get very wealthy from building out technology, but that is not going to translate to the vast majority of Americans. Yeah, yeah. I mean, so another thing that was interesting is, so the primary pro-pitch for data"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 1075.2,
+  "end_seconds": 1106.8,
+  "text": "centers, like when the developers come in and they're making the pitch to local officials, the argument they're usually making is about the tax base, right? Like, we're going to contribute so much in property taxes. In Loudoun County, Virginia, data centers, I think, contribute more than half the property tax base. You can use that for infrastructure improvements for schools, whatever. That sort of makes sense on a first glance. And then one thing that I learned when I started talking to residents in these towns was that a lot of them did not trust their local governments or officials either, right? And so if you already don't feel like your local government"
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 1106.8,
+  "end_seconds": 1137.44,
+  "text": "is allocating your taxes in a smart way, or that you already are, you have an unpopular mayor, or you don't like your city council, which is, you know, true in a lot of these places, then simply making a deal with the local government and adding to a property tax base and sort of abstractly hoping that those benefits will eventually be distributed to the actual residents wasn't really persuasive. And so I think there's a way in also in which the benefits felt abstracted from people, even when there's this sort of plausible economic"
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1137.44,
+  "end_seconds": 1168.72,
+  "text": "benefit. And I think that's one reason we're starting to see a shift towards direct payments to individual households. And we'll see if that works. I'm not really sure yet. Yeah, interesting. I wasn't aware that there was that much of a shift towards that sort of approach to things, but I think it makes sense in some ways. Another thing that sort of stood out to me is that you went to these communities, you were talking to them, you heard what people were most concerned about. And then if I compare that to what I hear from Silicon Valley or"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1168.72,
+  "end_seconds": 1199.76,
+  "text": "Washington, the things that are thought about in those two places don't really sort of coincide with what you heard in your reporting. So, you know, in Silicon Valley and in Washington, they think a lot about existential risk. I think in a lot of people in Silicon Valley use AI so much that they just assume that everyone is using it in the same way, that they also have like a bunch of sub agents and they spend most of their time managing an AI."
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1200.0,
+  "end_seconds": 1232.58,
+  "text": "When I think about Washington, China, they just think about China so much. You know, I used to be a biology major and one of the things you do is you look at this map of the brain, I think it's called a homunculus, and you look at how it maps to the body and the places with more nerve endings become enormous and the things that don't have nerve endings are much smaller, and so in the brain, your back is tiny and your hands are huge. I feel like in Washington, China is like half of the globe"
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1232.58,
+  "end_seconds": 1262.8,
+  "text": "in terms of how much people think about it and I'm wondering if you can talk a little bit about why you think there's so much of a gap there between what these two places are thinking about and why it doesn't sort of map out to what a lot of the rest of the country is thinking about. Yeah, I mean, the China point is super interesting because I sort of, my vague outsider's impression of Washington is pretty similar. It's like, oh, but China on both sides, you know,"
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1262.8,
+  "end_seconds": 1295.4,
+  "text": "like we gotta do these export controls because of China. No, we have to accelerate American open source because of China. We don't want their open source to win, right? And actually, if you look at the polling, for example, I was looking at a Fox poll from last December saying would you rather have the US's primary approach to AI policy be that we take a more careful and slow approach to focus on mitigating domestic risks or would you rather we accelerate AI development in order to beat China? And it was 80% for careful and slow"
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1295.4,
+  "end_seconds": 1325.52,
+  "text": "and only 19% for accelerate to beat China. And so I think there's like a huge gap. You probably see this in a lot of national security issues in general, which tend to be more shaped by Washington elites than by, you know, the public. But there's very, very little appetite, I think, right now from the public for entering this AI race, which I think does feel abstract to people. And I heard really, I don't think I heard anything about China at all when I was on the road."
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1325.52,
+  "end_seconds": 1356.36,
+  "text": "I think that folks were very much concerned about the hyperlocal impacts of data centers in their communities rather than seeing this as part of a broader economic and geopolitical competition. And I think probably notably as well, when we're talking about, say, the post-industrial Midwest, we're talking about places and people where they have seen how just because the US's GDP goes up, for example, that doesn't mean that workers in their community are gonna get a slice of that"
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1356.36,
+  "end_seconds": 1386.82,
+  "text": "and are gonna benefit. So again, you have this preexisting distrust of pursuing, say, economic growth at all costs because maybe outsourcing is great for American companies, but it's not great for workers in Michigan, right? And that means that similar logics don't apply. But yeah, I mean, as to why is there such a divide, I think you touched on a lot of the big things. People in startups in SF are using coding agents all day. They have their favorite harnesses"
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1386.82,
+  "end_seconds": 1420.58,
+  "text": "and they're trying out every new model. When I ask people in other cities, it's like better Google, better emails, but if you're a nurse or you're a retail worker or something, AI is not transforming your life, right? It's like a nice to have, I think. And so that's just a very different case. And so the place where I feel like AI's had the most product market fit for the broad population is probably kids cheating on their homework or something. And I'm not sure that that either presents kind of the best picture of what AI can do to help you."
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1420.58,
+  "end_seconds": 1451.42,
+  "text": "It just doesn't feel like a sort of economically transformative technology to a lot of people. And one of the concerns I have here is also the closing of the frontier and the way that people are getting priced out of AI, right? This is, I think, another reason for this divide where in San Francisco and Silicon Valley, people are all more than happy to pay 200 bucks a month to get the most frontier models that they can and to actually accelerate their work because they have 10 agents running at once on different research and coding tasks."
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1451.42,
+  "end_seconds": 1482.5,
+  "text": "I was talking to someone the other day who's also a tech reporter. And she told me, I just tried a paid plan for chat GPT for the first time in like September, 2026. And oh my God, it's actually really smart. And she had never realized this because on the free plan, it hallucinates all the time. It's not that good. This is what almost everybody in the world is using. And if it's not very good on the free plan, it's not really encouraging you to like go and pay even more money to this company, right? And so the other thing I'm worried about is like, I think that folks' primary experiences with AI"
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1482.5,
+  "end_seconds": 1512.6,
+  "text": "being not very advanced and like prone to slip ups and hallucinations also causes probably a lot of the public to underestimate some of the more economically transformative capabilities as well as the ones that people in say the national security world are worried about like cyber capabilities. And the more that the internal models that the companies have, that maybe the intelligence agencies have, that the corporations that are affording, extremely expensive AI subscriptions and API credits. I think that we're just gonna see the gap widen"
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1512.6,
+  "end_seconds": 1544.32,
+  "text": "between the kind of AI that normal people have access to if they're not paying versus the kind of AI that you get if you are the US government or you are a company that has a lot of money to spend on tokens. And so I think that this actually creates like an even bigger gap that I'm a little bit worried about, frankly, because that's gonna really stretch out, I think the backlash against AI versus what folks who are policy decision makers want to do with it. I mean, it's my sense that I think the AI companies have done a really bad job at sort of demonstrating the utility of their products."
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1545.4,
+  "end_seconds": 1575.62,
+  "text": "I think their approach is like, if we build really cool technology, like it's self evident, people will figure out cool uses for it. And so we don't need to do as much work sort of like convincing people that it's useful. So I don't know if that sort of aligns with your experiences. I mean, yeah, I mean, I agree that they are not trying that hard. I guess I sometimes wonder like, how much is it conscious versus an accidental thing?"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1575.62,
+  "end_seconds": 1605.88,
+  "text": "Like how much is it that the AI companies are tone deaf, and they don't really know what people like, versus how much is it that they don't care what people like? And I actually like don't know what the answer is here. But like, you know, some of the biggest PR moments I feel like are about the Navier-Stokes or something or solving millennium problems, which is, it's like cool, but I don't think that's winning you like winning you positivity points for the broad American public. I think it's cool to a pretty narrow, like slice of people who majored in math and did a lot of like math competitions"
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1605.88,
+  "end_seconds": 1638.02,
+  "text": "as a kid or something. But I think the other thing is just from an economic perspective, you know, they're putting all of their, the vast majority of their compute into improving coding so that they can try to hit recursive self improvement and accelerate the development of the next AI model. And so it's also simply true that like marketing aside, the AI companies are not spending the majority of their own money and their own resources on trying to build applications that are broadly useful. They have some teams dedicated to like Chachapiti for health or something or Claude for biology. But most of the compute is definitely going towards"
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1638.02,
+  "end_seconds": 1670.58,
+  "text": "let's build better coding tools so that we can build the next AI models. And so it's not that surprising, I think that for more common uses of AI, it hasn't improved that much. Like as a writer, like I don't feel like AI has gotten much better at writing in the past two years. I think it's basically stayed about the same. Sometimes it even gets worse. And I know that's because like my use case is not being prioritized at the companies. It's just not that important to them compared to improving their cyber capabilities. And so I feel like that also causes a bit of an issue."
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1670.58,
+  "end_seconds": 1704.06,
+  "text": "I don't know, do you feel like AI transforms your work? In a lot of ways it doesn't. I mean, part of that is like, you know, for institutions like CSIS, it takes a while to get comfortable with that technology. We're not particularly well suited to like implement it in the same way as like a tech company. We're not tech centric in that way. But I think another thing is like we're a writing centric organization. And I think writing centric places"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1704.06,
+  "end_seconds": 1737.54,
+  "text": "probably just as much as journalism think tanks are concerned that the way they differentiate themselves in an AI world is through the quality of their writing. And so there's a hesitation, I think, about AI in the sense of like modeling the impact of the product that we put out. Yeah, yeah, I think that's right. I think that another thing that I hear from people, even people in, you know, variety of white collar jobs who are being asked to use AI in their workplaces,"
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1737.54,
+  "end_seconds": 1770.38,
+  "text": "people don't necessarily feel that the AI makes their work quality better, but they feel like sometimes there's top down pressure to use it to generate more work, but to really generate more slop, right? Like to write faster, but crappier documents or reports or something like that. And so again, while I can understand why people I know who are software engineers, the capabilities are actually ahead of humans. I think a lot of the way that people experience AI is not necessarily as this is smarter than what I could have produced, but this is more volume and potentially lower quality."
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1770.38,
+  "end_seconds": 1803.46,
+  "text": "At least that's how I feel in the writing world personally. Yeah, I mean, I think it is true that there's sort of like this, a little bit of arms race dynamic in the sense of like, when people can generate text really fast, then there's pressure on us. And I think pressure across a lot of industries to also produce things more quickly. And then, you know, that can lead you to like, try to use AI to accelerate your workflows. But it turns out that like, the way you implement that is really hard to figure out."
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1803.46,
+  "end_seconds": 1835.46,
+  "text": "Yeah, and I guess one sort of linking this back to sort of the public opinion conversation, one thing that's really shocked me is, in the past few months, public opinion from youth has really turned around and gone much more negative. Usually when you have a new technology introduced like social media or the internet, young people are gonna be the most excited about it and older people will be the most skeptical. With AI actually, at least, I'm trying to remember where the poll came from, but there's a poll that's seen that in the last few months, the youngest age group, like 18 to 25 or whatever it is, is actually the second most pessimistic group"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1835.46,
+  "end_seconds": 1866.02,
+  "text": "with seniors being the most pessimistic. And so I think that there's something interesting going on where anecdotally, when I talk to students or I talked to a bunch of school teachers also when I was on my road trip to ask them how their students are feeling about AI and about data centers. The thing that I hear a lot is that, yes, students are using AI to do their homework or whatever, but they don't like that they're using it. They feel like they're not learning as much. They feel like they're in an arms race against each other. And so if everybody else is using AI to write their essays,"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1866.02,
+  "end_seconds": 1896.1,
+  "text": "I guess I have to as well, but they don't like the effect that it's having on their own learning and on their own thinking. And so I think this is also a pretty, oh, and then coupled with all the job stuff that I think young people are more scared about than anyone is, is there gonna be a job waiting for me at the end of my college education or will AI have taken it? And so I also think that we're in a weird public sentiment moment when the youngest people who should be the fastest adopters, the earliest adopters, are some of the most worried about AI. Well, let me follow up on that."
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1896.1,
+  "end_seconds": 1926.3,
+  "text": "I think one of the things that is rising in a prominence in Washington is this concern over potential white collar job loss and particularly entry-level white collar job loss and maybe a pretty substantial long-term change in the availability of those kinds of jobs. Did you or are you hearing a lot about that kind of concern from the communities you visited or just generally in your reporting? I would say it was more mixed,"
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 1926.3,
+  "end_seconds": 1956.66,
+  "text": "partly because I was spending time in places where there are also a lot of folks in the trades and agriculture and non-white collar jobs as well. So I wasn't talking to maybe as exclusively the set of people who'd be the most concerned about this, but students and young people for sure worried about jobs. And I've done other reporting on the AI and labor concerns, which were that was, I suppose, a more salient set of things."
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 1956.66,
+  "end_seconds": 1988.46,
+  "text": "I think the other interesting thing on the white collar job loss that exemplifies some of these trust issues we've talked about is unemployment numbers in the US remain very strong. We're not seeing a lot of unemployment. You really have to squint at the jobs data to see any impact from AI. Arguably, there's some for new college grads in AI exposed professions, but it's not that much. And yet when you run polls, I think Blue Rose has done some of these telling Americans, hey, the economic data says that AI hasn't caused any job losses."
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 1988.46,
+  "end_seconds": 2019.3,
+  "text": "Are you worried about it? The majority of people still say, yes, I am very worried. I think there's this sense in which people do not believe the companies and do not believe the economic data that they're seeing because I guess there has been enough of a scare around the job loss that it's kind of hard to shake people out of it. So again, there's like this sense of a lack of trust even in the face of seeing the data that says so far it seems to be okay, but it's like, nope, I've seen the warnings. I've heard Dario on his press tour talking about the jobs apocalypse. Maybe it's not here yet,"
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 2019.3,
+  "end_seconds": 2049.54,
+  "text": "but we all know that's what they're trying to do. That's another line that I heard sometimes is maybe they haven't automated our jobs yet, but these CEOs are very clear that that's one of the things that they're attempting to do with their agents. And so eventually it's going to hit and well, I don't want that to happen to me. Another fun conversation I had was with one of the union leaders for a heavy equipment movers union. And he was actually doing great because of the data center boom. The trades training schools were doubling in size."
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 2049.54,
+  "end_seconds": 2080.86,
+  "text": "He's like, everybody wants to be a heavy equipment operator now. And he was kind of laughing because he was like, you know, like they used to always talk about our jobs getting automated and replaced by robots. But actually now it's like the white collar guys who are getting affected. And he said that a lot of his focus nowadays was thinking about as more automated tools move into even building equipment, how does he make sure that his guys, the guys in the union are in their contracts, there to maintain equipment, there to monitor and supervise."
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 2080.86,
+  "end_seconds": 2111.38,
+  "text": "And how does he ensure that the introduction of automation into the industry mostly upskills his workers and how can he guarantee that's true in the contracts rather than pushing them out altogether. So I also thought it was like pretty interesting to see how more forward thinking trades people too are learning from some of the past history of automation as to how do we make sure our workers benefit alongside automation. I do remember when Chad GPT came out, there was like all these people who had quotes along the lines of like,"
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 2111.46,
+  "end_seconds": 2143.82,
+  "text": "I thought AI would solve the problem of doing my laundry so I could spend more time writing. And instead it does my writing so I can spend more time on my household shores. Yeah, I don't know. I mean, also it turns out robotics is just very difficult. So I know a lot of the reporting that you did for this particular article was very place-based, but I'm curious if you think that the conversations you had are more representative of where a lot of the country is"
+ },
+ {
+  "segment_id": "s0068",
+  "start_seconds": 2143.82,
+  "end_seconds": 2173.82,
+  "text": "than sort of the conversations you have when you're either in DC or San Francisco. I think so. I mean, I think one nice thing about writing this story was getting to hear from people in a lot of parts of the country about their experiences, going to city council meetings, about data centers, going to protests. And yeah, I mean, I heard from folks who were in Ohio, folks in the Southwest, people even in other countries, like Australia is starting to pursue a bigger AI build-out there. And so you're also starting to see some backlash"
+ },
+ {
+  "segment_id": "s0069",
+  "start_seconds": 2173.82,
+  "end_seconds": 2205.06,
+  "text": "though at a lower volume than the US. And so I do think that probably anywhere that the AI build-out happens, you are going to see similar levels of grassroots pushback. The factors to watch though are one, I think that despite the immense public opposition to data centers, the vast majority of the build-out is continuing. Even in places where there are moratoriums, such as in New York or to some extent in Texas, so that's more of a meet our standards"
+ },
+ {
+  "segment_id": "s0070",
+  "start_seconds": 2205.06,
+  "end_seconds": 2237.22,
+  "text": "and then keep going thing. A lot of these pauses only apply to new permits. So any data center project that's already been started can continue as is. A lot of times people's concerns are just ignored basically. And so a lot of analysis has found that, yes, we are seeing a lot of protests, but it's not really halting the data center build-out yet. At the same time, I do think that there's this interesting facet where because of the internet and social media and how fast these means spread and how fast the notion of being anti data center spreads,"
+ },
+ {
+  "segment_id": "s0071",
+  "start_seconds": 2237.22,
+  "end_seconds": 2270.82,
+  "text": "we are gonna see, we do see some similarities in the opposition movements, both across the US, but I think also increasingly in other countries as well. One of the most interesting anecdotes I remember hearing was from a local official in Mount Pleasant, Wisconsin, where they agreed to start their data center project in 2023. They held about 60 public meetings from 2023 to 2026, where the data center project was being discussed. No NDAs. It was, no one showed up to most of the meetings. No one cared until about late 2025, early 2026,"
+ },
+ {
+  "segment_id": "s0072",
+  "start_seconds": 2270.82,
+  "end_seconds": 2304.54,
+  "text": "as the national data center backlash picked up, folks in Mount Pleasant also started showing up to meetings and asking questions and saying, wait, I'm not really sure about what's going on here. So while these are local issues, I do think that the sort of big national political and media moment around data centers is creating some commonalities and amplifying the backlash everywhere. So we're about to head into midterm elections. Yeah. And given the speed at which the data center backlash has happened, it seems, or at least I have an intuition"
+ },
+ {
+  "segment_id": "s0073",
+  "start_seconds": 2304.54,
+  "end_seconds": 2336.58,
+  "text": "that it is something that will motivate voters as they go to midterm elections. But I'm curious if you got that sense from your conversations. Yeah. I'm of two minds about it. It was something I was really interested in. One of the reasons I chose Wisconsin and Michigan when I went in July was because it was like the heat of primary season. And in Wisconsin at the time, there's a very tight governor's race where one of the DSA outsider candidates for the Democratic Party nomination, Francesca Hong,"
+ },
+ {
+  "segment_id": "s0074",
+  "start_seconds": 2336.58,
+  "end_seconds": 2368.58,
+  "text": "her whole pitch and differentiation was that she supported a data center moratorium. And this was actually attracting some Republican voters onto her side because the data centers were so unpopular. She did end up losing narrowly in the end, but that Wisconsin governor's race, even the general has become much more data center focused since where the Republican candidate is now calling the Democrat data center David because he once said something nice about data centers in Wisconsin. And so meanwhile in Michigan, the other state I was in,"
+ },
+ {
+  "segment_id": "s0075",
+  "start_seconds": 2369.26,
+  "end_seconds": 2400.22,
+  "text": "I went to a rally that for Abdul Sayed, Will Lawrence, who is a Sunrise co-founder and is running for a house seat. And then Bernie and AOC were at the rally too. And data centers came up in every single speech at that rally. A lot of the folks there were motivated about it. And I think both candidates, both Mike Rogers and Abdul Sayed in Michigan, both sides of the aisle have made data center opposition a really big part of their campaigns. And so it's definitely coming up a lot. I've heard that part of the reason that Josh Shapiro."
+ },
+ {
+  "segment_id": "s0076",
+  "start_seconds": 2400.0,
+  "end_seconds": 2434.0,
+  "text": "Greg Abbott and two relatively pro-billed states have started being a bit more vocal on imposing strict standards on data center development is because they're both a bit worried about their re-election campaigns. But at the same time, I'm not certain that most of these elections are going to be primarily determined by AI or by data centers. Even in the states where you were seeing some of the loudest debates about data centers, they are not the vast majority of voters number one or number two issue. I think I've seen polls from Wisconsin, Michigan, Pennsylvania,"
+ },
+ {
+  "segment_id": "s0077",
+  "start_seconds": 2434.0,
+  "end_seconds": 2466.16,
+  "text": "where it's like, what's your number one issue? It's still going to be the economy. It's going to be jobs, maybe immigration or something. It's generally not data centers. That's somewhere very low on the list. I think it's possible to have both extreme negativity on an issue without that being extremely high salience or being the kind of thing you're going to vote on. I would say the exception is if you are in one of those exact localities that a big data center project is. That's the point at which it is so relevant to you that you might sway your vote."
+ },
+ {
+  "segment_id": "s0078",
+  "start_seconds": 2466.16,
+  "end_seconds": 2497.12,
+  "text": "But again, I also see that happening more at the local level where there have been successful mayoral recall campaigns or shuffles in a bunch of city councils based on data center decisions. But I'm not as sure it's going to impact a Senate race where I think that bigger concerns around healthcare or economic policy, immigration policy, foreign policy, are really shaping the conversation. Yeah. I mean, that makes sense. Americans consistently rate economic issues as number one when it comes to polling time. I don't think foreign policy is a priority for most Americans. I guess I'm thinking of Michigan, Gaza, Israel"
+ },
+ {
+  "segment_id": "s0079",
+  "start_seconds": 2497.12,
+  "end_seconds": 2530.72,
+  "text": "issues in Michigan, where it has sort of become a flashpoint, but that's also not necessarily true for most races. Fair enough. I think one thing that's interesting is that Donald Trump has run consistently on this sort of populist platform. And part of that is sort of an appeal to people who felt like they were economically displaced or that their economic prospects had diminished in recent years. But when you look at how he has approached AI"
+ },
+ {
+  "segment_id": "s0080",
+  "start_seconds": 2530.72,
+  "end_seconds": 2565.04,
+  "text": "policy, that populism isn't reflected, right? It is at least until very recently with more concern about very powerful cyber models, sort of like, let's figure out how to get AI happening as quickly as possible, remove regulatory obstacles. I'm curious if you have a thought about sort of like how that policy, sort of how that approach to AI policy happened and why it's so far away from sort of the platform he ran on and whether you think that"
+ },
+ {
+  "segment_id": "s0081",
+  "start_seconds": 2565.52,
+  "end_seconds": 2595.52,
+  "text": "this sort of dynamic we're seeing with data centers might lead to more interest in populism again, or like populist approaches to economic policy, at least. Yeah, man. I mean, it's interesting because I think Trump has just made the slew of, I think, Truth Social Post talking about how all of the AI doom is a hoax, how data centers are beautiful, and like this great American project. And he's even in a moment where opposition to data centers"
+ },
+ {
+  "segment_id": "s0082",
+  "start_seconds": 2595.52,
+  "end_seconds": 2629.76,
+  "text": "is pretty bipartisan, breaking with a lot of sentiment from Republicans in making these proclamations. And I have talked to people who are on the right who are pretty disappointed to see it because it also makes it much harder for Republican politicians to now take an anti-data center stance without looking like they are breaking with Trump, right? I mean, it's always hard to read that guy's mind. And I don't think that data centers or AI are the only issue in which the actual policy stances pursued by the administration have diverged from the populist rhetoric that he campaigned on. I think in particular, there's been a bit of reporting"
+ },
+ {
+  "segment_id": "s0083",
+  "start_seconds": 2629.76,
+  "end_seconds": 2661.92,
+  "text": "on some of the internal White House battles over AI regulation where some other officials, Susie Wiles, Scott Besant, have started to express a little bit more concern around cyber attacks, around these rogue AI models. I'm sure that the data center stuff has come up internally as well. But the real thing that is motivating Donald Trump is that he does not want to crash the economy. And so much of U.S. economic growth and the stock market right now is concentrated in the AI companies and the hyperscalers that any real slowdown of the data center buildout"
+ },
+ {
+  "segment_id": "s0084",
+  "start_seconds": 2661.92,
+  "end_seconds": 2693.2,
+  "text": "would just slow down the whole economy. And I think that that currently is a risk that Trump is extremely aware of and not willing to take. I think that's also what a lot of the business leaders who he's closest with, like the Jensen Huangs of the world, Mark Zuckerberg, David Sachs, are talking to him about is the U.S. economy today runs on AI. That's why we're growing. That's our one chance to beat China. And I think that his belief that his legitimacy and legacy rests more on economic growth than it does on AI policy. So long as he believes that,"
+ },
+ {
+  "segment_id": "s0085",
+  "start_seconds": 2693.2,
+  "end_seconds": 2724.08,
+  "text": "I think he's going to continue taking a more accelerationist stance on AI. The thing that I'm watching for here is, let's say that we do get, say, an AI accident or incident, something like Hugging Face that actually impacts normal people, right? Hugging Face was interesting because I think it did wake up a lot of people to the idea that rogue AIs could be real. They could be problematic. But ultimately, the hack didn't drain any bank accounts. But let's say you get some rogue agents and they take down a city's electricity grid or a hospital"
+ },
+ {
+  "segment_id": "s0086",
+  "start_seconds": 2724.08,
+  "end_seconds": 2755.68,
+  "text": "breaks down or a credit union gets all the bank accounts drained by some foreign actor who uses AI to hack into it. At the point where AI actually harms normal people, I do think it's going to be a much bigger political issue that people are willing to vote on. Is Trump going to be able to deflect the blame onto a foreign actor, onto the company's recklessness, or will he take the hit for taking a more deregulatory approach to AI? I think that's really what I'm watching to see whether AI policy becomes more salient and whether he's sort of forced to align a little"
+ },
+ {
+  "segment_id": "s0087",
+  "start_seconds": 2755.68,
+  "end_seconds": 2786.96,
+  "text": "bit more closely with the public on their skepticism of AI and of the AI build-out. If an incident like that happens, I think it would strain a lot of our existing policy infrastructure. I don't get the sense that we're well-prepared to deal with the consequences of something like that. No, I don't think so either. One final question for you. We've talked a lot about this national backlash to data centers and how it's a proxy for anxiety about AI. I'd love to get your sense of whether this is"
+ },
+ {
+  "segment_id": "s0088",
+  "start_seconds": 2786.96,
+  "end_seconds": 2820.56,
+  "text": "mostly about AI as a technology, or is it about the specific companies and the specific executives that have become the face of it? One of the biggest surprises I had was when I was talking to people about data centers was how rarely AI ever came up. Until the very end of my interviews when I would almost always ask people, by the way, do you use AI? Are you worried about AI? Do you like chat GPT? People basically never brought it up. Almost all their concerns again were about the infrastructure and its quality"
+ },
+ {
+  "segment_id": "s0089",
+  "start_seconds": 2820.56,
+  "end_seconds": 2854.0,
+  "text": "of life effects or about distrust of the corporations and the backroom deals that were being made that they thought were potentially screwing them over in this scenario. So, so far, my sense is that the broad backlash against AI is relatively more about the sense of disempowerment vis-a-vis the trillion dollar corporations that are building the data centers that the economy is concentrated in. But in the past couple months, as we started to see more scares caused by the crazy power of the actual agents and the AI, and people are starting to"
+ },
+ {
+  "segment_id": "s0090",
+  "start_seconds": 2854.0,
+  "end_seconds": 2884.4,
+  "text": "talk more about extinction and such in the mainstream, I'm curious to see whether these concerns will link up and whether people who are protesting data centers will end up also protesting the technology and getting worried about that. But I'll say that it's not something I'm seeing a ton of yet. Do you have any words of advice for data center developers? Are there things they can be doing better? You don't have to answer that if you don't want to, but I think we've already seen a lot of innovations that are trying to address community concerns. Do you think there's"
+ },
+ {
+  "segment_id": "s0091",
+  "start_seconds": 2884.4,
+  "end_seconds": 2915.12,
+  "text": "other things they could be doing? You know, I mean, I think that it's, I think that the deals that data center developers are making with local communities have actually gotten concretely and materially better in the last couple years because of the backlash. I mean, in 2023 and 2024, oftentimes these small towns were literally subsidizing like meta or open AI and throwing tax goodies at them in order to get them to build the data centers. And I personally don't think that meta needs a tax subsidy to build their data center. They should really be offering more"
+ },
+ {
+  "segment_id": "s0092",
+  "start_seconds": 2915.12,
+  "end_seconds": 2947.04,
+  "text": "direct benefits to these cities, right? So I think a lot of the, from the perspective of the deals, things are already moving in the right direction. But again, I think that the question now is more about the broader political wins and whether the data center backlash has sort of gone so far past the level at which just tweaking the terms is going to fix anything. And so at that point, it might be more about the ability to manage relationships to say state politicians, to"
+ },
+ {
+  "segment_id": "s0093",
+  "start_seconds": 2947.6,
+  "end_seconds": 2977.84,
+  "text": "set the terms of streamlined deals. Like I think one thing that I'm interested in here is there is a world where the positive outcome of say some of these moratoriums or stronger state regulations is that you get, rather than these data center developers negotiating like piece by piece with every 5,000 person town that they show up in, they can agree and negotiate with the governor's office on a set of like baseline terms that are agreed to as fair, that they're willing"
+ },
+ {
+  "segment_id": "s0094",
+  "start_seconds": 2977.84,
+  "end_seconds": 3007.92,
+  "text": "to pay, and that saves time and money for the developers. And that also means that no small town is getting a raw deal just because their local officials didn't know what to do. So I think that moving up data center deal making terms to the state level is probably something I'm pretty optimistic about and that I hope to see happen more. Well, I think we've touched on a ton of things and it was a really fascinating conversation. Any last words before we wrap up? I don't think so, but this is really fun and thank you for inviting me."
+ },
+ {
+  "segment_id": "s0095",
+  "start_seconds": 3007.92,
+  "end_seconds": 3030.08,
+  "text": "Yeah. So I want to thank Jasmine Sun for joining us. This was a really fascinating, insightful conversation. I think our audience will get a lot out of it. So I thank her for her time."
+ }
+]

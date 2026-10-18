@@ -1,0 +1,50 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 31.4,
+  "text": "In an XOT network, the wrong move can stop a turbine or let intruders enter the building. So before DRAGOS starts defending, it listens, then it learns. Welcome to the DRAGOS XOT Defense Lab series. I'm Nathaniel, and this is our episode one, Listen First. The DRAGOS platform starts with passive monitoring."
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 31.4,
+  "end_seconds": 64.24,
+  "text": "It sits off a span or a tap and watches the traffic already on your network. Nothing is injected, nothing is probed, no packets are sent to your controllers. It only reads what is already there, and it reads deeply, deep packet inspection across more than 600 industrial protocols. DRAGOS does not just see that two devices talked, it understands what they said and the protocols your systems actually run on."
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 64.24,
+  "end_seconds": 94.88,
+  "text": "So from the passive foundation, DRAGOS builds your asset inventory, learns what normal looks like and detects threats, all without touching the process. Let's have a look at the DRAGOS environment. So after I've logged in, I get dropped into the Insights Hub, where I'm able to see the sensors that are active in my environment, the internal assets that I care about that have been passively found, and services that are supporting the work that I do on a daily"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 94.88,
+  "end_seconds": 124.88,
+  "text": "basis. As you can see very quickly, there are things that are called out, like you have severity notifications in the past seven days. I can then jump over to the map area and passively understand how different assets are communicating and what they are doing. So now that I'm on the map view, I'm able to see that there are different zones that have these assets communicating back and forth across them. And I can of course jump in and see the TLS is happening across these multi-zones, and"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 124.88,
+  "end_seconds": 156.18,
+  "text": "I can dive in and see what those communications are and how they're occurring between these different assets and zones that come along with it. And if I'm curious, I can add something that you may find beneficial, which is, what are the assets that have vulnerabilities? And what protocols do I want to actually look at? And I can simply look those up and act on them to get better visualization into what is passively seen in the environment you have."
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 156.18,
+  "end_seconds": 188.96,
+  "text": "And then I can go look into a specific device and understand what is occurring with that device, what communication is occurring, and I can see the different protocols that are being talked through to and from one device to the other, all through passive communications. Passive collection has its limits. Some assets rarely talk. Legacy gear sits quiet. Segmented cells go dark. That is where safe active collection comes in."
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 188.96,
+  "end_seconds": 219.8,
+  "text": "On your schedule, in your maintenance window, the active collector safely queries devices for the details passive can't see, firmware version, operating system, patch level. Passive first, active by choice. You decide what runs and when. This is how Dragos knows what it knows, and everything in this series builds on it. Subscribe to the XOT Defense Lab, and when you are ready to see passive and active collection"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 219.8,
+  "end_seconds": 225.04,
+  "text": "in your own environment, talk to an OT specialist at dragos.com."
+ }
+]
