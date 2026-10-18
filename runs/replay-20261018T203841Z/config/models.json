@@ -1,0 +1,7 @@
+{
+  "selection": {"provider": "openai", "model": "gpt-5.4-mini", "usd_per_1m_input": null, "usd_per_1m_output": null},
+  "briefs":    {"provider": "openai", "model": "gpt-5.5",      "usd_per_1m_input": null, "usd_per_1m_output": null},
+  "articles":  {"provider": "openai", "model": "gpt-5.5",      "usd_per_1m_input": null, "usd_per_1m_output": null},
+  "scripts":   {"provider": "openai", "model": "gpt-5.5",      "usd_per_1m_input": null, "usd_per_1m_output": null},
+  "_note": "Fill usd_per_1m_* from the OpenAI pricing page to get cost estimates; null = cost reported as unknown."
+}

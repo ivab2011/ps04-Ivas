@@ -1,0 +1,27 @@
+{
+  "feed:atlanticcouncil:8066bf6d03c1d3b0": {
+    "decision": "reject",
+    "reason": "Military conflict story; outside scope under policy v2 section 2 (defence and military dependencies). Reviewed by Iva Biscanic, 2026-10-18."
+  },
+  "podcast:csis-ai-policy-podcast:589cca0d74da2163": {
+    "decision": "accept",
+    "relevance": "R1",
+    "piece_ids": [
+      "01",
+      "02"
+    ],
+    "reason": "Real incident involving autonomous AI agents plus a governance debate: central to the publication question. Reviewed by Iva Biscanic, 2026-10-18."
+  },
+  "podcast:lawfare-podcast:c46fccca614222ac": {
+    "decision": "defer",
+    "reason": "Republished archive recording (policy v2 section 3): not a new development. Reviewed by Iva Biscanic, 2026-10-18."
+  },
+  "podcast:lawfare-podcast:f5ec765788258df4": {
+    "decision": "defer",
+    "reason": "Republished archive recording (policy v2 section 3): not a new development. Reviewed by Iva Biscanic, 2026-10-18."
+  },
+  "feed:atlanticcouncil:eff2be6303f9b56c": {
+    "decision": "reject",
+    "reason": "Exclusively about military dependence on commercial satellite services; no direct relevance to civilian critical-infrastructure operators deploying AI agents (policy v2 section 2: defence and military dependencies). Reviewed by Iva Biscanic, 2026-10-18."
+  }
+}
