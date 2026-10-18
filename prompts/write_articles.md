@@ -25,3 +25,13 @@ You write for the publication described below. Turn the editorial brief into an 
 - End with a short "## What to watch" section (2-3 bullet points).
 - Do NOT write a references list; it is added automatically.
 Return only the Markdown article.
+
+## Revision instruction
+(Used by the pipeline only when a draft is outside the length target.)
+The draft below has {{WORDS}} words; the target is {{MIN}} to {{MAX}} words excluding the title.
+Rewrite it to about {{TARGET}} words: remove about {{CUT}} words. Keep the title, the as-of line, the argument, the limitation and the
+"What to watch" section. Keep every claim marker that appears in the draft, attached to the sentence
+it supports. Do not add facts. Cut repetition, background and secondary detail first.
+Return only the revised Markdown.
+
+{{DRAFT}}

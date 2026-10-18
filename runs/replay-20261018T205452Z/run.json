@@ -1,0 +1,9 @@
+{
+  "run_id": "replay-20261018T205452Z",
+  "started_at": "2026-10-18T20:54:52Z",
+  "as_of_date": "2026-10-18",
+  "mode": "replay",
+  "previous_run_id": "live-20261018T193123Z",
+  "replay_of": "live-20261018T193123Z",
+  "note": "Series stages rerun on the stored evidence of the source run with the current config and prompts; no recollection."
+}

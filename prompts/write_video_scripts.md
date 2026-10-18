@@ -26,3 +26,13 @@ The video presents the same argument as the article, from the same brief and evi
 - Final line of narration: "This video was narrated with AI text-to-speech. Sources are in the description."
 - Do NOT write a source list; it is added automatically.
 Return only the Markdown script.
+
+## Revision instruction
+(Used by the pipeline only when a script is outside the length target.)
+The script below has {{WORDS}} spoken words; the target is {{MIN}} to {{MAX}} words (3 to 5 minutes).
+Rewrite it to about {{TARGET}} words: remove about {{CUT}} words. Keep the hook, the [VISUAL: ...] lines, the closing "what to watch" and the
+final AI-narration sentence. Keep every claim marker that appears in the script, attached to the sentence
+it supports. Do not add facts. Cut repetition and secondary detail first.
+Return only the revised Markdown.
+
+{{DRAFT}}
