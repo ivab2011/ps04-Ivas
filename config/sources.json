@@ -1,1 +1,18 @@
-[]
+[
+  {"source_id": "industrialcyber", "publisher_id": "industrial-cyber", "kind": "feed",
+   "url": "https://industrialcyber.co/feed/", "perspective": "trade press: OT and critical-infrastructure security"},
+  {"source_id": "utilitydive", "publisher_id": "industry-dive", "kind": "feed",
+   "url": "https://www.utilitydive.com/feeds/news/", "perspective": "trade press: energy and utilities operators"},
+  {"source_id": "atlanticcouncil", "publisher_id": "atlantic-council", "kind": "feed",
+   "url": "https://www.atlanticcouncil.org/feed/", "perspective": "policy think tank"},
+  {"source_id": "lawfare-podcast", "publisher_id": "lawfare", "kind": "podcast",
+   "url": "https://feeds.acast.com/public/shows/60518a52f69aa815d2dba41c", "perspective": "law and national-security policy"},
+  {"source_id": "csis-ai-policy-podcast", "publisher_id": "csis", "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/CSIS8973369418", "perspective": "AI policy think tank"},
+  {"source_id": "csis-youtube", "publisher_id": "csis", "kind": "youtube",
+   "url": "https://www.youtube.com/@CSIS/videos", "channel_id": "UCr5jq6MC_VCe1c5ciIZtk_w", "perspective": "AI policy think tank"},
+  {"source_id": "dragos-youtube", "publisher_id": "dragos", "kind": "youtube",
+   "url": "https://www.youtube.com/@DragosInc/videos", "channel_id": "UC3Ii8YoD6qKJQ1KGYu4RXYw", "perspective": "OT security vendor and practitioners"},
+  {"source_id": "ibm-technology-youtube", "publisher_id": "ibm", "kind": "youtube",
+   "url": "https://www.youtube.com/@IBMTechnology/videos", "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ", "perspective": "AI technology vendor"}
+]
