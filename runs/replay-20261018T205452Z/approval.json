@@ -1,0 +1,13 @@
+{
+  "review_id": "rev-5eb1e640a782e8ad7febc3ff",
+  "decision": "approve",
+  "reviewer": "Iva Biscanic",
+  "reviewed_at": "2026-10-18T21:37:40Z",
+  "notes": "Reviewed all three articles and video scripts against the briefs and evidence.",
+  "corrections": [
+    "Selection: 5 human overrides recorded in config/editorial_overrides.json (2 rejects of military items, 1 accept of the OpenAI agents incident, 2 defers of republished Lawfare Archive episodes).",
+    "Selection review of live run 1: Dragos xOT vendor video rejected (vendor platform walkthrough, no AI content); see docs/review_run1.md.",
+    "Articles 01 and 02 trimmed by hand to about 900 words after two automated length revisions left them over target; removed repetition only, all claims and vendor-claim labels kept.",
+    "Remaining length warnings (articles about 915 words including title and as-of line) accepted as within the approximate target."
+  ]
+}

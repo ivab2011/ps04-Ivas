@@ -1,6 +1,6 @@
 {
   "run_id": "replay-20261018T205452Z",
-  "status": "awaiting_review",
+  "status": "ready_for_production",
   "as_of_date": "2026-10-18",
   "mode": "replay",
   "previous_run_id": "live-20261018T193123Z",
@@ -43,8 +43,8 @@
   },
   "failed_or_incomplete_stages": [],
   "review_passed": true,
-  "human_approval": null,
-  "elapsed_seconds": 1118,
+  "human_approval": "approve",
+  "elapsed_seconds": 2595,
   "tools_and_models": [
     "openai:gpt-5.4-mini",
     "openai:gpt-5.5",
@@ -58,9 +58,8 @@
     "write_articles",
     "write_video_scripts"
   ],
-  "published_links": null,
+  "published_links": [],
   "remaining_manual_actions": [
-    "Read drafts and review.json, fix issues, record decision in approval.json, then run: bash run.sh --package runs/replay-20261018T205452Z",
     "Produce 3 narrated videos (text-to-speech + ffmpeg) from package/video_scripts",
     "Publish 3 Substack articles and 3 YouTube videos, then fill package/publication_links.json"
   ]

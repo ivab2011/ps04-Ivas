@@ -1,0 +1,60 @@
+{
+  "run_id": "replay-20261018T205452Z",
+  "review_id": "rev-5eb1e640a782e8ad7febc3ff",
+  "approved_by": "Iva Biscanic",
+  "assets": [
+    {
+      "piece_id": "01",
+      "type": "article",
+      "path": "runs/replay-20261018T205452Z/package/articles/01.md"
+    },
+    {
+      "piece_id": "01",
+      "type": "video_script",
+      "path": "runs/replay-20261018T205452Z/package/video_scripts/01.md"
+    },
+    {
+      "piece_id": "01",
+      "type": "source_notes",
+      "path": "runs/replay-20261018T205452Z/package/sources/01.md"
+    },
+    {
+      "piece_id": "02",
+      "type": "article",
+      "path": "runs/replay-20261018T205452Z/package/articles/02.md"
+    },
+    {
+      "piece_id": "02",
+      "type": "video_script",
+      "path": "runs/replay-20261018T205452Z/package/video_scripts/02.md"
+    },
+    {
+      "piece_id": "02",
+      "type": "source_notes",
+      "path": "runs/replay-20261018T205452Z/package/sources/02.md"
+    },
+    {
+      "piece_id": "03",
+      "type": "article",
+      "path": "runs/replay-20261018T205452Z/package/articles/03.md"
+    },
+    {
+      "piece_id": "03",
+      "type": "video_script",
+      "path": "runs/replay-20261018T205452Z/package/video_scripts/03.md"
+    },
+    {
+      "piece_id": "03",
+      "type": "source_notes",
+      "path": "runs/replay-20261018T205452Z/package/sources/03.md"
+    }
+  ],
+  "publication_links": "runs/replay-20261018T205452Z/package/publication_links.json",
+  "manual_steps": [
+    "Generate narration audio for each package/video_scripts/NN.md with text-to-speech (Chatterbox, own voice) and combine with a title slide using ffmpeg (3-5 min video).",
+    "Upload each video to YouTube (public or unlisted); paste the article link and package/sources/NN.md into the description.",
+    "Publish each package/articles/NN.md on Substack (free access); link the article to its video.",
+    "Fill substack_url and youtube_url in package/publication_links.json."
+  ],
+  "published": false
+}
