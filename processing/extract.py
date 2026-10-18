@@ -73,7 +73,7 @@ def merge_segments(pieces):
 
 def stored_record(item_id):
     """Ask the evidence store (through its interface) for the latest stored version."""
-    r = subprocess.run(["bash", "data/store.sh", "get", item_id], capture_output=True, text=True)
+    r = subprocess.run(["bash", "data/store.sh", "get", item_id], stdin=subprocess.DEVNULL, capture_output=True, text=True)
     if r.returncode != 0:
         return None
     rec = json.loads(r.stdout)
@@ -85,6 +85,13 @@ def stored_record(item_id):
 def extract_feed(cand):
     import trafilatura
     html = trafilatura.fetch_url(cand["url"])
+    if not html:                      # some sites reject trafilatura's default client: retry with our header
+        req = urllib.request.Request(cand["url"], headers={"User-Agent": UA, "Accept": "text/html"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                html = r.read().decode("utf-8", "replace")
+        except Exception:
+            html = None
     if not html:
         raise RuntimeError("page could not be downloaded")
     text = trafilatura.extract(html, include_comments=False, include_tables=False)
@@ -109,7 +116,7 @@ def parse_json3(path):
 def youtube_captions(cand, tmp):
     subprocess.run(["yt-dlp", "--skip-download", "--write-subs", "--write-auto-subs",
                     "--sub-langs", "en.*,en", "--sub-format", "json3", "-o", f"{tmp}/cap.%(ext)s",
-                    cand["url"]], capture_output=True, text=True, timeout=300)
+                    cand["url"]], stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=300)
     files = sorted(glob.glob(f"{tmp}/cap*.json3"), key=lambda p: ("orig" not in p, p))
     return parse_json3(files[0]) if files else None
 
@@ -123,7 +130,7 @@ def download_audio(cand):
         return existing[0]
     if cand["kind"] == "youtube":
         subprocess.run(["yt-dlp", "-f", "bestaudio", "-o", base + ".%(ext)s", cand["url"]],
-                       check=True, capture_output=True, timeout=1800)
+                       check=True, stdin=subprocess.DEVNULL, capture_output=True, timeout=1800)
         return glob.glob(base + ".*")[0]
     ext = os.path.splitext(cand["media_url"].split("?")[0])[1] or ".mp3"
     req = urllib.request.Request(cand["media_url"], headers={"User-Agent": UA})
@@ -135,7 +142,7 @@ def download_audio(cand):
 
 def duration_seconds(path):
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                        "-of", "default=nw=1:nk=1", path], capture_output=True, text=True, check=True)
+                        "-of", "default=nw=1:nk=1", path], stdin=subprocess.DEVNULL, capture_output=True, text=True, check=True)
     return float(r.stdout.strip())
 
 
@@ -148,7 +155,7 @@ def whisper_transcribe(audio, tmp):
     for i in range(math.ceil(total / CHUNK_SECONDS)):
         offset = i * CHUNK_SECONDS
         part = f"{tmp}/part{i:02d}.mp3"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(offset), "-t", str(CHUNK_SECONDS),
+        subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", str(offset), "-t", str(CHUNK_SECONDS),
                         "-i", audio, "-ac", "1", "-ar", "16000", "-b:a", "32k", part], check=True)
         if os.path.getsize(part) > MAX_UPLOAD_BYTES:
             raise RuntimeError(f"chunk {part} still larger than the Whisper limit")
