@@ -72,8 +72,9 @@ RUN_DIR="runs/$RUN_ID"
 PREV=$(ls -d runs/live-* 2>/dev/null | sort | tail -1)
 PREV_ID=$([ -n "$PREV" ] && basename "$PREV" || echo "")
 mkdir -p "$RUN_DIR/logs"
-jq -n --arg id "$RUN_ID" --arg s "$STARTED" --arg d "$AS_OF" --arg p "$PREV_ID" \
-  '{run_id: $id, started_at: $s, as_of_date: $d, mode: "live", previous_run_id: (if $p == "" then null else $p end)}' \
+jq -n --arg id "$RUN_ID" --arg s "$STARTED" --arg d "$AS_OF" --arg p "$PREV_ID" --arg sf "${SIMULATE_FAIL_SOURCE:-}" \
+  '{run_id: $id, started_at: $s, as_of_date: $d, mode: "live", previous_run_id: (if $p == "" then null else $p end),
+    simulated_failure: (if $sf == "" then null else {source_id: $sf, note: "Deliberately simulated collection failure (labelled test)"} end)}' \
   > "$RUN_DIR/run.json"
 cp -R config "$RUN_DIR/config"                  # exact configuration and prompts used
 cp -R prompts "$RUN_DIR/prompts"

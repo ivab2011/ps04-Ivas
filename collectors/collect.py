@@ -11,7 +11,7 @@ Stable identities:
   youtube:  youtube:<native video id>
   podcast:  podcast:<source_id>:<sha256 of episode guid (or audio URL), first 16 chars>
 """
-import hashlib, json, re, sys, urllib.request
+import hashlib, json, os, re, sys, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -130,6 +130,8 @@ def main():
     failures, emitted = [], 0
     for src in mine:
         try:
+            if os.environ.get("SIMULATE_FAIL_SOURCE") == src["source_id"]:   # labelled, deliberate test
+                raise RuntimeError("SIMULATED FAILURE (deliberate test via SIMULATE_FAIL_SOURCE)")
             entries = parse_entries(fetch(source_url(src)))
         except Exception as err:                                   # network, HTTP or XML error
             failures.append(f"{src['source_id']}: {type(err).__name__}: {err}")

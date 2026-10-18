@@ -87,6 +87,7 @@ if links is not None:
 print(json.dumps({
     "run_id": run.get("run_id"), "status": status, "as_of_date": run.get("as_of_date"),
     "mode": run.get("mode"), "previous_run_id": run.get("previous_run_id"),
+    "simulated_failure": run.get("simulated_failure"),
     "counts": {
         "discovered": count(candidates), "extracted": count(items),
         "new": count(changes, lambda r: r["change"] == "new"),
