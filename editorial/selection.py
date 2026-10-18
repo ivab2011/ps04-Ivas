@@ -48,6 +48,13 @@ if missing:
     for i in range(0, len(missing), BATCH):
         judge(missing[i:i + BATCH], f"retry{i // BATCH + 1:02d}")
 
+# Human overrides (config/editorial_overrides.json): the editor's final word, applied after the model.
+# The model's own decision and reason are kept next to the human one.
+try:
+    overrides = json.load(open(f"{RUN_DIR}/config/editorial_overrides.json"))
+except FileNotFoundError:
+    overrides = {}
+
 for it in items:
     d = decisions.get(it["item_id"])
     if d is None or d.get("decision") not in ("accept", "reject", "defer"):
@@ -62,6 +69,15 @@ for it in items:
            "publisher_id": it["publisher_id"], "title": it["title"]}
     if d.get("id_repaired_from"):
         rec["id_repaired_from"] = d["id_repaired_from"]
+    rec["decided_by"] = "model"
+    ov = overrides.get(it["item_id"])
+    if ov and ov.get("decision") in ("accept", "reject", "defer"):
+        rec["model_decision"], rec["model_reason"] = rec["decision"], rec["reason"]
+        rec["decision"] = ov["decision"]
+        rec["reason"] = "Human override: " + ov.get("reason", "")
+        rec["piece_ids"] = ov.get("piece_ids", ["01"]) if ov["decision"] == "accept" else []
+        rec["relevance"] = ov.get("relevance", rec["relevance"])
+        rec["decided_by"] = "human"
     print(json.dumps(rec))
 
 open(sys.argv[2], "w").write(llm.usage_summary())
