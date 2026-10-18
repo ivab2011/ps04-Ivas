@@ -1,0 +1,614 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 31.0,
+  "text": "Why can't we get AI to production? Our competitors are all ready. How do we keep data secure? When do we actually see ROI? All this talk about AI, but talk doesn't transform businesses. AWS AI cuts through the noise, making AI easier to securely deploy and scale. With ready-to-use agents and the broadest set of AI tools and services, you can build, buy, or partner your way. Stop overthinking. Start building. AWS AI is how."
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 31.0,
+  "end_seconds": 61.0,
+  "text": "Hi, I'm Molly Graham, host of TED's Work Life. I talk to founders and operators every week who can tell you exactly what got them to where they are, and exactly what almost broke them along the way. Ask any of them the real secret, and it's never do everything. It's knowing what's worth your energy and what's not. Laundry is on the not worth it list. You knew that already. You just hadn't outsourced it yet. Rinse picks up your laundry and dry cleaning, cleans it exactly how you like,"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 61.0,
+  "end_seconds": 91.0,
+  "text": "and delivers it back ready to wear. Sign up at Rinse.com. Rinse. It's time to be great. I'm Athena Smith, intern at Lawfare, with an episode from the Lawfare Archive for October 18th, 2026. On October 13th, Kimberly Guilfoyle resigned as ambassador to Greece"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 91.0,
+  "end_seconds": 124.0,
+  "text": "following allegations of corruption, including that she asked a Republican donor to pay off $100,000 on her American Express card. She claims the accusations are false. For today's Archive, I chose an episode from April 5th, 2022, in which former Lawfare cybersecurity fellow Alvaro Maranon sat down with Paul Mazzaro, the Senior Policy Advisor for Counter-Kleptocracy at the Helensky Commission, to speak about the United States government's anti-corruption efforts. This episode was recorded after President Biden issued a memo establishing a fight against corruption as a key national security interest."
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 124.0,
+  "end_seconds": 154.0,
+  "text": "The group discussed the first-ever presidential strategy on anti-corruption and the kinds of messages these unified efforts sent to authoritarian regimes. I'm Alvaro Maranon, and this is the Lawfare Podcast, April 5th, 2022. On June 3rd, President Biden issued a national security memorandum that established the fight against corruption"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 154.0,
+  "end_seconds": 185.0,
+  "text": "as a core national security interest for the United States. The memo described the staggering costs of corruption, with it being estimated that acts of corruption sat between 2 and 5 percent from global GDP. The memo also directed U.S. officials to develop a comprehensive presidential strategy focused on anti-corruption. I sat down with Paul Mazzaro, the Senior Advisor for Counter-Kleptocracy at the Helsinki Commission, to speak about the United States government's latest anti-corruption efforts, following the June memo."
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 185.0,
+  "end_seconds": 216.0,
+  "text": "We discussed the latest developments in the efforts to combat corruption, details around the first-ever presidential strategy on anti-corruption, and also dive into what kind of messages these unified efforts send to other authoritarian regimes beyond Russia. It's the Lawfare Podcast, April 5th. Paul Mazzaro on the United States' latest efforts to combat corruption. The past several months has been a crucial period for the United States government and its concentrated efforts to combat corruption,"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 216.0,
+  "end_seconds": 246.0,
+  "text": "both at home and abroad. We've seen an important presidential memorandum that reclassified corruption as a national security concern, a global summit for democracy, a first-of-its-kind presidential strategy on combating corruption, and a multitude of state and local initiatives. But before we dive into the details of these developments, Paul, can you speak a bit about how we got to this point and what's changed over the years to lead to this shift? Sure, happy to. And I guess the first thing I want to say, just right up front, quick disclaimer,"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 246.0,
+  "end_seconds": 276.0,
+  "text": "that I'm speaking here in a personal capacity. I'm not here representing any single commissioner or the commission as a whole. So with that said, yeah, I mean, it's a great question. I mean, what happened, right? I mean, if you go back just five, six years ago, you will find practically no one calling corruption a national security threat. In fact, corruption was often thought of as a secondary development issue, nice to have when you can have it, but otherwise just really not a priority. And now today, you know, what is this, April 4th, 2022,"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 276.0,
+  "end_seconds": 306.0,
+  "text": "corruption could not be more important. It is the top priority among the top priorities of the United States government. And in fact, we seem to be, you know, jumping resources into fighting it. So, yeah, I mean, the question of what happened is enormous. And I think that the really critical thing is the people that have been working at this for a really long time, building the bipartisan coalitions and reframing this issue for what it is, which is a national security threat. For a very long time,"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 306.0,
+  "end_seconds": 336.0,
+  "text": "it was thought of very much in the development world. It was one of these things that was like a, oh, well, you know, we do it when we can. But because of the constant drumbeat that this is a national security threat and because of the great work that's been done by the anti-corruption community, and in fact, a lot of the national security community in reframing this, and then of course the Congress in reframing this, we've landed at a position in which it is not crazy for the president to come out and say, this is a national security threat. Absolutely."
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 336.0,
+  "end_seconds": 366.0,
+  "text": "And regarding this reframing, the risk and dangers of corruption, you know, obviously we see facilitating crime as being one of the major ones, but has there been any new or lesser known risks that we've seen that helped with this reframing? So if it were just facilitating crime, I think that's where we were really like 10 years ago. You know, this kind of idea that, okay, organized crime and corruption are together, right? But really you need to move beyond organized crime in order for corruption to be a top national security threat. It is involved with organized crime. Organized crime is a problem,"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 366.0,
+  "end_seconds": 398.0,
+  "text": "but organized crime will never be on the level of like US adversaries. Of course, organized crime often tends to be a appendage now, a way of doing foreign policy for certain US adversaries, including sort of Russian dictator, Vladimir Putin's mafia state, and, you know, various foreign policy initiatives of the Chinese Communist Party, and so on and so forth. It was evolving beyond that that made this happen. So corruption is actually the primary way through which our adversaries pursue foreign policy."
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 398.0,
+  "end_seconds": 429.0,
+  "text": "And I mean, the really critical understanding here is that dictatorship is based on corruption. So dictatorship is all about having the guy at the top, and then he rules through essentially having his crony structure that do all sorts of things. They run the state-owned companies or state-influenced companies. They run the various government agencies and so on and so forth, through paying them off by giving them opportunities for corruption. And then those individuals hold that money in the West. So something I'm always saying and always saying, and I think it's really, you know, I hope becomes the gospel of US foreign policy"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 429.0,
+  "end_seconds": 460.0,
+  "text": "is this kind of understanding that modern dictatorship relies on access to the West. So the very new thing we're facing is not that dictatorship is corrupt. That's always been the case. But that corrupt dictatorship now relies, that modern dictatorship now relies on access to the West. And this has created a brand new threat of corruption because this is corruption on an unprecedented scale. It used to be that you could, you know, you'd steal a little bit. The cronies would get paid off. You'd buy, I don't know, a mansion in wherever in Kalarama or your version of Kalarama or something like that, right?"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 460.0,
+  "end_seconds": 490.0,
+  "text": "But now you can steal billions, billions and billions and billions up to over, you know, I mean the golden trillion, the over a trillion that's been stolen from the Russian people because the Western capital markets are just unbelievably deep. So you steal at a totally unprecedented scale. And then that money, once it's in our system, can be used to undermine the system. So in fact, it's used to, you know, engage in reputation laundering, that is improving, you know, whitewashing one's reputation, getting close to elites,"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 490.0,
+  "end_seconds": 520.0,
+  "text": "whether it be, you know, major foreign policy commentators or activists or makers or whatever, or, you know, political parties or anything like this. And then you start to influence policy. So one of the things, one of the big reasons we failed to respond to Putin's provocations and Putin's deleterious actions for over a decade, you know, ever since the invasion of Georgia has been precisely that these individuals, these very corrupt oligarchs have been in our society,"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 520.0,
+  "end_seconds": 550.0,
+  "text": "undermining it from within and influencing our decision-making processes with their fortunes. Yeah, that's quite interesting. This isolated, I guess, ecosystem of corruption is now becoming globalized. It's going everywhere. And like you've mentioned, we've seen the sports watch and especially United Kingdom, we've seen Abrahamovich and other oligarchs being targeted more in the public. And you spoke a little bit earlier about this, that real estate and some other sectors have been, I guess, more susceptible to these types of illicit payments."
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 550.0,
+  "end_seconds": 580.0,
+  "text": "Can you speak a little bit more about that? Yeah, no, I mean, that's really, really critical. And I think, look, we talk a lot about the enablers of kleptocracy and these individuals are kind of the gatekeeper professionals that provide, essentially, sell access to our system, right? And, I mean, these include lawyers. Lawyers are actually by far the worst. You know, it's a lawfare podcast, you know. I mean, everything comes back to lawyers at the end of the day because lawyers manage, essentially, all of the relationships of oligarchs. Oligarchs, the first thing they do"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 580.0,
+  "end_seconds": 611.0,
+  "text": "is go hire the best lawyers available because then lawyers will go out and create the shell companies. They'll create the anonymous trusts. They may do it themselves or they might outsource this to a company and trust formation agent. They'll go out and work with the real estate agents. They'll go out and work with everybody, the accountants and so on and so forth. And, in fact, if any pesky journalists or anything like that start to take a look at what you're up to, look at the way you're using this blood money, look at the way that you've stolen it and your relationship with the Putin regime"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 611.0,
+  "end_seconds": 641.0,
+  "text": "or the Communist Party, whatever it is, then they'll also silence you. You know, something that you guys, I'm sure, are familiar with, with your name and everything. They'll go to court, you know, and they'll try to use these abusive lawsuits, these SLAP, these strategic lawsuits against public participations, to take you down and silence you. So enablers are a really critical part of this puzzle. Without enablers, there are no oligarchs because without access to the West, you can't ever get to this kind of oligarchy level. You'd just be some crony. You'd be stuck in the country."
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 641.0,
+  "end_seconds": 672.0,
+  "text": "And at the end of the day, this is actually what ends dictatorship. So it's kind of funny. If you don't have this access to the West, then cronies end up in these kind of systems that are very oppressive and they don't have access to the stuff they want in the West. They look at Western elites and they think, man, I'd like to live like that. And in fact, when you look at, why did the Soviet Union fall? You have a lot of elites who are like, whoa, this is not very nice. You know, we seem really behind. We're looking at the West. We can't travel there. We can't enjoy the lifestyle that they have there and so on and so forth. But modern dictatorship has kind of cracked the code."
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 672.0,
+  "end_seconds": 704.0,
+  "text": "Now you can continue to repress your population, loot your population, treat everyone like dirt, but then the elites can just live abroad. They just live abroad, you know, and they push their money abroad and so on and so forth. So they effectively are able to have this kind of unlimited power, this arbitrary style power, but then they use the enablers to access the West. So one big thing to note about the enablers and how we got here is this kind of notion in the post-Cold War of change through trade,"
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 704.0,
+  "end_seconds": 735.0,
+  "text": "how the Germans say it, the Wandel durch Handel, you know, all this kind of idea that economic integration will eventually lead to democracy. This has been the overriding, I think, foreign policy ethos of the last 30, 40 years. If you tune out the noise, then really our foreign policy has been very consistent. That is to say, if we economically integrate, democracy will follow. And in fact, it's happened in the exact opposite way. We economically integrated, the blood money came West, it actually diminished our democracy."
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 735.0,
+  "end_seconds": 765.0,
+  "text": "So it turned out that integration with authoritarian regimes did not, you know, advance democracy, but in fact advanced authoritarianism and created this brand new globalized authoritarian capitalism. And that's where we are in 2022. We are seeing the end game of globalized authoritarian capitalism. And that's what we see, for example, in Putin's invasion of Ukraine. That's fascinating how even authoritarian regimes, which are typically cut off, can still evolve and adapt."
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 765.0,
+  "end_seconds": 795.0,
+  "text": "And speaking about the spotlight, you mentioned there's a lot of mechanisms in place that kind of prevent individuals from speaking out about this. And we've seen a lot of U.S. officials in Western democracies, most recently with the Summit for Democracy, kind of come out with a unified voice and all denounce it. And can you speak about how important this is in shifting, like addressing the mechanisms within the roles of accountants and lawyers in this field? I mean, it couldn't be more important. I mean, some of this, you know,"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 795.0,
+  "end_seconds": 825.0,
+  "text": "this U.S. strategy on countering corruption. I mean, it's I described it when it came out of the long telegram of the 21st century. That is, you know, of course, the long telegram, Kennan's famous memo that advocated containment to fight the Soviet Union. I mean, this is this is what we're at now. The future of the world, the future that we're heading and rapidly hurtling toward. Of course, we were heading there prior to Putin's invasion of Ukraine, but now it's been accelerated. Now it's on steroids. Is democracy versus autocracy? And it's a it's essentially a second Cold War, but it's going to be"
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 825.0,
+  "end_seconds": 855.0,
+  "text": "very different in nature. It's not going to be two hermetically sealed systems, but rather two interlocking systems. It is not a battle between economic systems. It's not capitalism versus communism. It's political systems. It's accountable democracy versus corrupt autocracy. And that's it's essentially what will be the manner of globalization under which humanity lives under? Will it be will it be a democratic style of government in which technology is, you know, bound by rules and laws?"
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 855.0,
+  "end_seconds": 885.0,
+  "text": "Or will it be one in which, you know, informal structures and arbitrary regimes can use technology to dominate, to simply dominate the individual and engage in genocides and, you know, totally crowd out the private sector insofar as the private sector exists. It'll be under the control of the state and so on and so forth. So, I mean, this is this is where we're going. And that's why this strategy on countering corruption was so important. It is really all comes down to countering corruption. It all comes down to taming the enablers."
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 885.0,
+  "end_seconds": 915.0,
+  "text": "And it all comes down to ensuring that this kind of that our system does not perpetuate this form of government. Again, this form of government, this form of authoritarian capitalism relies on access to the West. So we have to do essentially three things. We have to one, and these are all laid out in the strategy. But but one, we have to clean up our act at home. We really have to double down on values and put values before short term economic growth. We have to ensure that we're not enabling kleptocracy"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 915.0,
+  "end_seconds": 946.0,
+  "text": "and that we can we can get into the actual policy prescriptions on how to do that. But essentially, it comes down to ensuring we're not accepting blood money. The second thing we need to do is actually target the kleptocrats themselves, which we can do through sanctions. We're doing a lot of that now with this newfound war on the oligarchs through law enforcement and really law enforcement. Again, the Lawfare podcast, law enforcement, you know, can be extremely effective because the big weakness, in a sense, that these authoritarian regimes"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 946.0,
+  "end_seconds": 976.0,
+  "text": "have now is by by putting their money in our systems, by being so reliant upon our financial system in particular, they have put themselves under our rule of law framework. So instead of letting them manipulate our rule of law framework, if we actually said, OK, well, you're under our framework, which means you're under our jurisdiction. You are susceptible now to our laws and actually enforced our laws against them. We could go, you know, to the stars. I mean, that's really a huge step. And that's what this"
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 976.0,
+  "end_seconds": 1006.0,
+  "text": "klepto capture task force that we've just given, you know, that Congress has just given $60 million to. That's what it's supposed to do. And this repo, I love this name, this Russian elites, proxies and oligarchs multilateral task force, the repo task force, targeting these oligarchs. That's what they're supposed to do is enforce these laws finally against these individuals. And then finally, we have to, you know, make a serious effort to rethink the way that we build the rule of law abroad because, you know, it's not an easy thing to do, but we need to look at ourselves, look in the mirror really hard and say, OK,"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 1006.0,
+  "end_seconds": 1036.0,
+  "text": "what we did in the last 30 years didn't work. Just counting the courthouses we build, counting the police we train and so on and so forth, writing the best looking, you know, criminal codes and so on and so forth. This does not work. You know, the rule of law is more than what's on the surface. Indeed, it's the relationship between a people and their government. It's how an individual on the street thinks about their relationship with their rulers, you know. I mean, so it's something"
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 1036.0,
+  "end_seconds": 1066.0,
+  "text": "that goes much deeper and it is inherently political, so we have to be willing to get political. It's interesting how the strategy framed this and how you spoke about it because especially focusing at home, often people think when you combat corruption it's outward looking. You focus on different countries, focusing on other multilateral, multinational efforts, but there's a lot of problems at home with corruption and I wonder if you could speak about that in certain gaps or legislations that could fix this. Sure, of course, and I think it's really more of a transformation of the understanding"
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1066.0,
+  "end_seconds": 1096.0,
+  "text": "of corruption, right? I mean, you know, I call it cleaning up our act at home, of course. Others call it that, but and we need to do it. We need to, you know, I mean really it's more of a reframing of what is corruption in the modern age? For the longest time we've been stuck in this almost country-centric idea of corruption. This is perpetuated a lot by kind of like Transparency International's Corruption Perceptions Index. This idea that corruption is something that countries have, there are corrupt countries"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1096.0,
+  "end_seconds": 1126.0,
+  "text": "and there are sort of clean, transparent countries. This is not a good way to think about corruption in the modern age. There's, all of corruption is connected. Corruption is really, one needs to think about it more in the form of corrupt networks that transition through different countries. Corrupt networks will include a, a single network, just a single network, will include a, you know, CCP operative, a Russian oligarch, a German businessman, or a British lawyer and an American lobbyist. All in one network that'll all be working together essentially, you know,"
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1126.0,
+  "end_seconds": 1156.0,
+  "text": "with different goals. You know, the CCP operative will be trying to, you know, advance CCP goals. The Russian oligarch will be trying to launder his reputation. The, the German businessman will be trying to, you know, make some money. The, the, the, and so will the, the, the American lobbyist and the, and the British lawyer. So, and, and, and these sorts of things, they all interact. So, corruption needs to be rethought."
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1156.0,
+  "end_seconds": 1186.0,
+  "text": "I think, I think we really get stuck in this idea that, okay, corruption is somebody paying a bribe to access services in a developing country. Individuals that are part of the corrupt networks are the corrupt actors. So, corruption as we, like, essentially facilitate it in the West needs to be understood in this facilitation role. It's, it's about essentially not asking too many questions. It's about exacerbating kind of what we would perceive as the more traditional corrupt acts abroad. So,"
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1186.0,
+  "end_seconds": 1221.72,
+  "text": "I mean, anyone I think would, any American, any, any person would understand, you know, corruption or procurement fraud, that is sort of handing out contracts to your buddies in Russia, or China, or whatever, as corruption, you know? But then that money gets laundered, and it ends up in the pockets of American lawyers who will, you know, use that money, you know, first of all help offshore it, but then also use the money to silence journalists, or to ensure that certain policies, you know, lobbyists"
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1221.72,
+  "end_seconds": 1251.78,
+  "text": "that ensure that certain policies aren't adopted, or something like this, you know? That is also corruption. That is an extension of corruption. That is blood money that's being used, so it's not the way we would typically think about corruption, because it's legal in our system, and that's, in a sense, kind of the problem, right? I mean, it's totally legal, and, you know, we've never seen any problem with it, because oftentimes the blood money hasn't necessarily been there, but once blood money starts entering the system like that, it becomes an extension of the corrupt network."
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1251.78,
+  "end_seconds": 1284.66,
+  "text": "It becomes, in fact, the endpoint, the destination of the corrupt network, in the way that the corrupt network is able to exert influence. So that's the way we need to be thinking about corruption now. It is transnational. We need to kind of move away from the notion of it's country-specific, blah-da-dee-blah. Corruption is a transnational phenomenon, and we need to be thinking about it in the foreign policy capacity. How do we prevent corruption from having a national security effect? That's what we need to be thinking about. How do we prevent it from influencing our national security?"
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1284.66,
+  "end_seconds": 1316.42,
+  "text": "And then we need to put all the various policies and structures in place to do that. So regarding this corrupt network that you expanded upon, it's no longer binary, us-versus-them, or as clear-cut as we used to imagine it. And part of the reframing as a national security interest also means additional funding. And you also spoke about the role of law enforcement here. And regarding these networks, we only know, we can only do as much as we know, correct? As in, we need to re-evaluate shell companies, we need to look at FARA and these other outlets"
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1316.42,
+  "end_seconds": 1346.76,
+  "text": "and mechanisms that can be, like you said, weaponized for this blood money. And I want you to speak about it. Do you want to expand upon that? Yeah, I mean, that's exactly right. So we need transparency. That's really what you're pointing to. And I mean, it's funny because the United States is actually historically a little bit better at accountability than transparency, and Europe tends to be a little bit better at transparency than accountability. So this comes down to essentially the thing between getting the right laws on the books and enforcing those laws."
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1346.76,
+  "end_seconds": 1378.2,
+  "text": "This is kind of the problem, is if you have transparency without accountability, it just creates a situation in which you're like, okay, well, now we can all see the theft, but nobody's going to jail for it, you know, like nobody's, nothing bad is happening. And that actually diminishes confidence even further. And if you have accountability without transparency, then you have a system in which you have the best agents in the world, you know, we have the DOJ, and we have the FBI, and we have people that are like really, really, really good at this and very well resourced. But I mean, you can be the smartest guy on earth."
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1378.2,
+  "end_seconds": 1411.68,
+  "text": "If you are constantly stymied by anonymous shell companies, if you don't have access to databases that show you where this stuff is that you can, you know, access to, to follow the money, you're still going to get nowhere, you know. So you're absolutely right. So beneficial ownership transparency, abolishing anonymous shell companies, you know, these anonymous shell companies that you can just make in any old state, that is to say, you know, just straight up, you know, in some states, it's easier, obviously, it's places like Delaware, Nevada, Wyoming, but, you know, you just go online, you create the company, you put in a nominee owner, don't even have to put the actual person that owns the company"
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1411.68,
+  "end_seconds": 1445.44,
+  "text": "and so on and so forth, you run it through a bunch of different jurisdictions, you launder the money. American anonymous shell companies are really notorious, because they're really easy to do. It's all made at the state level. But this was taken care of, this bipartisan coalition that came together and passed beneficial ownership transparency legislation in the NDAA, the National Defense Authorization Act in 2020, you know, that's done, and now that's being implemented. So there will be before too long, a U.S. beneficial ownership registry that essentially abolishes anonymous shell companies in the United States. But we're still in the United States, missing due diligence obligations for gatekeepers."
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1445.44,
+  "end_seconds": 1477.16,
+  "text": "So in the USA, the only people, the only gatekeepers that have to ask questions about source of clients' funds are banks, nobody else does. So lawyers don't, accountants don't, trust and company service providers don't, real estate doesn't, unless there's these geographic targeting orders that hit certain cities and enforce title insurers, which are essentially these people that ensure that, you know, the property is actually owned by the person in question, you know, makes them ask for"
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1477.16,
+  "end_seconds": 1507.44,
+  "text": "beneficial ownership transparency information. So we need to expand that. That's really critical for the United States. And if we do that, it'll be pretty well enforced, because the USA's problem is not with, really with enforcement, it's with, you know, this transparency thing. Now in Europe, all of this stuff is on the books. They've abolished anonymous shell companies, they have gatekeeper due diligence requirements, all that kind of stuff, but it's very, very poorly enforced. And that's, that's their challenge, right? And that's, that's the same in the United Kingdom, is, is, you know, and it's, it's"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1507.44,
+  "end_seconds": 1538.56,
+  "text": "also just a part of the different political systems and how they respond to things. We have the very hard separation between the legislature and the executive and so on and so forth. They don't in most of their democracies. So, you know, actually enforcing the law there is a much greater challenge, and getting the resources behind that is a much greater challenge. But this is a place where we can really work together, the EU and the UK and the United States, we can all come together, and Canada, all come together and kind of help one another out here with what we're strong at, what we're weak at, and get the job done."
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1538.56,
+  "end_seconds": 1569.16,
+  "text": "So you speak about how we had bipartisan support in the most recent legislation to combat the issues with shell companies. And moving forward, do you think we'll have this continued bipartisan support to enact substantive change both at home and abroad? Yes, absolutely. The bipartisanship here is really one of the most extraordinary things. I mean, that's the coalition that has come together around counter-cleptocracy, around counter-corruption is just wonderful. It's all across the political spectrum."
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1569.16,
+  "end_seconds": 1602.84,
+  "text": "It's national security guys, it's law enforcement, it's economists, it's all the way up, down, right, left, center, everyone, you know, and that's been how we've been able to get this stuff done. It's been a product of the reframing as a national security threat, right? So previously, you know, there had been partisan issues around some of this kind of stuff. I think a lot of the stuff that people kind of like, I think, generally understand as kind of business regulatory, you know, those that are anti-business regulatory, those that"
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1602.84,
+  "end_seconds": 1638.08,
+  "text": "are pro-business regulatory and stuff like that, and there was very little movement because that's the way it was framed. It was framed as a business regulatory issue, but it's not, it's not a business regulatory issue. It's a national security issue. And that's what's changed things. So I do anticipate that the bipartisan coalition will remain around this, and it's really more than bipartisan. It's really, you know, everyone coming together around this. And the questions are more how these very technical, very important changes ultimately look and how they're implemented, rather than do we support them?"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1638.08,
+  "end_seconds": 1673.12,
+  "text": "Because the support for these issues now seems to be very, very much there. Hey, Lawfare listeners, Ben Wittes here, and I want to tell you about a time when my household was carrying some unpleasant debt. It was student loan debt, and every month we would pay a little bit of it, and the number wouldn't go down. In fact, the number stayed sort of stubbornly where it was. We were not making a lot of money at the time, and we felt like we couldn't pay more. And then as we started to make a little bit more money, we would watch that payoff timeline"
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1673.12,
+  "end_seconds": 1703.12,
+  "text": "shrink as we paid a little bit more money. I was thinking of that recently when I was using the Monarch app and remembering how it felt to watch that timeline shrink and know that we were making progress on it. That feeling of going from, oh God, this is never going to end, we're going to owe this money forever, to actually having a date that we would be free of it."
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1703.12,
+  "end_seconds": 1736.42,
+  "text": "Watching the debt timeline move can motivate you. It is a kind of steady, visible process that makes you feel like you are making progress, and Monarch has this debt paydown simulator and visualizer that shows at the rate that you're paying, the exact date on which you're going to be debt free based on real balances and actual payment. You can watch the timeline move, and the visualizer just over time will lay out your whole payoff"
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1736.42,
+  "end_seconds": 1772.32,
+  "text": "journey as a clear, motivating timeline. You can play with your options and pick the fastest one. You can pick the one that is a little bit more comfortable. You can run different payment scenarios side by side and see which one's going to get you there fastest, which one is going to get you there at rates that you can afford. You're in control. Monarch, it breaks the debt cycle. It turns that endless gloom into a plan with an end date, so you can make room and put"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1772.32,
+  "end_seconds": 1805.12,
+  "text": "more toward debt without feeling deprived. Most apps will only tell you what you've already spent. This is different. Monarch helps set goals. It helps you map out the big purchases. It helps you see if you're actually on track before it's too late to adjust. I will tell you, I, this year, used Monarch for something else. I used it to assemble an enormous amount of tax data, and it helped me visualize all kinds"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1805.12,
+  "end_seconds": 1836.92,
+  "text": "of things that I had spent. It actually wasn't related to debt, and it was super useful for that, too. So write your own money story with Monarch. Use the code LAWFARE at monarch.com to get your first year of Monarch Core half off at just $50. That's $50 off your first year at monarch.com with code LAWFARE. Buyers shouldn't have to start from scratch every time they need help."
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1836.92,
+  "end_seconds": 1868.6,
+  "text": "That's why we built Finn. Finn answers questions, helps buyers find what they need, and remembers the context from one conversation to the next. Learn more at finn.ai. Losing weight can feel like a rollercoaster, full of ups, downs, and being thrown for loops like when someone brings donuts into the office or your kid's dino nuggets start giving you that look again. That's why there's Noom. They combine GLP-1s to quiet the food noise with healthy habits that help you keep it quiet even if you get off the meds."
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 1868.6,
+  "end_seconds": 1899.0,
+  "text": "Their program is designed to make weight loss a smooth ride, helping you understand what drives you so you can build better habits to not just lose weight but keep it off. Noom. Lose for keeps. Get started at noom.com. Not all customers will clinically qualify for medications. Individual results may vary. Hi, I'm Nick Martell from the Best One Yet podcast. Fact. Laundry. It's the ultimate zombie chore. It's relentless. It regenerates. It's always rising from the dead right before your plate is already full."
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 1899.0,
+  "end_seconds": 1929.72,
+  "text": "That's not just a time suck. It's a mental load that eats into your headspace. Rinse is more than a laundry service. It offers clarity. It's premium, tech-driven solution built for the living. We're talking a seamless blend of smart scheduling and high-quality garment care, from dry cleaning to specialized hang dry for your delicates. Rinse may handle the operational complexity so you can focus on the ambitions that actually move the needle. So stop managing the mundane and start imagining the possibilities. Schedule at rinse.com. Rinse."
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 1929.72,
+  "end_seconds": 1961.68,
+  "text": "It's time to be great. And the blueprint for combating corruption and this vision was outlined in the U.S. strategy on countering corruption. And like you said, this is a monumental first of its kind type of strategy. Can you just give me an overview and how significant this really is? Yeah. So, I mean, the strategy on countering corruption is really the culmination, I think, of a lot of work that's been done over the last years, including the passage of Beneficial Ownership"
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 1961.68,
+  "end_seconds": 1994.36,
+  "text": "Registry legislation, right? I mean, that was the first great bipartisan victory that kind of heralded this new approach to national security that essentially said, OK, corruption is a national security threat and we have to fight this as a national security threat. And that means implementing this sort of legislation. That means passing these sorts of laws and so on and so forth. So that went to, as you say, this memo declaring corruption as a national security threat and"
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 1994.36,
+  "end_seconds": 2026.24,
+  "text": "then into the strategy on countering corruption. So we kind of already talked about what is in this strategy and so on and so forth. But that's where we are now. I guess I should say that the strategy was extraordinary. But now we're even going on beyond that because of Putin's, Russia's invasion of Ukraine. So it's suddenly like a lot of what's in the strategy has immediately been implemented"
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 2026.24,
+  "end_seconds": 2059.52,
+  "text": "because it's become top priority as we try to figure out how to best respond to Putin's just totally unprecedented aggression. And I think that that's kind of like this is the right response, right? I mean, this war is the product of unbridled corruption. It is the product of, you know, over a decade of essentially Putin feeling like the West cannot challenge me because I have been able to capture the West's elites and that kind"
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 2059.52,
+  "end_seconds": 2094.56,
+  "text": "of issue of elite capture, that's kind of like what, that's the way that autocrats kind of take economic integration and turn it on its head. And that's been kind of the refutation, let's say, of the liberal economic integration theory. You know, this idea that, OK, we economically integrate with anyone, that no one fights anymore and everyone's a democracy. Well, in fact, if you capture the elites of the West through strategic corruption, through targeting individuals that have access to the levers of power, then you can prevent response."
+ },
+ {
+  "segment_id": "s0068",
+  "start_seconds": 2094.56,
+  "end_seconds": 2129.16,
+  "text": "You can make them dependent upon you. You don't need to take over the whole economy. Now, with China, there's a little bit more of that, right? China's actually got really serious market access leverage. It's a very important market. Russia isn't even a very important market. I mean, now we see all these multinational companies vacating Russia as if it's nothing, just heading on out like no problem as soon as these sanctions are put on because they want to avoid the sanctions risks. So, I mean, the only reason we're in this situation, the only reason we've seen the"
+ },
+ {
+  "segment_id": "s0069",
+  "start_seconds": 2129.16,
+  "end_seconds": 2159.62,
+  "text": "Western unity, the only reason that we've seen this massive implementation, the sudden implementation of the strategy on countering corruption is because the Ukrainians have forced us to do this. They have shown us what it really means to fight for our values. They're over there fighting tooth and nail for things that we claim to believe in. And I mean, it's really the valor, the bravery of Ukraine has forced us to take a hard look"
+ },
+ {
+  "segment_id": "s0070",
+  "start_seconds": 2159.62,
+  "end_seconds": 2193.06,
+  "text": "at ourselves and implement a lot of this stuff that we otherwise wouldn't have implemented. I do think that Putin, in a sense, had the right idea for undermining the West. If the blitzkrieg had succeeded, right, if Kiev had fallen, if Zelensky had taken the ride instead of asking for the ammunition, you know, the West would have accepted as a fait accompli, would have essentially, you know, been even deeper in kind of this depression. They would have really hurt democracy seriously, you know, and strategic corruption would have"
+ },
+ {
+  "segment_id": "s0071",
+  "start_seconds": 2193.06,
+  "end_seconds": 2223.58,
+  "text": "done its job. I mean, we owe the Ukrainians an enormous debt for the way that they've essentially forced us to wake up and confront this corruption that we otherwise would not have confronted. Absolutely. Their efforts have been tremendous. And going from here, we spoke about how, again, Russia accelerated this strategy's implementation. And at the same time, we've seen a multitude of coordinated actions from the FinCEN Alert to the Kleptocracy Asset Recovery Rewards Program."
+ },
+ {
+  "segment_id": "s0072",
+  "start_seconds": 2223.58,
+  "end_seconds": 2254.38,
+  "text": "Can you expand upon what the importance of these initiatives are going forward? Yes. So this is, you know, we talked about the kleptocapture, talked about Repo, the Kleptocracy Asset Recovery Rewards Program is, of course, this was actually legislated by Congress again in the National Defense Authorization Act 2020 that provides, you know, like there are other American rewards programs, it provides whistleblowers, an incentive to come forward and sort of show us the money, you know, show us where the money is hidden."
+ },
+ {
+  "segment_id": "s0073",
+  "start_seconds": 2254.38,
+  "end_seconds": 2288.22,
+  "text": "And then you can actually get a cut of that money when the money is recovered. This is a very classic American whistleblowing incentive program. America actually, believe it or not, invented this form of incentive program with the False Claims Act back in the day during the Civil War. It's very, it's very cool, actually. The Union soldiers were, the Union Army was being sold these rations that were being like filled with sawdust and stuff like that. So the Congress legislated a rewards program that would, that would incentivize these individuals"
+ },
+ {
+  "segment_id": "s0074",
+  "start_seconds": 2288.22,
+  "end_seconds": 2319.82,
+  "text": "to step forward and, you know, fraud against the government would be revealed and you could claim a cut of the money recovered. The famous line at this, in this period was, it takes a rogue to catch a rogue, which is, which is a lovely, you know, Americanism. And these, these rewards programs have now been applied to all sorts of things. There's a Dodd-Frank rewards program. There's a, you know, now this kleptocracy has a recovery rewards program. There's a whistleblower rewards program for corporate fraud and so on and so forth. So, you know, these, these things have been built around."
+ },
+ {
+  "segment_id": "s0075",
+  "start_seconds": 2319.82,
+  "end_seconds": 2351.86,
+  "text": "Whistleblowers are so critical to making almost any case, particularly at a time when we don't have a lot of databases to look at. So any financial fraud case, pretty much any, any corruption case has a whistleblower on its heart. Pretty much everyone. Because there's, because again, you can have the smartest people in the world, but without the transparency, you're not going to know anything. And even with the transparency, once we get to, once we get to that point, we, you know, we still will need whistleblowers to step forward and kind of tell us where things are"
+ },
+ {
+  "segment_id": "s0076",
+  "start_seconds": 2351.86,
+  "end_seconds": 2388.3,
+  "text": "to get started as you build the case. So whistleblowers could not be more important. Now, what is so important about these oligarch task forces, about this kleptocracy has a recovery rewards program, about, about the sanctions on oligarchs and so on and so forth, is we are seeing the beginnings of a self-sustaining program to go after oligarchs, to go after these individuals. And that is fantastic, because that's really what it's going to take. We need to get to a point where we have this cycle, essentially, that you do the cases,"
+ },
+ {
+  "segment_id": "s0077",
+  "start_seconds": 2388.3,
+  "end_seconds": 2419.88,
+  "text": "you get the fines and penalties, and then those fines and penalties, you know, fund the next cases. This is actually how the Security and Exchange Commission functions, and the SEC is like, you know, gold standard. policing corporate conduct that it does these penalties and these penalties go back into the system and fund the SEC further. So we need the same thing for oligarchs. We need the same thing where we've got this self-perpetuating system, whistleblowers step forward, you make the case, you recover the money, you know, the money funds the other investigations. A lot of the money, of course, we want to"
+ },
+ {
+  "segment_id": "s0078",
+  "start_seconds": 2419.88,
+  "end_seconds": 2452.8,
+  "text": "return, but some, you know, it doesn't take a lot of money. It's amazing because this is one of the greatest things about this national security approaches. It's actually a really affordable national security approach, you know. For the price of two F-35s, you know, you can prevent the need for any F-35s by stopping the wars before they start, by attacking the corruption, by deterring. If you actually attack the corruption, you deter regimes like the Putin regime. You don't allow them to get to this point where they feel totally confident with creating, you know, with overthrowing the"
+ },
+ {
+  "segment_id": "s0079",
+  "start_seconds": 2452.8,
+  "end_seconds": 2483.36,
+  "text": "international order and invading their neighbors and really committing genocide as we've seen over the weekend in Bukha, absolutely tragic. This is what we're seeing now and that's why that is an advancement beyond even that envisioned in the counter-corruption strategy. So this is where we need to get. Where do we win? It's when we have this in place. It's where we have the whole legal framework and enforcement framework and with all our allies. It's where, you know, oligarchs are shaking their boots. They know"
+ },
+ {
+  "segment_id": "s0080",
+  "start_seconds": 2483.36,
+  "end_seconds": 2519.12,
+  "text": "they're going to get got. And it's where no one in the United States, no professional, no lawyer, no former official, nobody like that would ever consider taking blood money from dictators. That's where we need to get. You know, dictator blood money should be viewed as the same way Soviet money was viewed. We should see it as absolutely unacceptable. We should be shaming one another for taking it. Peer shaming is a huge thing. So half of this is legal. Half of it is getting the right policies in place. But"
+ },
+ {
+  "segment_id": "s0081",
+  "start_seconds": 2519.12,
+  "end_seconds": 2551.48,
+  "text": "another half of it is normative. Half of it is narrative. Half of it is getting to a point where we just think it's unacceptable. If you found out a friend was doing it, you'd be like, what are you doing, man? That's not right, you know? And that's what we're going to get. That's where we're headed rapidly. But it's still going to take some time and it's going to take beating the table on this and it's going to take putting the policies in place and it's going to take some big-profile cases and it's going to take establishing this direct causal connection between corruption and massacres and mass graves,"
+ },
+ {
+  "segment_id": "s0082",
+  "start_seconds": 2551.48,
+  "end_seconds": 2586.0,
+  "text": "which to anybody that's worked in this field understands this connection intuitively. But remember, this is why corruption is so deadly. Because it's corrosive. Because it kills slowly. It's poison. It destroys things over time. It destroys democracy over time. It destroys the rule of law over time. It doesn't destroy it immediately. It doesn't explode. It's not like terrorism. You can't get a ton of political will behind it all at once. Although we're seeing that right now, thanks to having set up over the long term a network"
+ },
+ {
+  "segment_id": "s0083",
+  "start_seconds": 2586.0,
+  "end_seconds": 2620.52,
+  "text": "framework and the incredible work of journalists, really, in exposing this over the long term. And then the sudden invasion of Ukraine that has been connected to corruption because the framework was already there, because the framing was already there. So people are understanding this now. Now we're going after the oligarchs and then the American people start asking who are the oligarchs, you know? And all their corrupt guys and corruption and so on and so forth. So we really have a window of opportunity right now. This is a policy window to solidify and entrench anti-corruption as, if not the number one"
+ },
+ {
+  "segment_id": "s0084",
+  "start_seconds": 2620.52,
+  "end_seconds": 2656.48,
+  "text": "priority, a top three priority in US national security for the foreseeable future. And we need that badly. So this optimism is quite welcome. It's quite proactive, forward-looking, which is great. But what kind of message do you believe this sends to other authoritarian regimes? I know Russia's in the spotlight, but China and these other states who aren't as active right now, at least outward-looking, what kind of message do they think they think this sends? It's a message of deep, deep, deep deterrence. It's a message that we have woken up to your game, that we understand it. Authoritarians win when we sleep."
+ },
+ {
+  "segment_id": "s0085",
+  "start_seconds": 2656.48,
+  "end_seconds": 2687.96,
+  "text": "There is no way, because of their reliance upon us, because of the way that modern dictatorship functions, their ultimate goal is to undermine us from within. It's to subvert us, okay? It's subversion. Because they can't win when anything is out in the open. That's when democracies win. Democracies always win, because we can always, we're more prosperous, we have much more political will, we can mobilize our populaces in a way that nobody else can. There's just a"
+ },
+ {
+  "segment_id": "s0086",
+  "start_seconds": 2687.96,
+  "end_seconds": 2718.0,
+  "text": "million reasons why, when things are out in the open, when things are transparent and accountable, democracies always win. And this is, you know, you find this in history over and over and over and over. But they lose when there's subversion. They lose when you can destroy them from within. And that's what we need to be extremely careful of. And that's actually where Putin and the CCP were. If you'd asked me just five, you know, five weeks ago, six weeks ago, prior to the, prior to February"
+ },
+ {
+  "segment_id": "s0087",
+  "start_seconds": 2718.0,
+  "end_seconds": 2753.28,
+  "text": "24th, if I was optimistic about the direction of the fight against corruption and the direction of democracy, I would probably give you a lot more of a wishy washy answer. I mean, I don't think I was this optimistic. And I actually think there was a good argument to be made that democracies were losing, that we were becoming, and certainly many of us that focus on this were becoming, you know, much more aware of it, and DC was becoming much more aware of it. But the, you know, the populace at large wasn't, and that this, you know, the push to divide, you know, democracies, and divide, you know, continue to try to get democracies to"
+ },
+ {
+  "segment_id": "s0088",
+  "start_seconds": 2753.28,
+  "end_seconds": 2788.24,
+  "text": "focus on internal divisions, and so on and so forth, and subvert them from within was actually really effective. It was really effective, and had been for quite some time. But now things have really changed again, because Ukraine woke us up again, because, you know, Zelensky's bravery and heroism and that of the Ukrainian people has reminded us what we're all about. I mean, you look now 80% of Republicans, 80% of Democrats support Ukraine and oppose Russia. I mean, you know, just that kind of polling, you know, that kind of support, you know, was not"
+ },
+ {
+  "segment_id": "s0089",
+  "start_seconds": 2788.24,
+  "end_seconds": 2820.24,
+  "text": "there just five weeks ago, you know, it simply was not there. So, so I mean, in a sense, Putin has, you know, it's kind of funny, I've kind of said, Putin's giving us a mulligan. He's kind of, he's kind of, he had the right strategy in mind, you know, they were doing everything right, him and Xi, they were, they were, you know, the autocrats international or the thug, the thug intern, you know, was, was, was doing it right. They understood how their regimes sustain themselves, they"
+ },
+ {
+  "segment_id": "s0090",
+  "start_seconds": 2820.24,
+  "end_seconds": 2851.6,
+  "text": "understood the ultimate goal, they understood how to subvert the West, and they were doing, and subvert democracy, really, and they were, they were doing an excellent job of it. And our responses were marginal, they were getting there, we were doing okay, some of us were paying attention. But there were still a lot of reasons to be like, we're not where we need to be. We're, you know, a lot of its lip service, we're not following up what we're saying with action. But now that has changed dramatically. So I think, again, I think that Putin, Putin really"
+ },
+ {
+  "segment_id": "s0091",
+  "start_seconds": 2851.6,
+  "end_seconds": 2885.2,
+  "text": "screwed up. And in some sense, this is, this is how autocrats screw up. This is how autocrats screw up. They, they repress, they destroy dissent in the country. And again, dissent is, democracy is, in fact, greatest advantage, as we have dissent. Dissent is, is how humanity moves forward. Dissent is the most important part of the human experience. But they destroy dissent, they repress dissent, they kick it out of the country, they jail it, and so on and so forth. And then they lose feedback. So, you know, I've read a million times over, and I think"
+ },
+ {
+  "segment_id": "s0092",
+  "start_seconds": 2885.2,
+  "end_seconds": 2919.72,
+  "text": "there's a lot of truth to it, that Putin legitimately believed that, you know, if he invaded, he'd win, that he would be welcomed as a liberator, that, that he would have support, and so on and so forth, because he destroyed dissent. Because he threw out anybody who would tell him the truth, you know, and he put himself in an isolated box where he could no longer get at reality. And now he's thrown out two decades of, you know, what, from the evil standpoint, is a very impressive work on his part. What is co-opting a former German chancellor,"
+ },
+ {
+  "segment_id": "s0093",
+  "start_seconds": 2919.72,
+  "end_seconds": 2954.68,
+  "text": "co-opting a former Gerhard Schröder, you know, co-opting a former French PM, you know, François Fillon, co-opting multiple European leaders, co-opting, you know, law firms, co-opting American business, co-opting Google and Apple to censor the election, and so on and so forth. He, he really had the thumb on the West, and the West could not figure out how to respond, because entrenched interests were serving him. And that's, that's Russia, right? That's, that's an economy"
+ },
+ {
+  "segment_id": "s0094",
+  "start_seconds": 2954.68,
+  "end_seconds": 2984.72,
+  "text": "that's not China, you know? With Xi, it's even worse. As you say, other dictators, with Xi, companies really rely on that market, and will do much of what the CCP says, will lobby Congress on behalf of the CCP in order to maintain market access. There was an excellent story about that recently, and so on and so forth. So, it's even worse in those cases, and yet Putin threw it all away, threw it all away, because autocracy at the end of the day is self-destructive. It is, you"
+ },
+ {
+  "segment_id": "s0095",
+  "start_seconds": 2984.72,
+  "end_seconds": 3017.72,
+  "text": "know, and thank goodness for that, in one sense. In another sense, it's an awful price to have to pay, right? I mean, it's, and the Ukrainians are paying it, and it's awful. I'm glad that we're united now. I'm glad that we recognize it now, but I wish it didn't take this. So, I'm hoping that we really take a good, hard look at ourselves, and say, okay, it's not gonna ever happen again. We're not ever gonna pay this price again. We're not ever gonna let anybody else pay this price for us. It will not happen with Taiwan. It will not happen. And I hope"
+ },
+ {
+  "segment_id": "s0096",
+  "start_seconds": 3017.72,
+  "end_seconds": 3048.76,
+  "text": "that the West is absolutely, 100% certain we will not let this happen with Taiwan. We will not let it happen with any other democracy in the world. We will not let it happen again. And, you know, Xi, who has similarly destroyed all dissent, has destroyed feedback, you know, there are things that you can't ignore, even as a dictator, even as a dictator that's purged dissent. He's got to be looking at Ukraine right now and thinking, wow, wow, you know, this was"
+ },
+ {
+  "segment_id": "s0097",
+  "start_seconds": 3048.76,
+  "end_seconds": 3081.0,
+  "text": "this was supposed to be, I endorsed this invasion, this was supposed to be a quick operation, a blitzkrieg. Putin told me this is a blitzkrieg, and yet we're over 30 days now, and it's a quagmire. You know, the Russian military has no food, no fuel, no training, is getting defeated with small arms. You know, total victory for Ukraine is possible, and Russian defeat is virtually certain to some level. It's hard to say yet what the defeat will look like, but Russia will"
+ },
+ {
+  "segment_id": "s0098",
+  "start_seconds": 3081.0,
+  "end_seconds": 3116.48,
+  "text": "not achieve its political goals, which was the, you know, submission of Kiev. So, I mean, Xi has got to be thinking, oh my God, you know, we had it wrong, we had the West wrong, they're not as subverted as we thought they were, they're not as down as we thought they were. And, you know, I mean, I think the truth of the matter is we were, until Ukraine, until the Ukrainian showed us the way. And that can really change things in democracy. So I think the answer, you know, long way of answering your question, but I think the answer is, you know, for now, we have this"
+ },
+ {
+  "segment_id": "s0099",
+  "start_seconds": 3116.48,
+  "end_seconds": 3148.72,
+  "text": "moment of opportunity. For now, we have remembered what we're about, which we're not about, you know, economic integration and commerce uber alles and whatever has been our last few decades. I mean, you know, the founding fathers, you know, did not wage a revolutionary war, and the various wars in Europe that led to democracy were not waged in order to improve GDP by two or three percent, you know, I mean, they were, they were, they were waged to fight for basic rights and"
+ },
+ {
+  "segment_id": "s0100",
+  "start_seconds": 3148.72,
+  "end_seconds": 3180.32,
+  "text": "human dignity. And that's what we've always been about basic rights, human dignity, and democracy. And now we're remembering that. And I'm really hopeful that it sticks. And I, you know, to me, in my career, I'm seeing it stick more than I've ever seen before. So I think there is a lot of good reason for hope. But it's but of course, hope is not enough. We have to work extremely hard as well. Hopefully, this this period of optimism will be leveraged for the positive for more transparency and accountability, both at home and abroad. Thank you, Paul."
+ },
+ {
+  "segment_id": "s0101",
+  "start_seconds": 3180.32,
+  "end_seconds": 3217.2,
+  "text": "This has been a fantastic discussion. And thanks for coming on. My pleasure. Thank you for having me, Alvaro. And till next time. Transcribed by https://otter.ai"
+ },
+ {
+  "segment_id": "s0102",
+  "start_seconds": 3232.24,
+  "end_seconds": 3239.2,
+  "text": "Transcribed by https://otter.ai"
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 38.32,
+  "text": "Hello everyone. Over the past two decades, the compute capabilities of single chips have grown about 6,000 times. You would expect that workloads would be six times as fast, but this is not the case. Often engineers, when they profile their workloads, they don't see much performance difference. And these chips are sitting idle most of the time waiting for data from memory. The memory wall. If you're in the business of building,"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 34.4,
+  "end_seconds": 64.92,
+  "text": "training, or serving models, this idea will explain why your workloads or your AI models don't get twice as fast when your chip chip's flops is is twice fast. It also explains why batching can help in certain workloads, and it doesn't in others. And it also explains why AI accelerators are designed the way they are. So, over the past two decades, there are"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 62.44,
+  "end_seconds": 94.4,
+  "text": "two quantities that have grown at two different rates. So, here we have the growth in log scale. And then 2006 to 2026 is the period we're interested in. So, the first quantity is computes. And here compute is measured"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 90.8,
+  "end_seconds": 121.4,
+  "text": "in terms of flops per seconds. So, for example, Nvidia GPUs in the early 2006, they were performing at roughly few hundred billion operations per seconds. While we're looking at the B200 in 2025, so this chip is able of performing like 2,000 trillion operations per seconds. So, you can see kind of how"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 117.12,
+  "end_seconds": 148.84,
+  "text": "much the growth around 6,500 x growth. At the same time, during the same period, the other quantity that have been growing is the memory bandwidth. Measured at bytes per second. And you can see here this has grown much slower compared to"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 145.96,
+  "end_seconds": 176.4,
+  "text": "the compute capabilities. And the gap that you see between these two is actually keeps widening. So, and it's roughly 7x. And this gap is what we call the memory wall. So, a faster chip does not necessarily mean faster workload, especially if we cannot feed it data as fast as you know it"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 175.32,
+  "end_seconds": 205.96,
+  "text": "needs. And that is the whole idea behind the memory wall. Additional compute does not automatically improve performance. And the reason for that is a single ratio that we call arithmetic intensity. Arithmetic intensity is defined as how many math operations you perform per unit bytes or flops per byte. And the idea here is if you're able to do many, many math operations per byte that you move from memory, you're"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 204.56,
+  "end_seconds": 236.68,
+  "text": "actually in what we call in the compute bound regime. However, if you're not able to do many operations per byte you move or you do far less math operations per byte of data that you move from memory, you're in what we call the memory bound regime. So, let's draw here a model that we call the roofline model. And what we measure here is on the x"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 231.76,
+  "end_seconds": 263.92,
+  "text": "axis we call the arithmetic intensity. And as I mentioned it's something that we measure by flops per byte. Or number of flops that you have divided by bytes. And then on the y axis here we have the attainable bandwidth."
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 265.6,
+  "end_seconds": 297.16,
+  "text": "Measured as flops per seconds. I'm going to draw here two quantities the same quantities that we draw before which is the memory bandwidth. Draw you know measured in bytes per seconds. And then we have here"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 293.92,
+  "end_seconds": 324.72,
+  "text": "the peak computes. And then the peak compute is again flops per seconds. Per per second right. So note here what we are measuring in the x axis it's something that is workload property. And these two graphs basically they intersect at this point that we call"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 321.68,
+  "end_seconds": 352.24,
+  "text": "the rich point. So for example for a B200 GPU the rich value is 281 flops per seconds. How did we measure this number? This is actually a property of the chip. Here we're in this regime we're talking about the peak compute bandwidth that the chip can do."
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 349.96,
+  "end_seconds": 381.52,
+  "text": "And this is basically your memory bandwidth. So, the idea if if you improve your arithmetic intensity, you're also improving your attainable bandwidth. How much you can do in the chips, how many flops you can do per seconds. But as you move closer to to the ridge point, you started hitting the limits of what the chip can do physically. Physically, that's the peak bandwidth of your chip. And basically, when you compute the"
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 379.72,
+  "end_seconds": 411.88,
+  "text": "arithmetic intensity, which is a workload dependent characteristics, you need to compare that against or see where it fits with the ridge point. So, let's first see where this 281 came from. On a B B200 GPU from the specs, the B200 GPU has about 2.25 petaflops per seconds"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 408.6,
+  "end_seconds": 440.64,
+  "text": "in terms of the its peak bandwidth. And then for the memory, it can do 8 terabytes per seconds. So, the way that calculate the ridge is basically I do the 2.25 petaflops divided by the 8 terabytes per seconds, and that gives me about 281 flops per seconds. And note here, just a small caveat here,"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 438.08,
+  "end_seconds": 469.72,
+  "text": "on the eight you know, the Nvidia GPU specs, it tells you 36 petaflops per second, but they're talking about eight GPUs. And this is also for the BF16 sparse model. So, what we do here is you have that, and then you divide that by eight, and that gives you roughly 2.25 that you need to look for a single GPU chips, and that's where we're getting basically this 281. So, what this means for my workload, if"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 466.96,
+  "end_seconds": 497.48,
+  "text": "my workload's arithmetic intensity is in this regime, I am memory bound. Meaning that I am not able to process as many operations as I want per byte of memory moved. If my arithmetic intensity is greater than the ridge point, in this case the 281 number, I am"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 494.48,
+  "end_seconds": 527.72,
+  "text": "compute bound. And this also explains to me what is the bottleneck that I am facing for my particular workload. Let's look at two examples. The decode and prefill stages in a large language model. In a decode stage, what we need to do is we need to read large amounts of weights from memory to generate one token at a time. If I'm using in about size of one. So, the arithmetic intensity of the"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 524.16,
+  "end_seconds": 555.04,
+  "text": "decode is usually in this regime, far left, you know, to the ridge point. And that places me, you know, in the memory bound regime. So, this is the decode workload. However, if I look at the prefill, prefill, we're doing large gem operations. And in this case, I'm doing more than"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 551.84,
+  "end_seconds": 583.72,
+  "text": "thousand flops. Flops per seconds. My arithmetic intensity is more than thousand in this case, while here in the decode, my arithmetic intensity is about one flop per seconds. So, notice here that this is way greater than my ridge point, and this places me in the compute bound regime. So, in this case, if I am in memory bound, even if I throw"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 581.04,
+  "end_seconds": 611.32,
+  "text": "more computes at my workload, it's not going to help much. I need to to get the data faster to the chip. And what technique that is used to help this problem is what we call batching. Batching, what it does is it helps basically move your arithmetic intensity, increases the arithmetic intensity, and moves moves it closer to the ridge point. What does batching do? Batching in this case, it basically allows you to serve multiple"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 609.24,
+  "end_seconds": 640.32,
+  "text": "requests at the same time. And in this case, you are actually reusing the same weights that you've loaded in memory multiple times to do multiple token generations. So, here effectively, you are doing many more mad operations for the same amount of memory that you moved, and that basically improves your arithmetic intensity and gets you closer to the ridge points and improves your performance. And this is the reason why"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 636.84,
+  "end_seconds": 667.0,
+  "text": "many mature LLM serving environments like vLLM and SGLang and TensorRTLang, they all use batching and continuous batching to basically help improve the performance. So, what you see here is the chip or the hardware has stayed the same. What has changed is the workload. And that is a very important point to notice here. So, the arithmetic intensity here is current gives you a"
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 664.88,
+  "end_seconds": 696.08,
+  "text": "characteristics of the workload and gives you an idea of where your workload sits with respect to the ridge point. And also, it helps explain where are your bottlenecks coming from. Do you need to throw more compute, or do you need to improve your memory? So, to sum up, this is the memory wall. And you know, the key idea here is to get our workloads faster, we need to move data faster to the chips."
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 693.64,
+  "end_seconds": 725.48,
+  "text": "And there are several ways that we need to understand. So first, before you benchmark, get an estimate of your workload using the arithmetic intensity to help you understand. And also get basically from the spec sheet of your hardware, what is the peak memory bandwidth, what is the the peak compute that you can get. So to get a rough idea of where you sit using a roofline modeling technique like this. And you know, this way you understand where you need to optimize your you"
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 723.56,
+  "end_seconds": 729.96,
+  "text": "know, spend more time to optimize your workload. And thank you for watching."
+ }
+]

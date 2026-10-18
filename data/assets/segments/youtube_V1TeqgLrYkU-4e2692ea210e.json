@@ -1,0 +1,26 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 30.7,
+  "text": "Drago's platform's newest AI module, EmberAI, enables guided incident investigations and resolution. From alert investigation to operational response, let's break down a scenario. Looks like a Severity 4 alert just fired, so we ask EmberAI. Let's investigate alert ID 225151. The investigation summary comes back. A malware detection caught a file transfer between two assets in the same network zone,"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 30.7,
+  "end_seconds": 62.88,
+  "text": "an enterprise management server and an OT asset. The activity's been aggregated 11 times over the last two weeks. Next, we ask, what do we know about this malware? EmberAI walks us through the malware's known propagation techniques, capabilities, and ICS-specific risks, including Drago's research on this malware compromising an OT installer in the wild. Worldview customers can dive even deeper. Now we ask, walk us through the response playbook."
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 62.88,
+  "end_seconds": 96.52,
+  "text": "EmberAI surfaces the full playbook authored by Drago's experts, offering recommendations grounded in Drago's expertise, not generic IT advice. Last, we ask, write me a report I can roll up to my team. A full incident report, including summaries of affected assets, a threat overview, immediate actions and next steps, including a call-out to assess segmentation between IT and OT networks. From alert to action, with the intelligence to respond."
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 96.52,
+  "end_seconds": 101.28,
+  "text": "See how EmberAI can ignite your team. Get a demo at dragos.com."
+ }
+]

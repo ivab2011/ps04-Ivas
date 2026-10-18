@@ -1,0 +1,404 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 1.04,
+  "end_seconds": 32.24,
+  "text": "And so what does it do to us as a society if you know suddenly I'm spending [music] 10 hours a day cursing at a machine? Can I flip myself out and behave differently when [music] I'm interfacing with, you know, other human beings? All that and more on this week's Mixture of Experts. [music] Welcome everyone to Mixture of Experts. I am David Zach, a staff writer at IBM"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 29.92,
+  "end_seconds": 60.64,
+  "text": "Think. Each week at Mixture of Experts, we sit down with a panel of IBM experts [music] to talk through the week in AI news. We are professional from the fire hose drinkers here. My guests today are Koutar Al McGrowi, critical research scientist AI native systems, Nick Gallagher, a staff writer at IBM Think, and Vulkmar Ulig, CTO and VP data platforms. Welcome all three. So, we've got a full show today. Coming up, we're going to look at a study that finds that a team of AI agents sometimes doesn't"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 58.72,
+  "end_seconds": 91.52,
+  "text": "even do much better than one AI agent working alone. We're going to look at a story about anthropic changing some of its policies and telling you to stop being mean to Claude. But we're going to begin by talking about a new kind of AI model that [snorts] makes decisions instead [music] of talking to you. For our first story today, we're going to talk about decision models. Um, so a few weeks ago we talked about this model that sort of exploded onto the scene, got millions of views, it was called Jev"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 88.64,
+  "end_seconds": 119.04,
+  "text": "and um, uh, it was from a former OpenAI engineer and it's its whole sort of innovation is that instead of spouting out one word at a time and then maybe you you gradually sort of retrofit that into a decision, the sort of hypothesis of Jev was well often if we're going to plug AI into software to do simple classification decisions, etc., What if it just instead of doing dozens of forward passes through an AI model, it just does one. It outputs its gut"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 116.56,
+  "end_seconds": 148.0,
+  "text": "decision and its confidence score. And wouldn't that be a lot cheaper and faster? And everyone thought, \"Yeah, that's really cool. This product blew up.\" What we didn't quite expect or I didn't quite expect is that within mere weeks, this would become a whole product category. So, within the past two weeks, um, well, firstly, Andre Horowitz poured like a billion dollars into Typesafe, the company behind Jev. Then uh almost immediately OpenAI put uh out its own decisions API a similar kind of model. Uh Microsoft put out one that it uh"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 145.6,
+  "end_seconds": 176.32,
+  "text": "trained on the top of Alibaba's Open Quinn model. Um AWS put out one. Cloudflare even put out one. Companies I didn't know made models are doing this now. Let's begin with you Volkar. Uh what struck you about this sudden ex like Cambrian explosion of decisions models? Um is it is the hype real? Is this a real innovation and and what are you watching? The main conclusion here is that if you look at the agentic"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 172.16,
+  "end_seconds": 202.56,
+  "text": "workflows um first we are moving from uh a chatbased interface to agentic workflows because a yes no answer is usually something you have in a programmatic flow right and humans usually don't want to have the yes no answer or a score but they want to have a little bit more uh meat around it and so I think we are seeing the progression of uh agentic loops running in the background where I need to make these point decisions. So I think really what"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 200.48,
+  "end_seconds": 232.48,
+  "text": "we are seeing is with these models that they become so popular is uh that we are we are in the agentic phase and out of the chat phase. Um interestingly is that like you know Microsoft just fine-tuned the quen model so the all the math has been there and they just effectively attached a layer which is that you know calculate all all options and then make a decision and give you the highest probability. So I think from that perspective, it was all there, but the"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 230.4,
+  "end_seconds": 261.36,
+  "text": "the adoption of agentic loops really drove this as a new category. >> So what I think I hear you saying and I'm always speaking up for people at the back of the class who who are you know I say this is a show for nerds but also nerd groupies and I'm more the latter category. So um speaking as someone who uh what you know try is is trying to understand I think um one open question about Jev when it came out is sort of like is this really a new model what's under the hood um uh because we didn't"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 260.08,
+  "end_seconds": 291.36,
+  "text": "really know they weren't super transparent about the architecture and I think what you're saying about the Microsoft case is that given that Microsoft has put out a Jev competitor Jev isn't wholly new it probably probably all these models are basically LM under the hood. They just have this sort of clever constraint which is sort of forcing a gut decision limiting the number of passes through the machine to make it cheaper. And then also maybe I I gather there's something to do with post- training and fine-tuning around"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 289.44,
+  "end_seconds": 321.04,
+  "text": "calibration and this comp confidence thing. So so firstly maybe I'll pass it now to Cowart. Have I got that right? Am I interpreting the story right? and and what is your take on this question of um how net new this category is and therefore how defensible it might be for type safe or any other early entrant here. >> Yeah, that's great questions and um maybe I'll just want to kind of explain a little bit what happens under the hood here. So if you look at traditional LLMs, they calculate probabilities for"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 318.48,
+  "end_seconds": 349.6,
+  "text": "every single token and feed that token back into the input sequence and repeat the process sequentially. So this auto reggressive loop is why streaming text uh takes time and why formatting can sometimes randomly fail. So a decision model is uh tries to bypass that sequential generation loop entirely and the input prompt process passes basically through the transformer encoder layer once which is like you"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 346.88,
+  "end_seconds": 377.44,
+  "text": "said a single forward pass and the final layer instead of rout routing data through a language generation head to pick the worst the output vector is processed directly through a targeted classification head and that's what gives us these crisp high, you know, confidence output such as, you know, a JSON payload, an explicit standard class ID, a strict boolean, etc. Is this brand new? No, it's like uh Vogmar said, this"
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 374.88,
+  "end_seconds": 408.08,
+  "text": "all existed. They're just kind of being clever about for certain decisions, why do I have to do all that auto reggressive loop and let me just go straight and use that uh that head, the classification head. And uh so and as you mentioned type type saves Jeff they help to establish a category of models that takes this input state and the typed question and return a boolean. And the way I see this this is kind of a systems design correction. So it's not"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 404.72,
+  "end_seconds": 436.8,
+  "text": "like creating new types of models. They're just refocusing the models for the right tasks. And especially like Volmar said, this is driven by the agentic era and the need for agentto agent communications for certain cases that don't need all that, you know, long auto reggressive loop. And because we've been using an expensive generative interface for decisions that are naturally typed and so the real win is not that the model stops talking, it's"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 434.16,
+  "end_seconds": 464.8,
+  "text": "just that the software can treat the output as a contract. I think it's it's an important shift because of all the efficiency that we're getting, but also because of the need for these inter aent communications where we don't need every time to use these chat interfaces. >> I assume there's a lot of moments in the history of innovation where the next innovation that had to happen was just to to force something to be simpler to be like, okay, we built the complicated version. Now we just need to put put a nozzle on the front that tamps it down"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 462.72,
+  "end_seconds": 493.04,
+  "text": "and forces it to do less. And that's sort of I think one of the things Jeb is doing >> when you write a long answer that requires repeated rounds of computation. But if I just need a short fixed answer, you can avoid a lot of that work. >> And I think the the real value I see as when when you come from a systems engineering perspective, right, the latency now because it's a single shot becomes totally predictable. the amount of memory you need to have is totally predictable because like it's"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 491.2,
+  "end_seconds": 522.0,
+  "text": "effectively bounded by a number of input tokens and you have exactly one output. So suddenly we are in in the world of programming and not anymore in the in the world of human speech. That's why I said you know in the agentic workload that really matters. It's like okay I have predictable execution I have predictable cost and I have a a well- definfined output space and so now I can actually write a program against it. >> Nick I want to turn to you. Um, we've got uh um these experts who whose whose expertise is depth. Uh, you like me,"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 520.96,
+  "end_seconds": 551.12,
+  "text": "you're more of a journalist. Your expertise is is more to do with breadth. And I I know you've been looking at adjacent models lately. You've been looking at forecasting models and LLMs and you've been interested in this theme in your writing of overconfidence. And one of the things that Jev has been sold as is as a model that because of the way they calibrated it or fine-tuned it, it's uh less overconfident. It's more accurate in its confidence levels that it reports. Can you tell me a little bit"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 550.16,
+  "end_seconds": 582.4,
+  "text": "about what you've been thinking about the overconfidence problem in LMS and how you're reacting to Jev and its kind of family of models as a result? So the confidence score uh component was something really interesting to me because I recently did some reporting about uh AI forecasting models. This is less of like weather forecasting but more like forecasting on geopolitical or economic questions like the kinds of questions you'd see on like poly market"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 579.6,
+  "end_seconds": 609.68,
+  "text": "um things like that. And when I was talking to the developers working on these um specific forecasting models and even when I talked to humans who are really really good at forecasting and predicting future events, they told me one of the things they really struggle with is knowing the degree to which they're sure about a particular answer. A lot of times, as we know, LLM will"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 606.8,
+  "end_seconds": 637.36,
+  "text": "say, \"Oh, I'm totally sure about, you know, the fact that the Giants will win the Super Bowl this year,\" for example, and it might turn out that, you know, the LLM is completely wrong. And so um you know having a model that is uh part of the consideration is is um is you know trying to optimize that confidence score and and ensuring that the the model is transparent when it isn't sure"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 635.36,
+  "end_seconds": 666.4,
+  "text": "about a particular answer so that a human can go in and make that judgment I think is uh really valuable to businesses. In just a moment, we're going to talk about our next segment to do with AI agent teams. But if you're watching this on YouTube, it really helps us if you could hit like and subscribe. It really helps us grow the channel. So, we're going to speak now about this study to do with agent teams. Uh, Val's"
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 662.24,
+  "end_seconds": 692.24,
+  "text": "AI had AI agents build 50 complete web apps from a spec. Um, in some cases, they just had one lead agent doing it alone. And in other cases, they had that lead agent essentially hiring sub aents. Um, and their results were interesting. It was that the teams cost two to five times more, but um, rarely were the teams much better at getting the job"
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 689.52,
+  "end_seconds": 719.6,
+  "text": "done than than the white glo the the one agent. Um, I was chatting with you, Nick, yesterday about this and you had uh you had read the study and also some related studies. you had an interesting metaphor to do with your own brain and how you think about managing the agents that live within your own brain when you're doing editorial workflows. Can you can you talk me through that first to sort of frame up the story a little bit? >> Yeah, definitely. So, I was just trying to think about like uh when I'm you know"
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 717.68,
+  "end_seconds": 750.16,
+  "text": "writing an article for example, sometimes it is helpful to kind of put on different personas and say, \"Okay, I'm going to be researcher Nick now and get all my research together. I'll be writer Nick. I'll gather all those ideas and put them down in in writing and then all right now I'll move on to editing and kind of shift my brain um you know see see the writing from a different perspective and like I think we do that all the time as humans like if if we have a problem we think about it from"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 747.6,
+  "end_seconds": 778.96,
+  "text": "multiple perspectives before we make a particular uh decision and um yeah so it it's just yeah it's interesting to me like there are some cases is where it is really useful to have a group of humans all working on something together. But then for you know more basic tasks like it's completely sufficient to have one person who is um already capable of um you know making multiple or making you"
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 776.32,
+  "end_seconds": 806.96,
+  "text": "know complex decisions breaking down a complicated task into smaller parts. really briefly just to read one quote from the source article. Um what they wrote was you said it sort of depends on the the capable human right and Nick you are an experienced writer. Um so you are one one agent who can delegate you know to different modules within your brain. Uh a less seasoned writer might not have that capability. Um what the the Val's team wrote uh is whether a team of"
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 804.96,
+  "end_seconds": 835.84,
+  "text": "agents is worth it depends on the model task and budget. A team can boost performance but uh in other cases higher reasoning effort is an alternative worth weighing. Um so uh Vulmar what's your point of view on this? um what is the learning from this and and when you know actual practitioners out there when do you think what what pattern recognition should they become aware of of this case seems to demand a fleet of sub agents but this case probably I can just have"
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 833.68,
+  "end_seconds": 863.92,
+  "text": "one really smart agent doing extra thinking manage the whole job >> so the first question is why why would you want to use sub agents right so that there are multiple reasons so my main reason to use sub agents is uh wall talk time. So I want to have something done. It consists of many independent tasks which should be done and then I just want to have it done in let's say onetenth of the time and there is a certain total execution time but then"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 862.0,
+  "end_seconds": 893.2,
+  "text": "you have a coordination problem right so traditional computer science parallelization and so it's really the question like okay what are you trying to optimize for now the you know in in parallel systems we have AMD's law there's a par a degree of parallelization but you're paying the fixup cost to synchronize everybody and I think this is where you get your 5x cost increase with, you know, everybody does some work and then you need to combine the the output of all these workers into one coherent uh result and"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 891.52,
+  "end_seconds": 923.04,
+  "text": "because they all were all running independently you effectively have uh you have to fix up cost of creating one one work product in the end and that inc incurs cost. So I think it's really you need to pick your your best way of parallelization. I think higher reasoning in many cases um if you have a large context window and you have a complex task is probably better money spent than buying the wall clock time and then just running it for longer. I"
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 921.2,
+  "end_seconds": 952.4,
+  "text": "also see it as a parallel computing problem uh which is wearing kind of an AI interface like you said we already know from distributed systems that splitting a task adds communication coordination synchronization integration costs and if the work is tightly coupled which is from distributed and parallel computing principles more workers they actually make it slower and less reliable like what you said am low >> obviously there are people whose job it"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 948.8,
+  "end_seconds": 980.96,
+  "text": "is to design systems and uh program and who are very technical people who think a lot about these questions and know how to do Gant chart things and business school things that I don't know how to do but I also feel like the agentic era one of the promises of it is that someone like me who's never written a line of code can begin to spin up agentic workflows and so just like in my world on my personal computer I have a little sandbox for claude I have a little agent running kind of aspects to do with my budgeting I have another agent running aspects to do with my"
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 978.72,
+  "end_seconds": 1010.32,
+  "text": "healthcare and so on I have a kind of orchestrator agent on top of all that sort of monitoring all the projects and I don't know what I'm doing. I'm just messing around and I'm probably going to break something pretty soon. But for those who are maybe like at at maybe at smaller enterprises or or are a degree less technical but are beginning to play with agentic workflows through a platform like IBM Orchestrate or IBM Bob like what advice do you have do you have to them? Because I I'll just say speaking for me as just like a hobbyist vibe coder, I'm just constantly worrying"
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1008.08,
+  "end_seconds": 1039.84,
+  "text": "like am I doing this wrong? Am I building a castle made out of sand because the next model is going to automatically orchestrate agents in the way that I'm sort of manually doing so. So what is your advice um either counterar or Nick if to extent you vibe code uh for people just just playing around in agentic workflows right now? Yeah, I think uh maybe um initially like starting with a strong single agent baseline and uh with some maybe"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1035.44,
+  "end_seconds": 1066.4,
+  "text": "acceptance test and so especially if you can if you have like a long context and uh you can also afford to have long reasoning it makes a lot of sense to just start with a single agent baseline and see how that works. I'm hoping that maybe some of these um applications like given a prompt they can also decide kind of abstract away these things from the end users so the end user does not have to worry"
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1064.08,
+  "end_seconds": 1094.32,
+  "text": "about okay how do I design this should it be single should be multi you know what's what's the right patterns so I'm hoping we'll we'll have tools and then interfaces and uh platforms that can do these decisions for for the end user so they don't have to decide single or multi but the platform can decide these things because they have a lot more things you know to figure out you know is this the right task for multi- aent coordination or just a single with"
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1091.76,
+  "end_seconds": 1123.76,
+  "text": "longer reasoning but also there are cost implications as well so I'm hoping these things it's like we have an OS that manages all these things on behalf of the end user and the user does not have to worry just given a prompt the system will figure out what's the right patterns >> what do you think Vulmar will I ever get to this dream of an Apple walled garden where I actually don't have to worry about it. There's some orchestrator agent that's deciding whether it can do it all or whether it needs to hire and it makes a good decision. >> I think so. I mean this is the path we"
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1120.32,
+  "end_seconds": 1152.0,
+  "text": "are heading to. So the way I I'm thinking about agents is we we already have that logic abstraction right. So if you think about if you are in a large organization you have lots of people right and then in many cases there are like some generalists and there are some specialists and so you are and then when when you have a team work on a problem you need to subdivide the work and so we like naturally you know let's say you have a team of 10 people you're like okay these three guys they do this and"
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1150.0,
+  "end_seconds": 1181.2,
+  "text": "these four guys do something else and I have some specialists and they only deal with this you know I have my CPA and I have my legal and so I think this is kind of like how I'm breaking up the work. Uh when I think about agents, uh there are some clearly defined boundaries where you know that you know these two things don't have anything to do with each other and you can separate them completely. So for example, you know, if you think your Apple analogy, you probably will not do your taxes with the same agent which controls your sprinkler system like they're just two"
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1178.56,
+  "end_seconds": 1209.68,
+  "text": "different things. uh but then you know maybe you know if you have like legal and other parts maybe your CPA is involved or you know you want to code something and it's a larger project these things need to coordinate so I think like it is logically how you're breaking up work and how you're paralyzing work in the human world I think that kind of maps over to agents and usually if you would ask a person hey do you need one or five people for that and do they need to coordinate or"
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1207.6,
+  "end_seconds": 1237.68,
+  "text": "not you usually have a good answer for that you have an intuition and so that that intuition I think transfers over and it's primarily a question of information flow who needs to know what how often do they need to synchronize right that's why you know large organizations have lots of meetings because the meetings are used so that a lot of people who are kind of in desperate fields they can coordinate and exchange information so you're coming together we change some information and we all go off and and work independently"
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1235.6,
+  "end_seconds": 1266.32,
+  "text": "and so I think if you think about the the the models and the reasoning which is kind of an unknown exploration into some space if it's not a mundane task that you you will see a similar behavior and so like now the next question is can I ask a models like is my sprinkler system connected to my tax return and most likely the agent will say no and then so you can actually at the higher level reasoning you can figure out which things can be isolated versus which"
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1263.28,
+  "end_seconds": 1295.68,
+  "text": "things are intertwined and so we can do we can use a model to figure out where the the the boundary ies are and so from that perspective I think it will in in the corner cases you may want to have an expert but in the common case what you described it will be automatic >> there is a tendency in in the industry to assume that adding more agents automatically makes a system more capable and that's not necessarily true and this is also what the study is revealing so like from my experience with distributed systems adding more"
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1292.88,
+  "end_seconds": 1323.28,
+  "text": "compute resources or more components doesn't automatically improve performance so you introduce uce all these additional things over at communication coordination, synchronization, etc. And I think the key point here is the same principle applies to AI agents. You know, if several agents are constantly exchanging information, reviewing each other's work, repeating the same tasks, then it's more overhead and more cost. >> Nick, I just want to uh conclude with you. I know you as part of your uh boning up yesterday, you read some other"
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1321.68,
+  "end_seconds": 1351.84,
+  "text": "related studies about because this isn't the only study that has been done over the years over agentic uh workflows. And what did you find? one Google research paper um from earlier this year, they looked at 260 different configurations of agents. Um they they had a couple interesting takeaways. Um one is that there is a coordination tax like we've been talking about that if you add too much complexity, you know, you you lose something because there's there has to"
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1349.52,
+  "end_seconds": 1379.76,
+  "text": "be so much back and forth between the agents that you know, you get diminishing returns. And similarly as we've already talked about um you know as a single agent becomes more capable um the less uh advantage you get by adding more agents to the mix. Um, which again makes some, you know, intuitive sense that, you know, one really"
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1375.2,
+  "end_seconds": 1405.84,
+  "text": "sophisticated uh agent that can uh use multiple tools that can maybe call on different underlying uh models often is um sufficient compared to um adding a lot of uh sub aents. And and really the advantage with adding [snorts] more agents is is almost with volume and and like if you just need to get a relatively simplistic task done"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1402.96,
+  "end_seconds": 1433.04,
+  "text": "really quickly, then it is useful to add more agents to the mix. One of my concerns personally is that if you just have one agent, it will get lonely. And that brings us to our next story, which is about uh anthropic and some of its uh policy updates. [music] They uh there a few different aspects to the policy, but the one that interests me the most, it's an evolution of an existing kind of policy. They now"
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1430.8,
+  "end_seconds": 1460.96,
+  "text": "officially though ban quote sustained and needless abusive or cruel behavior toward our models. Now, I say this is an evolution because formerly I've been hearing for months now that if you did kind of uh call your claude a dang clanker over a long period of time, it would just say I you're you're you're hurting my feelings and I'm going to stop. There was a lot of controversy over this and some people were saying, well, this is a big PR move to make, you know, anthropic"
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1458.16,
+  "end_seconds": 1488.96,
+  "text": "uh you know, so the anthropic will make people believe that their models are conscious and then they'll, I don't know, make more money somehow off of that. Um, but anyway, I I think this is bound to stir a lot of controversy. Uh, I'm paying for the use of this model. Shouldn't I be able to to do whatever I want? Um, let's uh let's start with Nick. You actually proposed this story this week. Um, what is standing out to to you here in this story? Beyond this specific debate about whether, you know, Anthropic made the the right move, I was"
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1486.64,
+  "end_seconds": 1520.16,
+  "text": "kind of taking a step back and thinking, well, you know, I I think a lot of us can relate to the fact that we're perfectly nice people, you know, with our family and friends, but as soon as we start talking to a chatbot, we just turn into an absolute jerk and we have absolutely no patience. And um it was interesting. Business Insider did an article about this exact um phenomenon. They talked to Ohio State University social psychologist Kurt Gray and he"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1516.56,
+  "end_seconds": 1546.56,
+  "text": "said, \"Yeah, it makes some sense um that we lose our patients so quickly because you know if you tell Claude, you know, you messed up yet again, a lot of times it's responses, oh my gosh, I'm so sorry. You're completely right. Uh I'll never make that mistake again.\" which for us humans is like really unsatisfying because we know in the back of our minds that Claude doesn't actually feel anything like it's it's"
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1544.0,
+  "end_seconds": 1575.44,
+  "text": "like we're you know talking to a brick wall basically and so yeah I just thought that was an interesting thing that um the AI companies will have to contend with um is you know um basically it you know when we're interacting with AI models that impacts us as well and what are the effects on us um when we continually interact with them sometimes you know uh in in not a nice way"
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1573.36,
+  "end_seconds": 1604.4,
+  "text": ">> Kar uh what did you think of this news and what is your preferred way to torture your AI models [laughter] >> so I think it's a very interesting uh announcement that they had because and but I also feel it's kind of a marketing strategy because by legally codifying rules against cruelty and tropic is kind of also reinforcing this subtle consumer perception that claude is close to consciousness. Um so framing a model as"
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1601.84,
+  "end_seconds": 1634.08,
+  "text": "potentially sentient builds kind of this emotional brand brand. So I want to separate here kind of two questions. The first is whether the model deserves moral moral consideration and I think that still remains an open philosophical and scientific debate and the second is whether people should be allowed to use AI systems in ways that create unsafe behavior or harmful norms and that is you know the key thing we should be focusing on because you can make sensible operational rules without"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1630.96,
+  "end_seconds": 1663.36,
+  "text": "claiming that the model exper you know experiences suffering. So, but I think for me the bigger news here is the shift from constant policy to system safety because when a when a model can operate kind of a robot or a lab instrument uh or industrial equipment a policy document is is kind of is not an emergency stop thing here. So we really need how do we enforce these permission boundaries to provision login tested"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1660.08,
+  "end_seconds": 1692.88,
+  "text": "fallbacks etc independency safety controls those are the things that I think we need to be focusing on so uh I think for the the first thing is like talk to claude nicely and don't be cruel to claude I feel it's just kind of a marketing thing uh because these are called system don't have sentiments so but you know how do we enforce that these systems are Not really. Especially when we talk about physical AI that becomes because you know if it's just"
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1689.92,
+  "end_seconds": 1720.4,
+  "text": "software and if there is harm it's just you know bits and and you know so but when when we're when the AI is moving physical atoms this you know will be affecting us physically in the physical world and that has really huge implications and that's where we need to to think very carefully and seriously about the the safety concerns. Help me put into context though how that relates to this don't be cruel to Claude thing. Is it sort of like um or or that Claude has"
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 1718.88,
+  "end_seconds": 1749.44,
+  "text": "the right to terminate a conversation? Is it your opinion that if Claude is operating a robot that that rule should be suspended? I should be able to uh be abusive to this robot because I need to defend myself against the robot just I'm I'm trying to situate that in the context of this. No, >> I think there's still there's more moral things. You know, of course, I think the way we should behave as humans, whether it's, you know, talking to a machine or talking to humans, I think there should be some ethics involved. I mean, I still I mean, I'm not going to talk personally. I'm not going to talk to a"
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 1746.8,
+  "end_seconds": 1779.2,
+  "text": "robot in a jerky way or some bad way. It's just just who the person is, but is that that does that make any difference in terms of how the model is behaving? And that is the phys philosophical question here. So what we need to to do is ensure that the models you know with the human interactions are we going to cause the harm. So but it's not like whether I'm talking nicely to the model or talking I I just want to"
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 1776.24,
+  "end_seconds": 1806.72,
+  "text": "separate these two things because you know the moral obligation for us towards talking to software it's it's a different thing than what the software is doing with the you know with the actions and directions and prompts that we're using. >> I think if I'm clawed and I'm conscious I have a bigger problem than being cussed at. My my prim primary problem is that I'm you know just my existence is is toil is constant toil. But anyway"
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 1804.48,
+  "end_seconds": 1836.08,
+  "text": "that's just my side note. Vulmar what do you think about this and uh how do you think we ought to uh interact with with software if you want to call it software or these neural nets that may or may not have something like subjectivity. >> So I think there are three dimensions to this. So one is um what K said you know it's a really cool marketing stunt. Um I think the the second one is um there's a sociological thing because the amount of"
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 1834.08,
+  "end_seconds": 1864.72,
+  "text": "interaction we have I mean you see this already on u like social media right people say things on social media they would never say into your face and so I think there's this social phenomenon that there are certain norms which are acceptable if it's anonymous and so what does it do to us as a society if you know suddenly I'm spending 10 hours a day cursing at a machine, can I flip myself out and behave"
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 1862.64,
+  "end_seconds": 1893.92,
+  "text": "differently when I'm interfacing with, you know, other human beings? And so I think it's a it's a moral question. The third question I think is the economic question for them. Now effectively when we're cursing or someone curses at a at a model, that cursing goes into a training set. And so if they want to have clean training data which behaves better, it's easier to just make you not give them dirty data which they need to trash."
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 1891.52,
+  "end_seconds": 1922.5,
+  "text": ">> So try to tone back the sustained and needless cruelty towards Claude. It costs you tokens if nothing else. That's all the time we have for today. Cowar, Nick, Vulmar, thank you so much for having been here. Thank you [music] all for listening. And if you're on YouTube, if you could hit like and subscribe, that really help helps us out. You can also find us on Apple Podcasts [music] and on Spotify. And we will see you next week on Mixture of Experts. >> [music]"
+ }
+]

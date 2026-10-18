@@ -1,0 +1,746 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 30.74,
+  "text": "Hi, I'm Nick Martell from the Best One Yet podcast. Fact, laundry, it's the ultimate zombie chore. It's relentless, it regenerates, and it's always rising from the dead right before your plate is already full. That's not just a time suck, it's a mental load that eats into your headspace. Rinse is more than a laundry service. It offers clarity, it's premium, tech-driven solution built for the living. We're talking a seamless blend of smart scheduling and high-quality garment care, from dry cleaning to specialized hang dry for your delegates."
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 30.74,
+  "end_seconds": 62.5,
+  "text": "They handle the operational complexity so you can focus on the ambitions that actually move the needle. So stop managing the mundane and start imagining the possibilities. Schedule at rinse.com, rinse. It's time to be great. You're always on the move. School drop-off, back-to-back meetings, catching the game with friends. Being on the move means juggling a lot. It can also mean making a lot. Because when you move your money to citizens, you can earn a significant cash bonus. Just how much? Check out citizensbank.com slash make more"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 62.5,
+  "end_seconds": 92.74,
+  "text": "or head to your nearest branch to find out. But move quickly. This offer is only available for a limited time. Offer available on select new accounts. Qualifying balance deposit activity requirements and additional terms and conditions apply. Member FDIC. Boop. I think it's gonna be really interesting to see if these cases get into court, what judges actually do. And I think there's a serious possibility that they're gonna end up being less deferential to the executive branch on claims involving economic national security issues."
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 93.7,
+  "end_seconds": 124.78,
+  "text": "It's the Lawfare Podcast. I'm contributing editor Peter Harrell. For today's episode, as part of our security economics series, I'm joined by two law professors, Ashley Deeks of the University of Virginia and Kristen Eikenser of Harvard, to talk about a recent article they wrote on what they call the new command economy. I think what we've seen recently is that the U.S. government taking shares in companies in a way that actually creates conflicts for U.S. government officials."
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 124.78,
+  "end_seconds": 155.54,
+  "text": "So it is a conflict of interest when senior Trump administration officials either own or buy shares in companies that are receiving U.S. investments. The Security Economics Podcast explores the intersection of national security and economics. We talk a lot about the individual tools the government is deploying to position the American economy to deal with strategic competition with China, export controls, equity stakes in companies, a raft of new tariffs, investment screening,"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 155.54,
+  "end_seconds": 185.62,
+  "text": "and sanctions, just to name some of the most prominent. Kristen and Ashley have pulled these tools together into a coherent theory about rising government control over the economy, what the risks are, and how we can ensure that this new command economy still reflects core legal values. So it is such a treat for me to have you on not only because I've known both of you for a number of years and had the chance to work with you both, but also because you have an article out"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 185.62,
+  "end_seconds": 217.3,
+  "text": "as well as some other writing about what you characterize as the new command economy or NCE, which I think is just a really interesting framing for the developments we have seen over the last several years across trade policy, across supply chains, across export controls, across the new government, equity investments, and other tools. What do you mean though when you write about the new command economy? Yeah, thanks, Peter, and I'll just start by saying thank you for having us on."
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 217.3,
+  "end_seconds": 247.5,
+  "text": "There's really no one I'd rather talk to about this on a podcast. You've dug deep on all of these issues, so thanks for having us. So I think as many of your listeners will know, a command economy is one in which the government is playing a key role in the economy by creating and funding companies, deciding what resources get allocated to the companies, what the companies produce, how much they sell it for, and who ultimately receives the goods."
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 247.5,
+  "end_seconds": 277.82,
+  "text": "So it involves a high level of central planning. It involves public ownership of companies and produces limited competition in the particular sectors. So communist parties, Soviet Union in particular, used command economy at points. China has had a little bit of one, although today it has moved closer to what people tend to call state capitalism. And of course, various countries, including some in the West, have what are called state-owned enterprises"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 277.82,
+  "end_seconds": 309.3,
+  "text": "in fields like aviation or national carriers, trains, utilities, where monopolies kind of make sense. But in general, command economies stand distinct from capitalist economies like ours. So we landed on this term for our article after watching the U.S. government acquire all of these equity shares in a range of companies, watching the U.S. government really start to focus on and care deeply about supply chains and wanting to make sure that the U.S. government"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 309.3,
+  "end_seconds": 339.98,
+  "text": "and others inside the U.S. have access to various goods. And more generally, I think we wanted to kind of identify this deeper U.S. government involvement with different facets of corporations in the national security space, including the government using companies to enforce laws and policies on other companies, using them as proxies for the government and the national security space. So we use the term to be a little bit provocative. We're not actually claiming that the U.S. government"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 339.98,
+  "end_seconds": 373.22,
+  "text": "runs all aspects of the U.S. economy. It clearly does not. But the government is really more deeply engaged in it than it has traditionally been. And I'll just say finally, in using the term and using the phrase command economy, we do mean to kind of incorporate some of the critiques that have been longstanding about command economies, focuses on their inefficiencies, focuses on these pervasive opportunities for corruption and self-dealing and reduced market-based constraints. So we want to kind of shepherd those critiques in as well."
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 373.22,
+  "end_seconds": 404.86,
+  "text": "And I'm sure we'll talk more about why that is. Ashley, let me ask you a quick follow-up on that because you mentioned that China has moved towards a state capitalist model, maybe being more of a command economy earlier in its existence. And realizing, I think when we use all of these phrases about the United States, there is an element to be a little bit provocative, a little bit thought-provoking, but do you see the new command economy and Chinese state capitalism as kind of the same concept"
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 404.86,
+  "end_seconds": 435.82,
+  "text": "or do you see those as distinct concepts? I think that it's, I'd say on a continuum where I would say, and I'm not an expert in the Chinese economy, but my understanding is that China really touches kind of all of the aspects of all of the companies in China. The state capitalism idea, I think relates to having opened up a little bit, allowing the companies to decide themselves more who they're gonna sell to,"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 435.82,
+  "end_seconds": 466.9,
+  "text": "how much they're gonna sell, what they're gonna produce and allowing some competition. In some cases, a lot of competition to rise up in a way that you did not see in a true command economy. And in the way that we're using it, I think it's what we've seen so far is that in particular areas, semiconductors, rare earths, some other kind of military related equipment, the US government is starting to look a little more kind of state capitalist,"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 466.9,
+  "end_seconds": 496.9,
+  "text": "but our government does not have its fingers in the pies everywhere. That said, the scope of companies that are involved in and implicate national security here in the US are expanding and I think we'll wanna say a little bit more about that as being a trigger for kind of why we wanted to write this piece. So let me ask you another question. One of the things I think is interesting about your paper, your paper not only talks about the way in which"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 496.9,
+  "end_seconds": 528.46,
+  "text": "kind of the government thinks about the new command economy, but you talk about how companies play a distinct role in the new command economy. And I was wondering if you could unpack what, I think you identified five of them in your paper, what the roles you see companies playing in this new command economy. Yeah, I can take that one. And again, Peter, thanks to you for speaking with us about this. So I think we both came at the project in the sense that companies were deeply involved and they were doing a lot of things. And part of our project is to sort of systematize"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 528.46,
+  "end_seconds": 559.78,
+  "text": "what exactly are those roles. And so we broke it out into five different roles. So let me identify and maybe unpack each of them a little bit. So the first role is that companies are keys to national security supply chains, and that is prompting government involvement in the companies. So then the command economy piece of this that Ashley is discussing. And so the government is becoming deeply entwined with a broader range of companies as it's seeking to bolster U.S. national security by trying to, for example, reinforce U.S. companies against foreign competitors. So keys to security supply chains,"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 559.78,
+  "end_seconds": 591.58,
+  "text": "what are we talking about? Let me give you some examples. So one is the CHIPS Act funding for U.S. semiconductor companies over the last several years. Another is the investments in critical mineral companies in both the United States and foreign companies and in certain allies, and also in other companies as well. So things like the Trump administration's moves to take a direct stake in Intel and to take a golden share in U.S. steel. So that's the first role. Companies are keys to security supply chains. The second role we identify is that companies are acting as frontline enforcers"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 591.58,
+  "end_seconds": 622.74,
+  "text": "or self-enforcers of economic security. So as the U.S. government has ramped up its reliance on economic tools of national security, it's increasingly relying on companies to do the sort of first step in enforcement. And this isn't entirely new. So in the post 9-11 era, for example, banks were cast in this role with respect to economic sanctions. For example, the U.S. government announces economic sanctions, but then it's the banks that have to do the checking to make sure that a sanctioned party isn't engaged in financial transactions and to block those transactions."
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 622.74,
+  "end_seconds": 653.1,
+  "text": "So that's the idea of a frontline enforcer. But there's also a risk for companies that if they fail, then they become the targets of government enforcement actions. So if they fall short in their frontline enforcer roles, then they become the targets themselves. And we've seen, you know, we're well now beyond banks playing this role. We're seeing many more companies being cast in this role of being frontline enforcers or self-enforcers of things like export controls, tariff payments, investment screening regulations. And so we see more and more companies cast in this role of frontline enforcer"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 653.1,
+  "end_seconds": 685.98,
+  "text": "and more and more companies running a serious risk of government enforcement against them if they fail to accurately or fully fulfill that role. So that's the second role. Frontline enforcers are self-enforcers of economic security. The third one is that companies are functioning as national security proxies for the U.S. government. So companies or their officials have been thrust into the role of proxies who are trusted to channel U.S. national security priorities and concerns at the intersection, particularly of security and tech. So just one example of this to highlight,"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 685.98,
+  "end_seconds": 716.46,
+  "text": "as part of the deal to sever TikTok from its Chinese parent company, Oracle was included as the so-called trusted security partner and it's charged with monitoring TikTok's compliance with deal terms. So monitoring to ensure TikTok isn't sending sensitive data to its Chinese parent or taking orders about changes to its source code. So that's the third role, national security proxies. The fourth role is that the current Trump administration has employed U.S. companies products as bargaining chips in diplomatic negotiations."
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 716.46,
+  "end_seconds": 747.62,
+  "text": "So for example, offering negotiating partners access to certain U.S. made technologies in exchange for doing things the U.S. wants it to do. The reports have suggested that the Trump administration has used access to advanced NVIDIA chips in this way. And then the final role, and I'll just flag one that we think is particularly problematic, is that companies are being used as sources of funds that the government can extract in exchange for granting national security related approvals. So the current administration has required substantial payments"
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 747.62,
+  "end_seconds": 779.26,
+  "text": "in exchange for granting particular national security approvals. So a couple of examples, taking a share in Intel arguably falls within this category. Intel had been awarded grants under the CHIPS Act, but instead of paying out the grants, the administration demanded equity in the company in exchange for actually conveying the funds. Another example, and Peter, one you've spoken a lot about, is conditioning export licenses for NVIDIA and AMD to sell their chips into China, advanced chips into China, on the companies paying the U.S. government a percentage of their sales into China."
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 779.26,
+  "end_seconds": 810.5,
+  "text": "So basically telling the companies you can only have export licenses if you give the government a cut of the profits. Final example in this sort of pay-to-play arena is, again, with respect to the TikTok divestment deal, reports indicate that the TikTok investors, the investors into the U.S. TikTok entity are paying the government about $10 billion in several installments, again, in exchange for clearing that deal. So we've argued that Congress should ban these pay-to-play payments. So we're particularly concerned about this last rule about companies as sources of funds"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 810.54,
+  "end_seconds": 842.58,
+  "text": "that the government is extracting. You make an interesting point on the Intel deal. And I know we'll come to some of the legal issues and litigation issues around the new command economy in a bit, but there is now a shareholder lawsuit, which I know you both are tracking, about the Intel deal. And as a result of that, we now have for the first time the underlying documents, both the original grant documents and now the shareholder agreement are now public. They're, you know, you can download them from Pacer if you're a lawyer who, you know, tracks docket numbers."
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 842.58,
+  "end_seconds": 873.38,
+  "text": "And to your point, it really is quite striking because what you can see, Kristen, is that there was this deal where Intel had to go out and build a bunch of fabs and they were going to get, you know, dollars doled out as they built fabs. And now they just get a bunch of dollars for giving the government equity, which is really just a totally different kind of thing. It's also interesting hearing you talk about the corporate role as an enforcer, both because, I mean, in political rhetoric,"
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 873.38,
+  "end_seconds": 903.9,
+  "text": "this is almost now assumed now, right? I mean, you know, you'll read press accounts of, you know, U.S. chips turning up in Russian drones that have been shot down in Ukraine. And the first political reaction is kind of, well, why hasn't the U.S. chip company gone out and prevented this problem? And I agree, it's just gonna become this kind of default view that, you know, it is the role of a company to be an enforcer. But, you know, as I think about it, like that goes back, I mean, that really, I think, started after 9-11."
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 903.9,
+  "end_seconds": 935.74,
+  "text": "And you alluded to, it started with the banks. You know, post 9-11, we saw the Treasury Department really put a lot of pressure on banks to begin to enforce sanctions much more rigorously. You know, that's now a 25-year-old thing the U.S. government has done. And then, you know, if I look back earlier in history, if I think back to the, you know, Korean War, President Truman used the DPA quite aggressively. At one point, for those of us who were lawyers, he famously seized the steel mills until the Supreme Court said he couldn't do it. Like, how much of this is actually new"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 935.74,
+  "end_seconds": 967.78,
+  "text": "versus kind of an expansion of things that we either, you know, have been doing for many years, but are just building up, or maybe had done at earlier periods in our history, but, you know, had stopped doing for a couple of decades and are now reviving. So I think some of this is different in kind, and some, I would say, is different in quality. I know you've actually written a great piece on this, and I hope it's out for public consumption. As you say, there are clearly historical precedents"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 967.78,
+  "end_seconds": 1000.7,
+  "text": "for the U.S. government exercising some aspects of what we'd probably call industrial policy. And as you just said, the Defense Production Act has been on the books for a long time. It's been, you know, renewed periodically. But in the past, we've mostly seen the government taking shares in companies or mandating production of certain items, really only in two kinds of settings. One is during wartime, and the other is during a serious financial"
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 1000.7,
+  "end_seconds": 1031.58,
+  "text": "or other kind of crisis, like COVID, that really impacted the economy. Steel seizure, which is one of Kristen's and my favorite cases, is, of course, you know, the U.S. government seizing steel mills to avoid a labor strike, which would have, in the executive's view, compromised the flow of steel for military, for the military fighting that was happening in Korea. So that kind of involvement in a supply chain, not entirely novel,"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 1031.58,
+  "end_seconds": 1063.46,
+  "text": "but I think used in different kinds of settings than what we're seeing today, which is where it's being used basically in peacetime with no real end in sight. And so I think that that's, you know, the kind of corporate role that Kristen discussed as like our first example of a type of corporate involvement. And we have, of course, seen examples of companies self-enforcing government regulations a lot, right? That is, there are statutes on the books and companies have to comply with them. That's Kristen's example number two."
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 1063.46,
+  "end_seconds": 1093.5,
+  "text": "And here, I think there are maybe two important differences. The first is really the range of companies that have to enforce sanctions, tariffs, export controls. Those numbers are growing and growing, especially as things like the de minimis exemption on tariffs has been lifted. And the other difference is that it means serving not just as enforcing against yourself, i.e. complying with statutes, but enforcing against other third-party actors"
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1093.5,
+  "end_seconds": 1125.58,
+  "text": "and having the government use you in that way. I wanna jump in on that, Ashley, just real quick, because I think that is, there's some interesting history there that I have heard in some interviews I've done with former treasury officials, because I think that's actually was quite deliberate. I was talking to a former treasury official for a project I'm working on who said quite clearly, post 9-11, he realized, we at the Treasury Department, for example, in sanctions enforcement had like some guys in Miami, at the Miami airport,"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1125.58,
+  "end_seconds": 1157.18,
+  "text": "who would watch whether people seem to be coming back from Cuba, literally, and like, were they bringing stuff in from Cuba? And then he was saying, post 9-11, they made a very conscious decision to reprioritize of like, okay, rather than us stopping dozens of people a week coming back from Cuba, let's bring the weight of a law down on the banks and make the banks build out all kinds of compliance infrastructure so that they can actually enforce sanctions"
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1157.18,
+  "end_seconds": 1188.5,
+  "text": "against all of their customers. And it was like a very, it was interesting talking to some of the officials at the time as a very conscious and deliberate shift in their thinking from a, we're gonna be the frontline enforcers to you're gonna be the frontline enforcers. And I do think we're seeing that in other industries now. I agree on the seeing in other industries too. And that makes sense at some level from the government's perspective at the time, thinking about its own capacity, thinking about where the expertise lay,"
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1188.5,
+  "end_seconds": 1223.28,
+  "text": "sort of what's the shortest point between A and B. But I think that was probably done without stepping back and thinking, are these gonna create any larger problems, any problems with what we'll call all public law values and yet without thinking about those values starting to just do it and we have some quotes in our piece subsequently I think from Biden and Trump administration eras where people from the commerce department are very clearly saying companies are our front line enforcers on this vis-a-vis these third party actors so it has spread to export"
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1223.28,
+  "end_seconds": 1259.68,
+  "text": "controls for example among other places outbound investment review is another example so that that's an interesting point on that the final thing I'll just say in response to your original question is that the the roles that we identified for companies Kristen's number three through five including proxies and pay to play I think are largely new I don't think there's a there's a history we can point to except on the margins of course you know the US government has for example used foreign military sales as leverage for foreign policy but that's statutorily"
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1259.68,
+  "end_seconds": 1292.8,
+  "text": "regulated it's pretty clear how the government makes those calculations in the broader setting we're talking about here I think it's entirely unclear how the government is making some of these assessments actually brought up you know the the way this is spread to you know export controls the way this is spreading do you think of the new command economy as something that is limited to a handful of sectors you know we're really talking semiconductors you"
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1292.8,
+  "end_seconds": 1325.96,
+  "text": "know maybe critical minerals we see a lot of like the investment deals in the critical mineral sector you know banking do you see this is kind of you know we got four or five sectors and that's what we're talking about or do you think this is something that is becoming more pervasive across the economy so I can jump in on that I mean I think we think that it's broader right I mean the sort of interventions that we're seeing from the government the corporate roles that we've identified it still are clustered in particular sectors so like you said you know semiconductors and critical minerals are the two sort of big ones over the last couple of years but we're also"
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1325.96,
+  "end_seconds": 1357.84,
+  "text": "seeing this these kinds of you know strategies and and casting of corporations in these various roles in you know it's not just defense contractors it's not just banks it's AI companies it's all sorts of advanced tech companies companies with sensitive data sets social media companies and just to raise again tick-tock right so and then once we get to tariffs it's just a massive number of US companies but even for the more export controls and outbound investment like this is it's beginning to be quite a long list of companies and so even though there you can certainly point"
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1357.84,
+  "end_seconds": 1387.84,
+  "text": "to clusters or concentrations in particular sectors I think we're seeing increasingly you know smaller companies companies that would not traditionally have thought of themselves as national security related are certainly not immune from a variety of these corporate roles or the government kind of putting them in this in these various positions interesting and you know certainly as you say if I look at the last year or two we have seen an expansion I mean even if they think about like section 232 tariffs is something that started narrower and now is"
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1387.84,
+  "end_seconds": 1421.2,
+  "text": "covering pharmaceuticals and you know and as you say it's not just that these tools are being used and they traditionally are but we now have section 232 tariffs where instead of applying tariffs we're basically making the companies you know commit to building pharmaceutical factories in the United States you know it's like become a much more transactional tool whereas I think you know 30 years ago what is a much more regulatory tool rather than a transactional tool and that maybe you know it's a good place to start pivoting to what you guys have identified as some of the"
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1421.2,
+  "end_seconds": 1456.04,
+  "text": "challenges to the new command economy and you've already mentioned one which is the need to have public law values here but before we get into the public law values or maybe to think one public law value in particular just legality and kind of is you know how much of this is actually legal under existing statutes I'd be interested in unpacking that a bit now as you note in your paper sometimes the new command economy can actually be hard to challenge I mean presumably a company that has"
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1456.04,
+  "end_seconds": 1491.76,
+  "text": "just done a deal with the Trump administration for an equity investment isn't going to a week later turn around and sue over that deal and for standing reasons it can be hard for other companies to challenge you know companies that aren't involved in the deal to be involved in that deal and so you know we haven't seen that many of these things litigated in court yet but what do you what do you make of the legality of all of this and how do you think it's gonna play out if the cases do start getting into court I think there's a lot to unpack in that question legality discuss but I"
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1491.76,
+  "end_seconds": 1524.52,
+  "text": "think it's a fair question but I wanted to maybe disentangle a couple different strands with within the questions so you know first obviously to bring courts into the picture to get a determination from courts about legality as you said somebody has to sue and there are questions about who has standing and who has a legal claim but then you have to find someone among the set of people or entities who have standing and have a legal claim who is actually willing to sue and so on the willingness point some companies are being put in a position where they you know they they have a"
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1524.52,
+  "end_seconds": 1558.6,
+  "text": "strong incentive to sue or they almost have to so you know if you think about what the government has done with respect to Anthropic when Anthropic sued that's bet the company litigation or something close to it but there are many other companies as you said who are doing deals with the government and they're not challenging the government's actions at least not publicly or they're not challenging the demands that are being made from them of them on legal grounds there is a suit as you already mentioned by an Intel shareholder but not a suit by Intel but then there's a there's a separate question of if if the suits are filed and they get into court then what do you what"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1558.6,
+  "end_seconds": 1593.24,
+  "text": "did judges actually do with the cases and historically the judiciary has tended to be fairly deferential to the executive branch on national security claims so you know they look at sort of comparative institutional competence and they say you know the executive has access to other sources of information the executive has expertise and they tend to be fairly deferential but I think there are actually some reasons to think that courts deference to the executive branch might diminish as national security claims become more economic so if you sort of think about the the heartland of national security claims and a lot of the precedents that courts are relying"
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1593.24,
+  "end_seconds": 1627.64,
+  "text": "on when they say you know we defer to the executive branch on these issues they're sort of more core military matters there may be terrorism issues to go back again to the post 9-11 era but something like a shareholder suit that looks a lot more I think to a judge like sort of normal litigation so I think that maybe the national security overlay in that context is a little bit weakened or if you think about challenges under the Administrative Procedure Act so claims for example that the government didn't provide required process to the target of an administrative action courts deal with claims like that all the time so courts in that circumstance judges might be more"
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1627.64,
+  "end_seconds": 1658.84,
+  "text": "comfortable sort of putting the executive through its paces if it can rest its its reasoning on procedural grounds and I think you know as we've been talking about the sort of national security concerns that are animating a lot of what we see in the new command economy are concerns about economic competitiveness about supply chains they're a little bit more immediate maybe less urgent more longer term than claims about military operations or imminent terrorist attacks so I think it's gonna be really interesting to see if these cases get into court what judges actually"
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1658.84,
+  "end_seconds": 1690.6,
+  "text": "do and I think there's there's a serious possibility that they're gonna end up being less deferential to the executive branch on claims involving economic national security issues so I think it's an open question TBD Kristen's being modest she and Kathy Huang wrote a great piece a couple years ago called not national security creep that flags the the thing Christian just talked about so I commend that to to you and your your listeners this idea of a potentially diminished approach a judicial deference in some of these cases another thing"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1690.6,
+  "end_seconds": 1725.72,
+  "text": "just sort of at the top of all this is a lack of transparency more generally about what the government is claiming as the basis for this litigation I mean you you know this well but without clear transparency you might not even be clear what stage the deal is in is it still it's been reported in the press but is it still under negotiation are there different sequences of the the deal playing out as apparently there was going to be in the tick-tock Oracle case and so on and the final thing I'll just kind of speculate on is I think it might also depend really what the"
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1725.72,
+  "end_seconds": 1760.52,
+  "text": "specifics of the case are so we've seen courts kind of buying into for example this idea of tech exceptionalism where there's courts might think there is something kind of genuinely different about and almost national security ish to particular uses of tech and we're now seeing the government come in in some of these cases like the NAACP litigation against Elon Musk's X AI data center where the government says look it was fine to proceed on the the data center"
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1760.52,
+  "end_seconds": 1790.92,
+  "text": "construction without going through a Clean Air Act process because X AI is critical to U.S. national security and we saw the DOJ intervention more recently in the the open AI case where the government says like look it's critical that this not be treated as a copyright problem for national security reasons so it might be that the courts end up thinking about kind of some of these tariff issues or some of these equity deals one way and think about kind of AI associated kind of tech"
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1790.92,
+  "end_seconds": 1826.04,
+  "text": "cases another way. You know it's interesting on the national security deference writ large I for many years have a sanctions law practice I track litigation against sanctions litigation in U.S. courts and it's been interesting because you know for many years if you are a foreigner who has been sanctioned you are essentially out of luck in the U.S. court system you know you just you don't have constitutional rights generally the review you're entitled to under APA standards are very very deferential you're largely out of luck but what we have seen in the last couple of years is that"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1826.04,
+  "end_seconds": 1858.12,
+  "text": "kind of more and more Americans have ended up having reasons to come in and assert their rights relative to sanctions the court said you know we've seen a couple of cases now where the courts have cited against the government I mean last year for example and earlier this year in two different cases U.S. federal district courts in joined application of the sanctions against the International Criminal Court relative to various American law professors who wanted to keep writing"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1858.12,
+  "end_seconds": 1891.0,
+  "text": "briefs and things like that for you know and clearly like the ICC is gonna I think have a hard time you know asserting its rights in U.S. courts but I think we are seeing when these things feel you know this is more of an American doing something here in America maybe we will see the courts step in a bit a bit more and then the other just actually your point you made on anthropic suing I think that's an interesting point and it also maybe brings up another challenge that plaintiffs have because anthropic as you say has sued over its designation of"
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1891.64,
+  "end_seconds": 1924.28,
+  "text": "as a supply chain risk but anthropic never sued over the summer when export controls were imposed on it and I don't know why they didn't sue but I kind of wonder you know the the supply chain risk designation has now been winding its way through the court system for six months and I wouldn't be surprised if they had kind of a view of we can't sit for six months or a year and not have this resolved I think there's a way in which like the courts you know maybe can't keep up with the pace at which some of these kinds of things are happening."
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 1924.28,
+  "end_seconds": 1957.32,
+  "text": "Yeah makes sense. Hey Lawfare listeners Ben Wittes here and I want to tell you about a time when my household was carrying some unpleasant debt it was student loan debt and every month we would pay a little bit of it and the number wouldn't go down in fact the number stayed sort of stubbornly where it was we were not making a lot of money at the time and we felt like we couldn't pay more and then as we started to make a little bit more money we would watch that payoff timeline shrink"
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 1957.32,
+  "end_seconds": 1989.56,
+  "text": "as we paid a little bit more money I was thinking of that recently when I was using the Monarch app and remembering how it felt to watch that timeline shrink and know that we were making progress on it that feeling of going from oh god this is never going to end we're going to owe this money forever to actually having a date that we would be free of it. Watching the debt timeline move can motivate"
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 1989.56,
+  "end_seconds": 2026.04,
+  "text": "you it is a kind of steady visible process that makes you feel like you are making progress and Monarch has this debt pay down simulator and visualizer that shows at the rate that you're paying the exact date on which you're going to be debt free based on real balances and actual payment you can watch the timeline move and the visualizer just over time will lay out your whole payoff journey as a clear motivating timeline you can play with your"
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 2026.04,
+  "end_seconds": 2061.64,
+  "text": "options and pick the fastest one you can pick the one that is a little bit more comfortable you can run different payment scenarios side by side and see which one's going to get you there fastest which one is going to get you there at rates that you can afford you're in control. Monarch it breaks the debt cycle it turns that endless gloom into a plan with an end date so you can make room and put more toward debt without feeling deprived most apps will only tell you what you've"
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 2061.64,
+  "end_seconds": 2092.52,
+  "text": "already spent this is different Monarch helps set goals it helps you map out the big purchases it helps you see if you're actually on track before it's too late to adjust. I will tell you I this year used Monarch for something else I used it to assemble an enormous amount of tax data and it helped me visualize all kinds of things that I had spent it actually wasn't related to"
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 2092.52,
+  "end_seconds": 2136.28,
+  "text": "debt and it was super useful for that too so write your own money story with Monarch use the code Lawfare at Monarch.com to get your first year of Monarch core half off at just $50 that's $50 off your first year at Monarch.com with code Lawfare. on google no unwelcome surprises plus ditch that where's my money feeling most transfers"
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 2136.28,
+  "end_seconds": 2169.32,
+  "text": "arrive in under 20 seconds join millions saving billions on hidden fees be smart get wise download the wise app today t's and c's apply every restaurant wants to be busy most restaurants aren't ready for it I'm Chef Mike from Detroit 75 and toast helps us stay ready when the lunch rush hits we prepare for lunch like we're preparing for battle orders are flying tickets are stacking and the guests should never feel the chaos toast keeps our team organized so we can serve more people stay consistent and keep growing visit toast tab.com to learn more pay testimonial from"
+ },
+ {
+  "segment_id": "s0068",
+  "start_seconds": 2169.32,
+  "end_seconds": 2200.2,
+  "text": "an actual toast customer hi this is Emily Peck from slate money everything you're great at has a start date and yours might be the day you stopped doing your own laundry because think about what actually gets on your calendar the work the people the things you care enough to put your name on laundry it doesn't get a meeting it's not even a meeting that could have been an email it has no business on the calendar of a person with things to do so take it off rinse picks up your laundry"
+ },
+ {
+  "segment_id": "s0069",
+  "start_seconds": 2200.2,
+  "end_seconds": 2233.24,
+  "text": "cleans it to your preferences and brings it back ready to wear wash and fold dry cleaning handled and then you might have a second meeting with the person you met yesterday because apparently you have time now sign up today at rinse.com rinse it's time to be great let me turn to a related question one you really talk about quite a bit in your uh in your article which is the concept of how the new command economy challenges what you call public law values"
+ },
+ {
+  "segment_id": "s0070",
+  "start_seconds": 2233.24,
+  "end_seconds": 2265.4,
+  "text": "a phrase you have already brought up what do you mean by the new command economy challenging public law values so in general i think you know we come to national security issues thinking that we expect the u.s government to be the actor that's in charge of helping protect our national security in the first instance and whenever the government acts including in the national security space i think we as a collective want and expect our government to follow what we're terming here"
+ },
+ {
+  "segment_id": "s0071",
+  "start_seconds": 2265.4,
+  "end_seconds": 2299.8,
+  "text": "public law values so those are we define them as collectively held norms outcomes and principles that define what's important and beneficial for society typically delivered through public institutions and accepted as right within a citizenry so it's often broken down into kind of sub sub ideas and it includes things like legality we expect our government to act lawfully accountability transparency non-corruption rationality and impartiality so part of what"
+ },
+ {
+  "segment_id": "s0072",
+  "start_seconds": 2299.8,
+  "end_seconds": 2336.76,
+  "text": "we do in the middle of the piece is try to show how this integration of corporations into u.s national security challenges the public law values that we expect our government to to comply with so just to run through them very briefly legality you know the u.s government has traditionally considered that compliance with the law and being perceived as complying with the law is an important value and a government that is ignoring the law is basically inviting other actors in society to ignore it too so we describe for example how with some of these the"
+ },
+ {
+  "segment_id": "s0073",
+  "start_seconds": 2336.76,
+  "end_seconds": 2366.84,
+  "text": "use of these economic tools of national security we have companies agreeing to deals with the government that may not be lawful we just talked about this but you know nvidia and amd agreeing to provide 15 percent of their profit in certain cases the tiktok saga and where you have as we just discussed corporations that may not have a a strong incentive to sue that can also undercut the norm of legality there it has been just one aside like it has been striking ashley because"
+ },
+ {
+  "segment_id": "s0074",
+  "start_seconds": 2366.84,
+  "end_seconds": 2397.0,
+  "text": "i've uh on the equity deals i've pulled actually i should thank my my former ra has pulled most of the sec documents where there's been public company involvement and it is striking you read these sec filings it's like risks to this deal include that they may be illegal you know i mean it's like quite striking to see you know there's the disclosure in a public filing and and i mean those filings describe other risks too of course including uncertainty and concern for what"
+ },
+ {
+  "segment_id": "s0075",
+  "start_seconds": 2397.0,
+  "end_seconds": 2428.04,
+  "text": "it means for shareholders but that is that's pretty amazing A second value we talk about is corruption or conflicts of interest. We expect our government and the officials who are working for the government to be acting on behalf of the public when it's doing something. I think what we've seen recently is that the U.S. government taking shares in companies in a way that actually creates conflicts for U.S. government officials."
+ },
+ {
+  "segment_id": "s0076",
+  "start_seconds": 2428.04,
+  "end_seconds": 2461.4,
+  "text": "It is a conflict of interest when senior Trump administration officials either own or buy shares in companies that are receiving U.S. investments. It really looks like self-enrichment. It raises questions about the public law values of rationality, the solidity of the basis for the decision, and obviously it raises questions about fairness. We also worry about decision-making distortions, that the relationships that we describe in the piece create situations in which the U.S. government more generally, not just individual"
+ },
+ {
+  "segment_id": "s0077",
+  "start_seconds": 2461.4,
+  "end_seconds": 2491.92,
+  "text": "officials but more generally, may be poised in setting themselves up to make decisions on the basis of priorities other than genuine national security. That's something that undercuts rationality and fairness. We describe actually two different distortions. One is potentially distorting the U.S. government's decisions. For example, if it owns shares in a company that is exporting product, it might be inclined to authorize more exports of that product than might objectively be appropriate for"
+ },
+ {
+  "segment_id": "s0078",
+  "start_seconds": 2491.92,
+  "end_seconds": 2522.94,
+  "text": "national security because it has this profit motive. We also talk about the distortion in the opposite direction, so distorting corporate decisions where government might be pressuring companies to make certain business decisions. A golden share might produce this, but to make business decisions that don't necessarily reflect the best business judgment. That harkens back to one of the critiques of a command economy, so undercutting rationality and fairness. We talk about principal-agent problems."
+ },
+ {
+  "segment_id": "s0079",
+  "start_seconds": 2522.94,
+  "end_seconds": 2558.52,
+  "text": "This one is a pretty familiar problem. Companies have duties to their shareholders, whereas the U.S. government has a duty to the broader public, and so the company's incentives as an agent of the U.S. government will not, and in some cases, maybe even legally can't be identical to the U.S. government as the principal, and further, unlike with the government, companies are not kind of ex-ante bound by public law values. This creates, I think, rationality and accountability problems. One place this plays out is it makes it hard for the U.S. government to calibrate the administration"
+ },
+ {
+  "segment_id": "s0080",
+  "start_seconds": 2558.52,
+  "end_seconds": 2589.12,
+  "text": "of its national security policies. We have seen both corporate over-compliance with, for example, sanctions because the companies are worried about stepping wrong, allowing certain transactions through that are kind of adjacent to the sanctions restrictions, and companies say, like, look, we just don't want to get enforced against by the government, so we're going to not allow those, and the opposite we see happen, too, under-compliance, where we see NVIDIA designing chips to sort"
+ },
+ {
+  "segment_id": "s0081",
+  "start_seconds": 2589.12,
+  "end_seconds": 2620.52,
+  "text": "of skirt export rules, just bring them inside the line of legality or maybe under-compliance with tariff payments. Lack of transparency, the kind of final issue we think about, the fact, the mere fact of this principal-agent relationship makes it harder for the public to allocate responsibility for bad decisions. It also may make it harder for the U.S. government, having used these companies as a sort of frontline enforcer to keep track of this over-compliance or under-compliance, and as we've talked about"
+ },
+ {
+  "segment_id": "s0082",
+  "start_seconds": 2620.52,
+  "end_seconds": 2654.88,
+  "text": "already, the U.S. government has been concealing specifics of some of these economic deals, the NVIDIA, TikTok, and so on, so that violates rationality and accountability as well as this core value of transparency. Douglas Goldstein, CFP®, is the director of Profile Investment Services and the host of the Goldstein on Gelt radio show. He is a licensed financial professional both in the U.S. and Israel. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. Douglas Goldstein, CFP®, is the director of Profile Investment Services and the host of the Goldstein on Gelt radio show. He is a licensed financial professional both in the U.S. and Israel."
+ },
+ {
+  "segment_id": "s0083",
+  "start_seconds": 2654.88,
+  "end_seconds": 2684.98,
+  "text": "His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. He is a licensed financial professional both in the U.S. and Israel. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. He is a licensed financial professional both in the U.S. and Israel."
+ },
+ {
+  "segment_id": "s0084",
+  "start_seconds": 2684.98,
+  "end_seconds": 2717.5,
+  "text": "His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-investment.com. If you could both talk some about what you think the remedies here should be, what you"
+ },
+ {
+  "segment_id": "s0085",
+  "start_seconds": 2717.5,
+  "end_seconds": 2748.86,
+  "text": "think the government should do, and also for the congressional recommendations. How realistic do you think it is we might see Congress actually clean some of this up? We have recommendations that are focused on Congress. We also have recommendations for other entities and institutions, so we are not pinning all of our hopes on Congress. At the same time, I think some of the things that we are proposing we think are actually fairly low-hanging fruit. For example, we will just run through some of the recommendations."
+ },
+ {
+  "segment_id": "s0086",
+  "start_seconds": 2748.86,
+  "end_seconds": 2779.4,
+  "text": "We suggest that Congress could mandate that the executive branch has to disclose to Congress or the public these investment agreements, including potentially ones for the privately held companies, so ones that you are not surfacing in the SEC filings. That would help with transparency. It would activate oversight by Congress, but also by other potential entities or individuals who could provide feedback and express concern. We also suggest that Congress could require the executive branch to publish an economic security strategy. This one strikes me as particularly low-hanging fruit."
+ },
+ {
+  "segment_id": "s0087",
+  "start_seconds": 2779.4,
+  "end_seconds": 2812.62,
+  "text": "Yes, write a report is not usually that high a bar to get the government to pass. I take your point. But if we are not sure they can get over the bar, it is worth pushing the issue. Forcing an economic security strategy would at least force the executive branch to coalesce around what is the theory behind the government's various moves and to, again, just make sure that there is one. You could imagine Congress requiring the executive branch to engage in sort of a periodic review of the efficacy of the various tools. They have to tell us up front what their strategy is, what they plan to do, and then they have"
+ },
+ {
+  "segment_id": "s0088",
+  "start_seconds": 2812.62,
+  "end_seconds": 2845.42,
+  "text": "to report back, did they achieve what they hoped to achieve with the various tools? That helps with accountability. It helps with maybe some of the principal agent problems we are concerned about. Other suggestions we make are things like report and wait provisions for the use of companies as national security proxies or, for instances, when the government is going to take a stake in a company. This would, again, it gives Congress a chance. It brings Congress into the process, gives it some transparency and some ability to provide oversight in advance of things happening, and it gives it a chance to object or negotiate"
+ },
+ {
+  "segment_id": "s0089",
+  "start_seconds": 2845.42,
+  "end_seconds": 2878.3,
+  "text": "with the executive branch. Some of these things we think these should be fairly low-hanging fruit. Others might be bigger lifts. We suggest strengthening ethics rules. For example, by expanding the rules to include executive branch officials, adult children. We suggest subjecting particular products, so things like high-end semiconductors, to a congressional notification regime, so something like the Arms Export Control Act. Ashley mentioned the U.S. military exports have been used as bargaining leverage before, but in a statutory framework, that's the Arms Export Control Act."
+ },
+ {
+  "segment_id": "s0090",
+  "start_seconds": 2878.8,
+  "end_seconds": 2910.5,
+  "text": "I think our single biggest recommendation is, again, to ban the pay-to-play deals. There are already constitutional and statutory notification regimes for certain things, but here, if you just ban the exports, that is a clear step Congress could take. There are already constitutional and statutory prohibitions on taxing exports, but you could supplement that with bans on charging anything more than maybe a filing fee for national security-related approvals. You could do that by prohibiting the government officials from asking, and also prohibiting"
+ },
+ {
+  "segment_id": "s0091",
+  "start_seconds": 2910.5,
+  "end_seconds": 2941.8,
+  "text": "payment of funds for national security approvals or licenses. Again, I don't think there's any single thing here that we think is a silver bullet, but these are designed to be particular steps that maybe Congress could coalesce around in a bipartisan way and get across the finish line. I think maybe just to push back on the broader idea that Congress isn't going to do anything, what can we realistically expect from Congress? I don't think we should write Congress off for taking bigger adjustments to the balance"
+ },
+ {
+  "segment_id": "s0092",
+  "start_seconds": 2941.8,
+  "end_seconds": 2973.58,
+  "text": "of power and national security. We have seen moments in the past where we've seen executive power get to a stage or a state where it was perceived to be out of control, so I'm thinking post-Watergate, post-Vietnam, and you see Congress invigorate and kick in on these big framework statutes, so things like the War Powers Resolution, IEPA, the International Emergency Economic Powers Act, the National Emergencies Act. They were all attempts to rein in the president for Congress to reassert itself in national security, and there are many, many critiques we could all lodge against those."
+ },
+ {
+  "segment_id": "s0093",
+  "start_seconds": 2973.58,
+  "end_seconds": 3007.58,
+  "text": "They haven't worked perfectly or haven't worked as intended, but I think it's possible that we see another moment where Congress does take big action, but in the meantime, these smaller steps would help, not solve everything, but they would help. I like that note of optimism on Congress. More seriously, I do take your point. I look back at the 1970s, coming out of the Nixon administration, out of the Vietnam War, and you're absolutely right. It was a historical matter. We did actually see a Congress over a couple of years claw back significant power."
+ },
+ {
+  "segment_id": "s0094",
+  "start_seconds": 3007.58,
+  "end_seconds": 3039.74,
+  "text": "As you say, not all of it held over time. Some of it evolved, but I think it's a fair point. Maybe we are or should at least aspire to be at another moment of Congress reasserting itself. I actually want to shift a little bit from thinking about these sets of issues as scholars to ask you a couple of questions more from the perspective of practitioners. I want to start, Ashley, with you. You and I worked together in the Biden White House, at least a couple of times, I think"
+ },
+ {
+  "segment_id": "s0095",
+  "start_seconds": 3039.74,
+  "end_seconds": 3076.22,
+  "text": "in some sense, you were my lawyer as we were doing various executive orders in the Biden White House. I'm curious, from your time being a senior lawyer in an administration, how do you think lawyers should think about this if a client, if the policy makers come and, if I had come and said, you know what, the National Security Advisor really thinks on this toll chip sack thing we should own stakes in the companies and let's make that happen, what do you think"
+ },
+ {
+  "segment_id": "s0096",
+  "start_seconds": 3076.22,
+  "end_seconds": 3111.3,
+  "text": "the role of a lawyer is to both try to let the client do what the client wants to do, but also push back? How would you have handled, how did you handle these kinds of issues where policy makers were suggesting things here that either you didn't view as necessarily statutorily allowed or maybe it was allowed, but you would have had a bunch of these public law value concerns about the implementation of them? Yeah, well, let me start out by saying, yes, you were my client and in some ways that experience led us to right here because one of the first things I learned at the National Security"
+ },
+ {
+  "segment_id": "s0097",
+  "start_seconds": 3111.3,
+  "end_seconds": 3143.12,
+  "text": "Council was how important things like sanctions were as kind of a go-to national security tool in a way that I had not appreciated before I went into government. So that really kind of got me interested in this whole topic. So I think the first thing that a government lawyer would do or a national security lawyer would do is kind of go to the statute. What is the text of the statute, assuming there is one that sets out some framework for what the client is trying to do and start to think about, are there credible arguments"
+ },
+ {
+  "segment_id": "s0098",
+  "start_seconds": 3143.12,
+  "end_seconds": 3173.38,
+  "text": "in support of doing the thing that the client is interested in doing? So kind of start with the text. Another thing that I would almost immediately do is, let's say there is a statute and it's not clearly on point, but it's maybe going to be helpful. I would reach out to the general counsel's office of the agency that works most closely with the statute. Maybe it's the treasury department, maybe it's commerce or state, but there are deep"
+ },
+ {
+  "segment_id": "s0099",
+  "start_seconds": 3173.38,
+  "end_seconds": 3206.14,
+  "text": "wells of knowledge in these places and deep, deep experience or at least traditionally have been and that's really one of the benefits of having a kind of permanent career of bureaucracy. Another thing we could have done is to convene the interagency lawyers group. Let's say that it kind of touches on a range of different statutes or maybe there's a constitutional issue embedded in there as well. We kind of reinstituted an interagency lawyers group that got senior lawyers together from all the national security agencies to talk through these kinds of problems."
+ },
+ {
+  "segment_id": "s0100",
+  "start_seconds": 3206.14,
+  "end_seconds": 3237.62,
+  "text": "Another thing I guess I would want to know is, even if there weren't a statute, is there practice, is there executive branch practice that it has taken over the years and that Congress is aware of that Congress hasn't rejected the sort of historical gloss idea? I always, well, I shouldn't say always, but in many cases, I would want to know what the office of legal counsel thought. I would probably have an informal conversation with them and if there were sort of really"
+ },
+ {
+  "segment_id": "s0101",
+  "start_seconds": 3237.62,
+  "end_seconds": 3270.82,
+  "text": "hard unresolved issues and the administration or you as the client or the national security advisor really wanted to proceed, we might ask for a formal legal opinion from OLC to test whether that was permissible. Two other things. One is, as you know, one thing that would always come up is kind of what would Congress do? How would Congress react if we did this? And depending on the proposal that's on the table, sometimes Congress probably wouldn't care, but sometimes they would care a lot. And so that would be relevant to thinking about how to shape the proposal."
+ },
+ {
+  "segment_id": "s0102",
+  "start_seconds": 3270.82,
+  "end_seconds": 3306.54,
+  "text": "And then in terms of the values, right, this is always something that government lawyers have to kind of work hard to strike the right balance on, I think. So if it seemed like there was a potentially credible way forward on the law, but it seemed like a really bad idea for kind of other reasons, I generally felt like I could share that second set of reasons while making clear that I was not opining on the law, right? To say, I can imagine, think about the precedential value that this could have for a future administration"
+ },
+ {
+  "segment_id": "s0103",
+  "start_seconds": 3306.54,
+  "end_seconds": 3344.54,
+  "text": "that would do X and Y, or this is exactly the kind of thing that we rejected when country X did it, and it looks like we're doing it. So again, I think just being clear about what your legal guidance is versus what your sort of policy views are. That's an interesting point, right? Just differentiating that so the policymaker understands which of these are legal issues and which are broader policy issues. I also want to ask you guys about how you would be thinking about this if you were in the private sector advising a company that is maybe being extorted or contemplating voluntarily"
+ },
+ {
+  "segment_id": "s0104",
+  "start_seconds": 3344.54,
+  "end_seconds": 3377.9,
+  "text": "entering into some of these agreements. You know, it's interesting as part of the Intel shareholder lawsuit, we now have a little bit of a sense of how one particular lawyer, the Intel GC, thought about this. He mostly seems to have thought, well, the Commerce Department was telling him there'd be consequences if they didn't do this deal and they better get the deal done. But we just have that from the board minutes now. But I'm interested in how if you were the GC of a company faced with one of these situations where there might be legal questions, but also there is either a potential quite significant"
+ },
+ {
+  "segment_id": "s0105",
+  "start_seconds": 3377.9,
+  "end_seconds": 3408.14,
+  "text": "positive or a quite significant negative consequence to doing the deal or not doing the deal, a bunch of money one way or the other on the line, how would you be advising a client to think about this? Well, I think, I mean, it's worth understanding, of course, that certain companies are being put in difficult positions and many more companies may face those positions going forward. So I think you're right to think about what are the conversations within the companies look like. I guess if I was advising a company, I would urge them to remember that there are multiple"
+ },
+ {
+  "segment_id": "s0106",
+  "start_seconds": 3408.14,
+  "end_seconds": 3439.42,
+  "text": "audiences, right? The government is a big one and if it's the government that is there saying you have to do this, I can understand why that's compelling. But for many of these companies, this goes back again to who exactly are these companies. We're not talking about a defense contractor whose sole or nearly sole customer is the U.S. government. Many of these companies have customers worldwide. So there are other governments that might have views about how they interact with the U.S. government. There are customers worldwide that would have views. Many of them are public, right? So they have shareholders. How are their shareholders going to react?"
+ },
+ {
+  "segment_id": "s0107",
+  "start_seconds": 3439.42,
+  "end_seconds": 3471.54,
+  "text": "So I think one thing to keep in mind is the U.S. government is a big audience and it might be a very vocal one in a particular time, but it's not their only audience, not their only customer. It's not even their only regulator necessarily. So many other countries are also using these economic tools of national security. The other thing I mentioned, some of our recommendations are not directed at Congress and some of them are directed at companies. And so we do think it's possible that companies could help by trying to foster some of the public law values or trying to address some of the public law value problems."
+ },
+ {
+  "segment_id": "s0108",
+  "start_seconds": 3471.54,
+  "end_seconds": 3503.22,
+  "text": "So for example, in negotiations with the government, trying to insist on legality and asking hard questions of the government about what are the government's legal authorities for the demands it's making and to the extent that those can be shared with the company. Companies have their own lawyers. They've got in-house counsel. They've got outside counsel who can evaluate those arguments and whether the deal actually is legal. Companies might also be able to help by trying to insist on transparency. So making or insisting on making these deals with the government public, and again, Congress"
+ },
+ {
+  "segment_id": "s0109",
+  "start_seconds": 3503.22,
+  "end_seconds": 3533.58,
+  "text": "might be able to help with that by mandating the reporting to Congress or things. But I think those are some of the things I would urge companies to keep in mind. There's one other actor we haven't really talked about here that I think is just worth flagging and that is foreign governments. I think maybe another actor that Kristen's company might think about are foreign government customers. For example, we know the U.S. government has purchased shares in Australian companies and"
+ },
+ {
+  "segment_id": "s0110",
+  "start_seconds": 3533.58,
+  "end_seconds": 3564.78,
+  "text": "Canadian companies and in some cases actually made part of an arrangement with the Japanese government that some foreign companies would invest in U.S. companies. The foreign governments may be interested in and maybe potentially concerned about U.S. government involvement in major companies of their nationality and whether the business judgment of those companies will be distorted in some way by the involvement with the government. So that depends on the facts."
+ },
+ {
+  "segment_id": "s0111",
+  "start_seconds": 3564.78,
+  "end_seconds": 3599.98,
+  "text": "It depends on the nationality of the company at issue and who their customers and clients are. But that seems like another actor whose views would be relevant. Douglas Goldstein, CFP®, is the director of Profile Investment Services and the host of the Goldstein on Gelt radio show. He is a licensed financial professional both in the U.S. and Israel. His book Building Wealth in Israel is available in bookstores, on the web, or can be ordered at www.profile-financial.com. Call us at 1-877-311-4224. Douglas Goldstein, CFP®, is the director of Profile Investment Services and the host of the Goldstein on Gelt radio show. We're located in the Center for Intellectual Property and the Digital World. Our offices are located in the U.S. and in the United States. Readers should consult with a professional financial advisor before making any financial"
+ },
+ {
+  "segment_id": "s0112",
+  "start_seconds": 3599.98,
+  "end_seconds": 3631.96,
+  "text": "decisions. Please see the complete disclaimer at https://sites.google.com.au If you have any questions or other problems, please post them in the comments. Thank you for watching. If you have any questions or other problems, please post them in the comments. about this particular endeavor. That's an interesting, interesting point. I know we're coming to the end of our time. I do have one or two last questions I wanted to ask you. The first of which is, how much do you think ultimately the new command economy is just going to be judged on results? If in a couple of years, all these measures seem to have resulted in the US not being dependent on China for rare earths,"
+ },
+ {
+  "segment_id": "s0113",
+  "start_seconds": 3631.96,
+  "end_seconds": 3662.68,
+  "text": "if the US government equity portfolio is generating billions of dollars in free money as the government would look at it every year, it's worked and we'll find ways to rationalize and know this isn't such a bad idea because it works. Compared with a bunch of these things go bad, bad outcomes will be quite critical of it. How much do you think the results here matter versus the actual intellectual framework? I worry a little bit that it might be judged on results. I think that's part of why it's important to have"
+ },
+ {
+  "segment_id": "s0114",
+  "start_seconds": 3662.68,
+  "end_seconds": 3692.96,
+  "text": "these conversations now so we can be behind the proverbial veil of ignorance and not get swayed by, wow, look at those investment returns. This is all great. I think we could end up with great investment returns and it could still be not great. The fact that something happens to work out and turn a profit, I think first, that's not a foreordained conclusion, and second, it doesn't mean that other values aren't damaged along the way. I think there are important values at stake here, the public law values we've been talking about that goes beyond just the did it work or not. More broadly, I also think there are"
+ },
+ {
+  "segment_id": "s0115",
+  "start_seconds": 3692.96,
+  "end_seconds": 3723.4,
+  "text": "multiple ways to maybe get to the same goal. There are different ways to diversify the rarer supply chains. It doesn't mean you have to do it in a way that lacks transparency. Some of the roads that we could be taking pose less risk to public law values than others. Part of what we're advocating is there are ways you can maybe do a number of these things, but pick the route with less risk to public law values. I think it's important to have those conversations with your ex-auntie rather than trying to do it after things have happened and gone either very well or very badly."
+ },
+ {
+  "segment_id": "s0116",
+  "start_seconds": 3723.4,
+  "end_seconds": 3756.08,
+  "text": "We should be having these conversations now. You're both law professors. You are teaching students. I would imagine knowing you and knowing some of the courses you teach, some of your students might be after graduation embarking on careers where these issues will be on their desk as practitioners. What advice are you giving them about how to think about either thinking about working in this legal area as a lawyer or as these issues come up, how they should be thinking about them? Yeah, Kristen and I have talked about this periodically."
+ },
+ {
+  "segment_id": "s0117",
+  "start_seconds": 3756.08,
+  "end_seconds": 3788.8,
+  "text": "Probably five years ago, really only a few law students knew what CFIUS was when you would say that acronym. The idea of tariffs seemed like a very dusty throwback. It might've been the Ferris Bueller's Day Off, Holly, Smoot, Smoot, Holly. And I think today's students, five years later, and students are much more likely to realize that lots of law firms, especially in DC, have excellent sanctions, tariffs, CFIUS,"
+ },
+ {
+  "segment_id": "s0118",
+  "start_seconds": 3788.8,
+  "end_seconds": 3820.84,
+  "text": "outbound investment review practices, export control practices. And they start to appreciate that it's really a great way to connect private practice with national security, which might be maybe their kind of longer-term interest. And I think that the new command economy trend that we describe in the paper also suggests that lots of in-house legal shops also are going to confront national security issues much more frequently. So to be a good lawyer in this spot, I think it's gonna require a deep understanding"
+ },
+ {
+  "segment_id": "s0119",
+  "start_seconds": 3820.84,
+  "end_seconds": 3852.32,
+  "text": "of these range of economic tools of national security, both US tools and then the proliferation of these tools overseas means you have to understand how foreign governments are using them too. You're gonna have to understand how companies themselves operate. And then it's really helpful, I think, to have a kind of good general perspective on national security and foreign policy issues and some of the history, including the history we've talked about here. Yeah, I completely agree with that. And I will say when Ashley and I started teaching"
+ },
+ {
+  "segment_id": "s0120",
+  "start_seconds": 3852.32,
+  "end_seconds": 3883.72,
+  "text": "about these issues, I feel like we were sort of more advocating and saying to students, hey, we think this is gonna be a really big deal. This is gonna be a big area. And now more often I have students enrolling in my classes because they've already encountered these tools in summer jobs, in pre-law school work experience or academically, they're writing undergrad theses or things on these issues. So definitely it's a growth area and it's one that the students have encountered and are encountering increasingly. And just sort of looking forward, I think one thing that was striking to us"
+ },
+ {
+  "segment_id": "s0121",
+  "start_seconds": 3883.72,
+  "end_seconds": 3914.0,
+  "text": "in thinking through the different corporate roles is that, to go back to our earlier conversation about what's new here, some of them are completely new, but a lot of them have precedents and a lot of them have evolved kind of over time. So entanglement in the supply chain and frontline enforcers have endured across different administrations of different political parties. And so we think this is not going away. This is gonna be an important part of how the U.S. does national security policy going forward. Great, well, Kristen, Ashley, this has been such a pleasure."
+ },
+ {
+  "segment_id": "s0122",
+  "start_seconds": 3914.0,
+  "end_seconds": 3945.16,
+  "text": "Thank you so much for joining. Thanks, Peter. Thanks, Peter. The Lawfare Podcast is produced by the Lawfare Institute. If you wanna support the show and listen ad free, you can become a Lawfare material supporter at lawfaremedia.org slash support. Supporters also get access to special events and other bonus content we don't share anywhere else. If you enjoy the podcast, please rate and review us wherever you listen. It really does help."
+ },
+ {
+  "segment_id": "s0123",
+  "start_seconds": 3945.16,
+  "end_seconds": 3980.76,
+  "text": "And be sure to check out our other shows, including Scaling Laws, Rational Security, Allies, The Aftermath, and Escalation, our latest Lawfare Presents podcast series about the war in Ukraine. You can also find all of our written work at lawfaremedia.org. This podcast is edited by Jen Patja with audio engineering by me, Peter Harrell. Our theme song is from Alibi Music. And as always, thank you for listening. You save, you invest, you keep an eye on spending."
+ },
+ {
+  "segment_id": "s0124",
+  "start_seconds": 3980.76,
+  "end_seconds": 4003.4,
+  "text": "So why do your finances still feel so complicated? Quicken helps you put the whole picture together and make sense of what to do next. Connect accounts from more than 14,000 financial institutions and see how all the different pieces of your financial life fit together. With Quicken, you can make sense of your options and decide what to do next. Quicken, know what to do next. See how at quicken.com."
+ }
+]

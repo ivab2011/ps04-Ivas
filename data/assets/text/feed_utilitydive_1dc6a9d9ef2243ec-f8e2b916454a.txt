@@ -1,0 +1,29 @@
+The Federal Energy Regulatory Commission on Thursday issued proposals aimed at making it easier to develop gas infrastructure, including liquefied natural gas export projects and gas pipelines.
+In part, the proposals are geared to ensuring that the United States can supply gas-fired power plants with the fuel they need to run, according to FERC Chairman Laura Swett.
+“Building generation involves gas,” Swett said Thursday during the agency’s monthly meeting. “The only current restriction on getting American gas is our ability to get the gas to market and the infrastructure bottlenecks.”
+In a move Swett said would address the issue without reducing environmental oversight, FERC on a 4-1 vote proposed no longer requiring air dispersion modeling for its reviews of gas projects under the National Environmental Policy Act.
+“The Commission will shift to a more streamlined approach, ultimately designed to bring our NEPA analysis ‘back in line with the statutory text and common sense,’ and likewise avoid functional duplication of [Clean Air Act] review and permitting responsibilities entrusted to the [Environmental Protection Agency] and the state air permitting agencies,” FERC said in its draft policy statement.
+Air dispersion models simulate how a proposed project’s emissions will spread in the atmosphere and interact with background pollution and emissions from nearby sources, FERC said.
+“The models have proven time and again to be an unnecessary source of confusion, delay and litigation risk,” Swett said. “Air dispersion modeling has proven a tremendous boon for the infrastructure opponents and lawyers who litigate the commission's natural gas authorizations.”
+FERC Commissioner Judy Chang dissented from the draft policy statement, saying it would make it harder to assess how people may be affected by nearby gas projects.
+Air dispersion models are “the best tool we have for understanding the likely local and regional air impacts of the projects we permit, outside of actually having physical monitors,” Chang said at the meeting.
+FERC also proposed a three-tiered blanket authorization framework for LNG projects that would allow certain activities to proceed automatically, without the developer filing an application at the agency. Some activities would require a 60-day notice and comment period and others — such as adding liquefaction trains, LNG tanks and marine berths to an existing plant — would require a 90-day period.
+The proposal is “rooted in the simple principle that [FERC] should devote our resources to projects that warrant searching scrutiny and provide a more efficient pathway for those that don't,” FERC Commissioner Lindsay See said at the meeting. See spearheaded the idea of creating a blanket authorization program for LNG projects like the one it has for gas pipeline projects.
+Senate permitting reform
+During the meeting, FERC commissioners said they were encouraged by Senate permitting reform legislation.
+“We must build more wires and more pipes to meet demand and keep energy reliable and affordable,” Swett said. “If we're going to achieve this build-out on time, without undue costs, we need durable, consistent, efficient regulatory frameworks for permitting new infrastructure.”
+The Bipartisan American Affordability and Jobs Act offers reforms to statutes that are causing “tremendous delay, uncertainty and litigation risk” in permitting, including NEPA and the Clean Water Act, she said.
+FERC is constrained by rules that weren’t designed for today’s energy landscape, according to Commissioner David Rosner.
+“We're working to address a multitude of 21st century challenges — historic load growth, proliferation of new technologies to produce, store, deliver and use electricity in new ways — all using a statutory framework that, in many cases, is a half century old or more,” he said at the meeting.
+Potentially, the bill could speed up the process of connecting new generation to the grid, Rosner said, noting that it can take a project five years to complete the interconnection review process and get built.
+By encouraging grid-enhancing technologies, the bill could also help make the existing grid more efficient, Rosner said.
+“Regular Americans expect us to show them that we did everything we could to squeeze the most out of the existing wires before we ask to build a new wire, and so it's welcome to see these technologies receive emphasis and acceleration in the draft,” he said.
+Transmission development could also get a boost from the bill, according to Rosner. “No matter what your goal is, whether it's connecting a data center, developing clean energy, or making sure we have a reliable and affordable grid, they all rely on transmission,” he said.
+Rosner highlighted several issues that he said reflect the state of the U.S. transmission system:
+- A pending complaint at FERC over ISO New England’s finding in its recent interconnection cluster study that projects seeking to connect to the grid must pay $3.2 billion in network upgrade costs;
+- a proposed gas-fired power plant in the PJM Interconnection was assigned $1.3 billion in network upgrade costs, which killed the project;
+- only 400 miles of 345-kV and above interstate transmission came online in the U.S. last year, down from 4,000 miles in 2013; and,
+- an estimated $12 billion in grid congestion costs in 2024.
+The Senate legislation would require FERC to launch nine rulemakings, Rosner noted.
+“These challenges are real; they're time-sensitive,” Rosner said. “I'm really glad that Congress is seriously weighing how to address them.”
+The bill’s proponents aim to pass the legislation during the lame-duck session after the midterm elections. It would also need to clear the House, which has passed its own permitting reform bill.

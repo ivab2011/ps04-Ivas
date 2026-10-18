@@ -1,0 +1,656 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 32.2,
+  "text": "Hey folks, thanks for joining us on this webinar. As everyone is probably experiencing, there's a lot of AI questions out there. And I didn't want us to have a first-to-market discussion in AI and miss all the analysis. I want to make sure we have some fulsome thoughts. One thing I think people tend to appreciate about Dragos is whether you agree with us or not, we're very authentic. We tell you our views and it's usually backed by what we're seeing out in the field. And so we want to take that same approach here. We've been pretty heavily involved in multiple different ways with the Frontier AI models, seeing incidents where AI is actually being used,"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 32.2,
+  "end_seconds": 62.68,
+  "text": "our own red team and offensive folks using it, our own product teams and the product security teams. And so what the intention here is, is to be able to talk to you about what we see in general happening across OT security as it relates to AI. And then also in the second part of this, and we'll kick it over to Garrett, one of our awesome engineers, who's going to go through how we use the models specifically against the Dragos platform and talk about how Defender use cases and product security and so forth actually manifested. So I'm going to start off by trying to catch us all up."
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 62.68,
+  "end_seconds": 93.08,
+  "text": "I don't want to repeat the last 20 years of OT security for folks, but I know there's probably some new folks dialing in. And even if you've been in the community a long time, there's a lot going on. And I want to walk you through kind of how I've seen our community change and what that means from a security and risk perspective. And then ending that sort of era with here's what's happening in AI and put it in some pretty broad buckets of what we're seeing. Now, just for purpose of transparency, the insights we have are in a number of different places. So Dragos has been publicly involved for a while"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 93.08,
+  "end_seconds": 123.76,
+  "text": "in the Anthropic Mythos program. We have done that publicly. We've done a lot of non-public things. So a number of the different AI companies and their frontier models, we've been working privately with them. You'll see various announcements coming out over the next couple of months and blogs and insights. Some things we can talk about, some things we're just not allowed to, though we can still share the insights. Either way, our insights are coming from being involved firsthand in the non-public access to a variety of different frontier models."
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 123.76,
+  "end_seconds": 155.28,
+  "text": "That's one bucket. Bucket number two is our own teams using those models and others in terms of OT security and what we're seeing in value, whether it's defensive or red team and incident response and so forth. And then that last bucket is what we've seen from the incidents that we've been involved in where AI is actually being used in the least early stages of a number of these operations. So from a lot of that sort of vantage point, as well as some of the conversations I've been having with national level leaders, of course, boards and CEOs, but behind the scenes, getting called in a lot these days"
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 155.28,
+  "end_seconds": 186.0,
+  "text": "for various governments at a senior level and understanding what this might mean. Some people are just generally scared. And throughout my career, as you look back, if you haven't met me or known me, throughout my career, I've been the person that takes a lot of wind out of the hype. There'd be like news articles like, oh, phishing email, it's gonna take down the power grid. I'm like, that's not how you take down a power grid. And also there's not one grid and that type and calm down. I will say that what I'm seeing now does concern me. I think there's some great opportunities. There's some good things for defenders,"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 186.0,
+  "end_seconds": 217.56,
+  "text": "but I think that there is a lot of actual legitimate concern about what we're seeing. And I wanna help advise you and walk you through that in this webinar on where my concern is and isn't and what I'm advising companies and national security leaders to do as a result. So as we get started, let me just walk you through sort of the eras because there's a lot been going on. It feels like a soap opera of, if you're the last time you tuned in, since the last time, here's what's been going on. And broadly speaking, when you look at operation technology, cybersecurity,"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 217.56,
+  "end_seconds": 250.32,
+  "text": "there have been pretty distinct eras defined by attacks by the adversaries on what we in the community deal with. They live in our world in terms of coming into our operations environments to do attacks. We live in their world in terms of they choose to attack or they don't. And again, there's been pretty distinct eras. If you look at the first era, there was a lot of industrial control system or operation technology interest by adversaries. And that was through 80s, 90s, early 2000s"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 250.32,
+  "end_seconds": 281.32,
+  "text": "of adversaries who didn't do any attacks, but you can almost define them as like being ICS curious. They were trying to get into OT environments. They were trying to get into those industrial control system networks. Didn't quite know what they were gonna do when they were there. They were learning. Do I do this to steal on intellectual property? Can I do attacks? Like, what's the value of being here? And in those cases and in those operations, it was largely intelligence agencies that you were dealing with. Russia, China, Iran, US, Israel, throughout whatever country name you want,"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 281.32,
+  "end_seconds": 311.96,
+  "text": "there are intelligence agencies that were involved in those operations. And into the 2010, 2015, 17, a couple of the big attacks we saw publicly, you were still primarily dealing with intelligence agencies, almost all of these attacks. And there's a certain defining characteristic that you can't say all countries operate the same way, but there's some commonalities where broadly speaking, intelligence agencies like to do intelligence work. They like to spy. They like to do espionage."
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 311.96,
+  "end_seconds": 344.04,
+  "text": "They like to watch. They generally don't wanna do offensive operations. They don't wanna blow things up, take things down. It's very overt. And so when an intelligence agency is actually tasked to go and do an offensive operation, to do destruction or destruction, it usually takes some very senior people in your government, up to and sometimes including the head of state, like a president, to sign off on those operations. As a result, prior to 2021, there was kind of this broad big bucket era of intelligence agencies doing espionage and offense."
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 344.04,
+  "end_seconds": 376.88,
+  "text": "And as a result of it taking a lot of requirements to sign off on that, you dealt with very few public incidents. There's a lot more happening than people realize. There's a lot of things taking place behind the scenes, but it was still intelligence agencies. So we're still dealing with low frequency, high consequence attacks. Not a lot happened. When it happened, people wrote books about it in terms of offense. A lot of espionage, but not so much offense. That persisted up until 2021. And a major reason for that is there's a lot of factors,"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 376.88,
+  "end_seconds": 407.4,
+  "text": "intelligence agencies learning OT, that whole IACS curious phase, and what can we even do here? But a big reason for it is we were very different in the community. Our environments weren't as well connected. They weren't as disconnected as people pretended, but they weren't as well connected as they are today. We were very heterogeneous. You may have heard me talk about this before, where I said we had these heterogeneous environments where a carbon cracker in Dammam, Saudi Arabia had almost nothing in common with electric transmission substation in DC, which had almost nothing in common with the water filtration system in Sydney, Australia."
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 408.24,
+  "end_seconds": 439.08,
+  "text": "And there was a lot of differences between the industries and sites, and even in the same industry, a lot of differences. So to scale an attack was hard. The more offense you wanted to do, the more impact you wanted to have, the more specific your attack had to be to that site and system, and maybe even subsystem. Very expensive, very hard, a lot of time required, work of intelligence agencies. That all has been changing for years, but I think we really sort of crossed that divide in 2021. We've been going much more homogenous, much more digital, much more connected,"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 439.08,
+  "end_seconds": 469.68,
+  "text": "but now there's a lot in common. You might have a Rockwell, Siemens, Yokogawa, Honeywell system, but underneath the hood of that controller, you have common software stacks, codices. You have common protocol languages. You have common implementations, vendors and integrators doing cookie-cutter installs of a facility, a lot more homogenous nature, which allows you to model and train and prepare and scale attacks. 2021 was the first time ever that we saw a cross-industry reusable framework to be able to do attacks."
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 469.68,
+  "end_seconds": 500.52,
+  "text": "That was Pipe Dream. So Pipe Dream was the first time ever you could do offense and actually cause physical impact if the environment would allow it, reuse the capability, hit multiple industries. Everything from servo motors on unmanned aerial vehicles to water pumps, to gas turbine sites, to whatever. 2024, we then started seeing more militaries around the world enter the discussion and doing offensive operations. Because now when it's not an 18-month classified program to come up with something, but it's a, oh, I can build an attack framework and reuse this and go forth and conquer,"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 500.52,
+  "end_seconds": 531.84,
+  "text": "that's when militaries are in the discussion. And so we think about it from the 80s up into 2021, there was Curiosity and Espionage and one-off attacks, but it wasn't, it was intelligence agencies. That was primarily what you're dealing with. And then it all switched 2021 and 2024, militaries, short window. And then we switched again. 2024 is the first time, at least from Draco's perspective, we had insights that we could prove or make a high confidence assessment that state actors were arming non-state actors. And we would see non-state actors,"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 531.84,
+  "end_seconds": 562.84,
+  "text": "hacktivists, criminal groups, whatever, as an example, who previously were hacking internet-facing human-machine interfaces and writing, this country sucks on it, to then actually having PLC or program logic controller level implants, ladder logic manipulation, physical process manipulation, things you don't just organically come up with in a month. And it was very clear from shared infrastructure, from front companies, and a lot of our analysis that we did, that there were certain countries that were willfully and intentionally arming non-state actors with OT specific knowledge."
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 562.84,
+  "end_seconds": 593.28,
+  "text": "So again, just think about it from a community perspective. We're living in this world of low frequency, high consequence, we hit 2021, you have 20 plus years of all the same type of general vibe. Then, oh my gosh, military's come in, and then within three years, oh, here's the non-state actors. And then we're hitting the AI piece. And I think that really is a 2026 discussion. I know AI has been around for a while. Dragos could have put AI on the booth at a conference years ago and got a valuation increase. We didn't do it, because we didn't see the authenticity there."
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 593.28,
+  "end_seconds": 624.28,
+  "text": "It wasn't use cases that we really could talk about for offense or defense. We weren't seeing it in the field. One way or the other, so we just said, hey, we're not gonna have a view on this until it's real for us. This year, we have that view and it's real. And I think the last nine months have been an exceptional period of time to understand all this. So again, 80s to 21, 2024 to 2026, very fast era is moving at this point. So there's a lot to keep up for our defenders. So what are we seeing? I'm gonna try to bucket it into big broad categories for it."
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 624.28,
+  "end_seconds": 655.68,
+  "text": "But here's the learnings that we've seen. Here's the insights that we have. And then of course, like I said, Garrett's gonna get into some more of the technical details of how we use it, even defensively. So bucket number one, we are seeing just like a bell curve, some of your not great adversaries on this end versus your great adversaries on this end and great being defined as very capable and competent. They're still jerks for targeting civilian infrastructure, but they're competent at doing it. And we look at the bell curve aspect of it. The backside of that bell curve"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 655.72,
+  "end_seconds": 688.8,
+  "text": "of all the various adversary groups out there, threat actors, threat groups, whatever you wanna call them, most of those are targeting IT, right? There's only around 27 or so groups that we track that target OT specifically. So back half of the group who honestly is a lot of very lacking in competence, not as competent as you would expect adversaries, they're targeting IT environments. And then bucket one, some of the observations we've seen just from out in the field. This one comes from an investigation we got involved in"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 688.8,
+  "end_seconds": 719.08,
+  "text": "with Mexican government breach. So there was a breach into the Mexican government earlier this year. It was a really good firm that took care of the incident response from an IT perspective. They saw some OT things, they called us, they said, hey, can we get you involved? We helped them out, help the government and then got permission to be able to share the insights. And it was quite interesting. And it's a public case study that we have, we'll make sure it's linked for folks. But what we saw was an adversary focus on the enterprise IT environment. No OT skills, no OT knowledge, no OT desire."
+ },
+ {
+  "segment_id": "s0024",
+  "start_seconds": 719.08,
+  "end_seconds": 752.8,
+  "text": "They were focused on enterprise IT environment. And then the AI model itself unprompted said, hey, by the way, that system, it's actually an interface down to the water utility and the water utilities OT networks, which is government owned. And if you were to compromise that system, you can get to the OT networks and you should do so because OT is a crown jewel. OT is really important. Compromising it would be really smart, right? And so the model itself highlighted OT,"
+ },
+ {
+  "segment_id": "s0025",
+  "start_seconds": 752.8,
+  "end_seconds": 785.64,
+  "text": "told its value, told what it is, then said, here's the vendors that are using the default configurations, the default passwords, here's how to get started in your operations. So there are hyped up stories, in my opinion, so far relevant to what we can see. Maybe one day it's true, but today it's not. There's a lot of hyped up stories of AI is gonna get out and just hack power plants and water systems, and we're just gonna bring down all the infrastructure. Nothing that we see suggests that today. What we do see in sort of that bucket one is the world of IT adversaries"
+ },
+ {
+  "segment_id": "s0026",
+  "start_seconds": 785.64,
+  "end_seconds": 815.76,
+  "text": "are going to get told by models, you should do this. Here's how to get started. Here's how to start your operations and you should go after OT. And I think that is going to really increase the frequency of the incidents that we see as a result. We're gonna move more of the IT threat landscape to focusing into our OT world. And I think that's gonna be an accelerator in incidents I don't think it couldn't be. So that's the first big observation. The second big observation that we've seen is these models, and this is part of the area"
+ },
+ {
+  "segment_id": "s0027",
+  "start_seconds": 815.76,
+  "end_seconds": 845.88,
+  "text": "that Garrett's gonna go into a little more details. These models are exceptionally valuable and useful as it relates to finding vulnerabilities and creating attack chains and creating exploits for them that are useful. And I, as I read into it in the beginning, I thought there was quite a bit of hype post nine months ago. I feel pretty validated in that. Last nine months, as I've been looking, I'm like, oh, nope, this is pretty good. And so what we're seeing is these models are exceptionally capable and quick with the right harnesses, with the right agents,"
+ },
+ {
+  "segment_id": "s0028",
+  "start_seconds": 845.88,
+  "end_seconds": 875.92,
+  "text": "with the right tooling to find vulnerabilities and combinations of vulnerabilities that are not as easy for human analysts to find and come up with. And we're not talking about a couple, we're talking about pointing it at different products. And I don't wanna use the better names, but we've put it in our industrial control system ranges and pointed it at a couple of different major OEMs that you would know. And it's dozens upon dozens of really good zero days with hundreds into the thousands of other vulnerabilities."
+ },
+ {
+  "segment_id": "s0029",
+  "start_seconds": 875.92,
+  "end_seconds": 906.08,
+  "text": "And so we are going to be in a place very quickly where there's just a ton of vulnerabilities and it's gonna impact companies and countries differently. There's some countries that roll out regulations related to software supply chain, product security and vulnerability patching and so forth. And these models are gonna uncover an overwhelming number of vulnerabilities. And it's gonna be really important to focus on which ones are important. You may have seen this from us before in our Dragos Year in Review report, where we talk about all the threats and insights and vulnerabilities we see all year long."
+ },
+ {
+  "segment_id": "s0030",
+  "start_seconds": 906.08,
+  "end_seconds": 938.2,
+  "text": "But we generally will talk about the vulnerabilities that matter in the context of now, next, never. Never is the vulnerabilities that don't really add any operational risk. You're probably adding more risk by even trying to address them. That's 20, 30% of the vulnerabilities each year. Then there's the 60, 70% of the vulnerabilities which are next, which is this could be interesting. It's not something to really freak out about. It's okay to have compensating controls. If you're preventing the exploitation, that's great. If you're disabling the service, that's okay. If you monitor for exploitation, that's okay. If you get some time, feel free to address them,"
+ },
+ {
+  "segment_id": "s0031",
+  "start_seconds": 938.2,
+  "end_seconds": 971.16,
+  "text": "but it's like a next thing on your list. It's not something you go to now. And then every year we have like that two to 6% of now that you should really go and mitigate these. Either these add a lot of context, capability, or otherwise risk into the things we care about in control system environments, like safety, manipulation and control, manipulation of visibility, et cetera, or they're already actively being exploited by adversaries. So you really need to focus on these. I think the community is gonna get overwhelmed by the number of vulnerabilities coming out and moving to, stop moving to like CVSS scores"
+ },
+ {
+  "segment_id": "s0032",
+  "start_seconds": 971.16,
+  "end_seconds": 1001.6,
+  "text": "to get the vulnerabilities and very quickly have conversations of now, next, never. What are the two signals? And let's focus there. There's gonna be, I think, too many vulnerabilities across too much legacy equipment, too much systems in our environment, even if you updated and got new equipment, that's gonna come up with vulnerabilities. And I think that's gonna be hard for a lot of people to keep up with. I think adopting something like now, next, never is gonna be incredibly important. Further to that, and again, this is where Garrett will dive deep, that same approach when defenders use it is very powerful."
+ },
+ {
+  "segment_id": "s0033",
+  "start_seconds": 1001.6,
+  "end_seconds": 1032.96,
+  "text": "And Garrett will talk through how we've used it against our own technology stack. So look for vulnerabilities and find things and so forth. And when the defenders are putting in the resources, when the vendors are putting in the resources to spend the money to run these models against their products, they're going to be in a great place to find these vulnerabilities before the adversary does. I'm just gonna be candid and I'm not trying to put anybody down. There's a lot of vendors in the community that are not gonna do that. There's, it costs money. It's a cost consideration for us. You know, we've made a ton of different choices"
+ },
+ {
+  "segment_id": "s0034",
+  "start_seconds": 1032.96,
+  "end_seconds": 1064.24,
+  "text": "at Dragos over the years for supply chain security, all of our people being employees and US-based and trying to control our supply chain, not about this country is better than that country, but I'm gonna control my supply chain of software that gets deployed in nuclear power plants, right? We've made a lot of very security conscious decisions that I know others haven't. That's not to put them down, it's just facts. And for us, it was a no brainer on, hey, this is gonna increase our costs by a significant amount that's okay, every release, let's be running these models. Let's hire some additional AI, smart focused developers to be able to take more value out of them"
+ },
+ {
+  "segment_id": "s0035",
+  "start_seconds": 1064.24,
+  "end_seconds": 1094.84,
+  "text": "and let's just focus this on security. There are a ton of OEMs that are not gonna do that across all the product lines, that maybe they just do it across the biggest ones. There's a lot of these smaller vendors and they're not gonna do it at all. And a lot of these products are gonna get into our industrial automation environments and the adversary is gonna do this type of modeling first and they're gonna have a lot of interesting vulnerabilities and exploits as an example. I would tell you that two to 6% kind of mindset, we usually care about how something is being abused, not just that it has a vulnerability. Sometimes you don't even need a vulnerability"
+ },
+ {
+  "segment_id": "s0036",
+  "start_seconds": 1094.84,
+  "end_seconds": 1125.92,
+  "text": "to manipulate things because the native functionality is good enough. The closer you get to the perimeter of your automation environment, the closer you get to jump post and firewalls and so forth, the more those are gonna matter. The vulnerabilities that give access are gonna be abused very quickly. We track a threat group that prior to their usage of AI was finding a vulnerability that got released and within 24 to 48 hours, reverse engineering it, finding and building an exploit and going after companies that had those devices deployed. In the AI world, it's gonna be a matter of minutes,"
+ },
+ {
+  "segment_id": "s0037",
+  "start_seconds": 1125.92,
+  "end_seconds": 1157.24,
+  "text": "not a day or two. And a day or two was already very difficult for people to keep up with. So that's sort of another bucket. The other sort of tangential bucket I will say that's an observation is, I would say somewhere in north of 90, so make up some number, but north of 90% of infrastructure owners and operators have largely taken a prevention only strategy. And they're not stupid for doing so. It's largely what the guidance has said. If you look at most of the big industrial frameworks and standards and regulations out there, a significant portion, well north of 80, sometimes even as high as 98%,"
+ },
+ {
+  "segment_id": "s0038",
+  "start_seconds": 1157.24,
+  "end_seconds": 1187.48,
+  "text": "we did the math on this one, north of 80, usually up to 98% of all of the guidance that goes out is preventative in nature. Deploy antivirus, patch, password, access controls, firewalls, segmentation. And where an AI model finding a vulnerability in a PLC nine times out of 10 is not gonna be all that interesting, though it could be. The vulnerabilities found in the firewalls and the access points and all that prevention layer are super impactful. And so I am worried that there's a major portion"
+ },
+ {
+  "segment_id": "s0039",
+  "start_seconds": 1187.48,
+  "end_seconds": 1218.68,
+  "text": "of our community that is coming online, digitizing, rolling out AI projects, trying to get more insights and value out of our operations environments. We've gone that homogenous curve, we've got non-state actors involved. getting connected, getting digital at a time that the number one recommended security control out there relative, which is prevention, which you should still do, but you just shouldn't stop there. And a lot of companies stop there. That control is worth less in security to you than ever before. And as a result, I think we're gonna see a lot"
+ },
+ {
+  "segment_id": "s0040",
+  "start_seconds": 1218.68,
+  "end_seconds": 1249.36,
+  "text": "of compromises take place of infrastructure sites. And it's not just the smaller ones. The smaller ones for sure, where they don't have the economic resources to do something. But there's a lot of large companies who think they're doing a lot more than they are, or they're reporting up that they're doing a lot more than they are, and they've got a lot of these issues they gotta go find, and it's gonna catch up with them. The sort of the next bucket, and then I'll try to turn this a bit positive, but the next bucket is one that I think worries a lot of the national security leaders I talk to. So we look at that bell curve discussion that I had previously."
+ },
+ {
+  "segment_id": "s0041",
+  "start_seconds": 1249.36,
+  "end_seconds": 1281.24,
+  "text": "There are a number of adversaries that are gonna use AI and get a little bit better or get a little bit more scale, but it's not gonna be scary. There's the middle tier, which they'll be a little bit better. But then there's some teams that have training data. They've been doing their own operations for a long time. My estimates, there's four or five that I'm really concerned with. I like the 27 plus that we track. They've been doing operations for 15, 20 years into OT environments. If they've been keeping that data, which probably so,"
+ },
+ {
+  "segment_id": "s0042",
+  "start_seconds": 1281.24,
+  "end_seconds": 1312.28,
+  "text": "that is a lot of training data that they can add on top of these frontier models. So in our experience across Anthropic and OpenAI and the various frontier models, they're really good to start with, but they need a lot of work and they really need context to really matter for OT. And so you may have seen, we did a whole big product launch where we said, hey, we have this Embraer AI module now. And then we said, Embraer AI is available to you. And the reason we did that, and just to highlight the point here, is we're sitting on 10 plus years of data"
+ },
+ {
+  "segment_id": "s0043",
+  "start_seconds": 1312.28,
+  "end_seconds": 1343.28,
+  "text": "from instant response engagements, threat research, vulnerability research, threat tracking, assessments, red team engagements, security operations. We're doing threat hunting for folks in our managed service. And we're the only OT security vendor that was doing those things. I remember an era where we were getting made fun of for having a services team. Well, it turns out having a bunch of smart humans and creating a bunch of unique and proprietary data sets, pretty interesting when it comes to AI. And so we took all of that and we put it into a graph database and we put it on top of the frontier models. And initially it was more of an internal thing."
+ },
+ {
+  "segment_id": "s0044",
+  "start_seconds": 1343.28,
+  "end_seconds": 1374.36,
+  "text": "And we were seeing that when we took the capabilities of the frontier model, but then the context and the insights and the expertise of people, relative and relevant on OT, we were getting amazing outcomes. So bad data, bad analysts, great models, bad outcome. Great data, great analysts, great models, and absurdly amazing outcomes. We were seeing assessments that we were doing that would take two to three weeks, now take two to three days. Our hunters using our Dragos platform technology"
+ },
+ {
+  "segment_id": "s0045",
+  "start_seconds": 1374.36,
+  "end_seconds": 1406.08,
+  "text": "for customers in their OT watch offering and doing managed services and so forth, work that was taking 20 hours to take two minutes. And so it was just a massive amount of training data on top of the models, accelerating what we could do in a really amazing way inside of harnesses and frameworks and skills and bounding it, trying to be careful of hallucination and so forth, which exists. There are some of your adversaries that have that equivalent data set. I'm not worried that every IT hacker out there is going to be able to target OT now."
+ },
+ {
+  "segment_id": "s0046",
+  "start_seconds": 1406.08,
+  "end_seconds": 1436.36,
+  "text": "I am concerned that relevant with all the other things I mentioned, like we're highly preventative focus on this other stuff, there are a subset of those adversaries that are sitting on a lot of training data and their ability to apply that training data to their models, the open source models, the Chinese models, the Anthropics of the world, whoever is going to get them reaching scale in a way that we've never seen before. And the difference is going to be, do they want to? And so I can't tell you the adversaries that are going to immediately start hacking everybody. That's their choice."
+ },
+ {
+  "segment_id": "s0047",
+  "start_seconds": 1436.36,
+  "end_seconds": 1467.96,
+  "text": "It's a human analysis piece. But I'm telling you that there are some adversaries that are going to have extraordinary capabilities and extraordinary reach and scale in a way that our community has never dealt with before at a time we're racing to get more out of our OT environments, get more digital, get more connected, get more homogenous, get more AI in there. That's a concern. So taking all these buckets together, I think it's appropriate that people are freaking out a little bit and going, this is concerning. Now, the good news, as Garrett is going to get into,"
+ },
+ {
+  "segment_id": "s0048",
+  "start_seconds": 1467.96,
+  "end_seconds": 1498.12,
+  "text": "defenders using AI appropriately, not just AI everything, not just, oh my gosh, let's get on the AI hype train, but targeted use cases with appropriate training data with appropriately smart analysts. I don't think AI is replacing the analysts. I think it's empowering them. And our analysts getting more empowered are going to be amazing. I will vote on the defenders every day or the adversary. I've met both. I've met in person some of the people on their side and their adversaries. I've met in person, plenty of defenders, whether it's my SANS training classes or our customers or just out in the community."
+ },
+ {
+  "segment_id": "s0049",
+  "start_seconds": 1498.12,
+  "end_seconds": 1530.92,
+  "text": "I'd vote on the defenders. We have better people. The type of people that want to wake up in the morning, put in the hard work and protect infrastructure and protect your local communities. They're just better. They're better humans than I've seen in the adversaries. And so AI arming them, I'm super excited about. The ones that are not going to be able to take that journey or aren't taking the journey, or we're happy with the segmentation strategy or whatever, they're going to find that the adversaries are doing the same AI work, same training data set, same recent scale, and it's going to be a mismatch. So I don't think it's a discussion of,"
+ },
+ {
+  "segment_id": "s0050",
+  "start_seconds": 1530.92,
+  "end_seconds": 1563.12,
+  "text": "does AI benefit the offense or the defense? I think it's the same discussion we've been having in all of InfoSec for as long as we've all been here, which is whoever puts in the work wins. If you're going to do the security work and know your environment better than anybody and protect it, you're going to win. If the adversary comes along and you haven't been doing that and you've been cutting corners and you don't know your environments and they put in the work, they're going to win. I think AI is just adding to the reach and scale of that. And unfortunately, that is concerning with how much of our infrastructure is just not well-protected. I've gone on the records and talked to Congress"
+ },
+ {
+  "segment_id": "s0051",
+  "start_seconds": 1563.12,
+  "end_seconds": 1595.56,
+  "text": "about this in testimony that I think sub 10%, I think that's generous, I think it's probably more like sub 5% of industrial environments around the world are actually being monitored. That somebody's looking inside to see what happens. And as we add more complexity and more automation, it's going to be harder and harder to even determine was it a cyber attack or not, if we're not doing the appropriate visibility monitoring, collection of data, network traffic, understanding the interaction of systems of systems. We don't do those things. We're not going to be able to get into root cause analysis of what went wrong. And at the same time, we're going to be finding"
+ },
+ {
+  "segment_id": "s0052",
+  "start_seconds": 1595.56,
+  "end_seconds": 1625.6,
+  "text": "that those corners we cut caught up with us. But again, the good news is simple. I don't think this massively changes your security architecture or recommendations. When I look at all this other stuff that's happening across AI, I don't want to sit back and go, oh my gosh, we've got to reinvent security. What I see is there should be more ownership of the problem, the vendors and OEM size and product security, definitely do that. But when we look at what it means in OT to be successful, it's still known tactics, techniques and procedures"
+ },
+ {
+  "segment_id": "s0053",
+  "start_seconds": 1625.6,
+  "end_seconds": 1655.92,
+  "text": "of how to misoperate our equipment. Because that's a lot of the times what it is, misoperation, it's using our systems against themselves. And when you look at that, you can consistently refer back to the SANS ICS five critical controls, which Tim Conway and I looked at every single industrial compromise we could get access to, all the insights that we had from our own instance, all the Dregos data, everything that was public, everything that's non-public that we get access to. And it was very clear when we did that, we just asked a very basic question of what security controls worked in all of the attacks, not one-offs, you can do more,"
+ },
+ {
+  "segment_id": "s0054",
+  "start_seconds": 1655.92,
+  "end_seconds": 1686.32,
+  "text": "but what worked in all of them to be the base ones. And that was the five critical controls. Those five critical controls are still just as relevant in this discussion. The difference is if you're not going the journey, if you're cutting corners, if you're representing to your board that you're doing enterprise IT, but you're really just doing enterprise IT and not the enterprise. If you're not getting visibility into the environments to determine the rogue access and connections and extra connections that you didn't know that happened, if you're not analyzing the firewalls"
+ },
+ {
+  "segment_id": "s0055",
+  "start_seconds": 1686.32,
+  "end_seconds": 1716.6,
+  "text": "to find the any rule that's been in there for a long time, if you're not moving towards secure access, if you're not doing threat detection where you can actually hunt and respond and think about response, if you don't do those things, I think you're gonna be in a world of hurt here soon. I think our community is gonna get divided very quickly into two. There's gonna be the ones that weren't taking the journey and they're gonna be in a very bad place. And then there was the ones that were taking the journey and they're gonna have to go a little bit faster, a little bit more sense of urgency, maybe a little bit of step change, but they're gonna be capable to do that."
+ },
+ {
+  "segment_id": "s0056",
+  "start_seconds": 1716.6,
+  "end_seconds": 1746.84,
+  "text": "And those teams are gonna win and defense is doable. It's not given, it's not handed out for free, but it's doable. You can earn it, you can put the work in and do it. And nothing across all of the AI stuff that we see is changing that. I do think what comes next, because I get that question a lot, what happens next? I do think these models will continue obviously to develop. And I do think that OT context is gonna become more and more widely available. Even with research labs and universities publishing,"
+ },
+ {
+  "segment_id": "s0057",
+  "start_seconds": 1746.84,
+  "end_seconds": 1778.04,
+  "text": "well, here's how I would attack controllers and I think they're helping folks. That's knowledge that can get empowered in these models. And I do worry and I do think it's a reasonable forecast that we're gonna start to see those models with more context, then start to be more capable in automation environments without a lot of human interaction. As an example, my red team took our knowledge set, applied it to some of these models. We were trying to help build better harnesses. So a couple of the AI companies have reached out to us and said, hey, just pro bono, can you guys help us?"
+ },
+ {
+  "segment_id": "s0058",
+  "start_seconds": 1778.04,
+  "end_seconds": 1810.04,
+  "text": "Can you help us create better training for harnesses so that people can't abuse our models to attack OT? We're like, yeah, okay, of course, we're happy to help. And so we've been involved in that with a couple of companies non-publicly to try to help it be harder to jailbreak the models and so forth to attack OT. But when my red team was applying their context and their knowledge and so forth, sort of finding that an AI model that we were using was actually very effective with the additional training data and context of getting through the perimeter, moving over to the automation environment,"
+ },
+ {
+  "segment_id": "s0059",
+  "start_seconds": 1810.04,
+  "end_seconds": 1841.08,
+  "text": "passively and quickly understanding the environment, accurately mapping it out, knew exactly the OEM, the system, the drop, everything, and then finding the right exploits and vulnerabilities to then move in to attack the controllers themselves. That's not something that's in the public data, public models today. I think it will be eventually. And so where we are today is human adversaries with training data are becoming really scary. Where we will go tomorrow is I do forecast"
+ },
+ {
+  "segment_id": "s0060",
+  "start_seconds": 1841.08,
+  "end_seconds": 1871.16,
+  "text": "that there's going to be model development and training data sets more widely available that's gonna allow more autonomous AI in terms of automation environments. I don't think this is the, to defend against AI, you need AI type stuff. I think it's, you gotta actually do security. You gotta do those five critical controls. Go beyond that if you want, but you gotta put in the work. And if you don't, I think we're all about to experience a different level of infrastructure issues than we've seen before. So with that, I'm gonna transition over to Garrett to have Garrett go through some"
+ },
+ {
+  "segment_id": "s0061",
+  "start_seconds": 1871.16,
+  "end_seconds": 1902.12,
+  "text": "of the more technical insights that we've had as it relates to our own experience in the METHOS program, as well as some others and how we thought through it on a product development side to hopefully help the other vendors and OEMs and questions that you may have to be able to present to your vendors and OEMs on how they're using it and kind of some of the lessons learned that we have. Thanks, Rob. Very, very useful, very informative around the hype and where we're seeing the industry going. Specifically for us at Dragos, we were invited to join the Anthropic Glasswing project."
+ },
+ {
+  "segment_id": "s0062",
+  "start_seconds": 1902.12,
+  "end_seconds": 1932.84,
+  "text": "And this isn't specifically about the Glasswing project, but our methodology that we use to evaluate our own software because we know the Dragos platform is in places that people really want access to. And should an adversary gain access to the Dragos platform, they are gonna have all of this aggregated content and knowledge that can feed their knowledge base to make the attack more efficient or identify where are the breaking points"
+ },
+ {
+  "segment_id": "s0063",
+  "start_seconds": 1932.84,
+  "end_seconds": 1963.32,
+  "text": "across these industries. And we absolutely do not want that. So as part of Glasswing, we introduced these frontier models and we learned along with them how to actually protect a product when you point an AI adversary at it. So I'll bring you through a few of these data points as we're going through and talk about our methodology. So when we started our methodology, it was very interesting, right? It's sort of like you give a kid a new toy"
+ },
+ {
+  "segment_id": "s0064",
+  "start_seconds": 1963.32,
+  "end_seconds": 1996.4,
+  "text": "and they try to do absolutely everything you can. So you give a car enthusiast a new Ferrari, they're gonna try to do donuts in the parking lot. We gave our defenders, our highest class engineers at Dragos, and they just really kicked the tires on absolutely everything that they could. And that first few weeks as we were finding our way around this program, you can see that if you look at this token count at the bottom metric here, we really took it out for a ride. We burned 68.7 million tokens."
+ },
+ {
+  "segment_id": "s0065",
+  "start_seconds": 1996.4,
+  "end_seconds": 2027.98,
+  "text": "But the really interesting thing here is just pointing these models. Yeah, you're gonna find vulnerabilities in this code base, but the problem is most of them are wrong or most of them are unexploitable. And that's what we found in those first few weeks as we were burning a lot of tokens. Honestly, that amount of effort confirmed nothing because at the end of the day, we couldn't have a text fixture that could reach the code and actually refute or validate the different kinds of vulnerabilities that we saw."
+ },
+ {
+  "segment_id": "s0066",
+  "start_seconds": 2027.98,
+  "end_seconds": 2058.02,
+  "text": "So as we went through this, we have a lot of different code bases for our product, our platform. We swept through around 63 different code reposits with almost 7,000 agents in three days. And again, that sounds like a lot and it sounds like a very costly mechanism for you to undertake. But I'm gonna talk about that cost breakdown as we move forward and also how we ended up optimizing this for better results at the end of the day."
+ },
+ {
+  "segment_id": "s0067",
+  "start_seconds": 2058.02,
+  "end_seconds": 2088.08,
+  "text": "The three kind of basic constructs that we ended up building our program around was that we first did threat modeling. That was, we looked at every one of these repositories and we looked at what are the ins, what are the outs, where is that in the stack and what are the trust boundaries between that particular service and another service, right? And then we took that with an adversarial approach and said, test every one of these ins, the outs,"
+ },
+ {
+  "segment_id": "s0068",
+  "start_seconds": 2088.08,
+  "end_seconds": 2119.78,
+  "text": "look at those trust boundaries. Can we see if there's anything unbounded passing through them? And again, that produced a lot of vulnerabilities. But at the end of the day still, there's a lot of things that are in there to defeat those types of attacks. So the next thing we did is that we said, we had blind verifiers. We had an analyst go and look at the results. They refined those results. They then built out another program. They added again, additional context"
+ },
+ {
+  "segment_id": "s0069",
+  "start_seconds": 2119.78,
+  "end_seconds": 2149.92,
+  "text": "and from their experience. And that verifier then went through and did it all again. And at that point, they had the AI agent had to hit 60% of all of the attacks that we identified before it could even be pushed off to the next stage of the program and model. So in reality, the mortality rate of these attacks, basically the tax that failed, that's the product for us."
+ },
+ {
+  "segment_id": "s0070",
+  "start_seconds": 2149.92,
+  "end_seconds": 2181.2,
+  "text": "When we were looking at building out this framework and this harness, we wanted to get the highest quality results into the hands of the engineers that are going to be working the problem. Because it's like, if we hand them a lot of noise, we're just gonna be ignored. You've seen this in your programs, right? You turn over a lot of very low severity alerts and eventually you get alert fatigue. Same thing happens on kind of our engineering side. You push them a lot of low quality vulnerabilities and they're just going to ignore it"
+ },
+ {
+  "segment_id": "s0071",
+  "start_seconds": 2181.2,
+  "end_seconds": 2216.92,
+  "text": "because there's not as much gain that they can see to crush them all. And then the last part of our big methodology is basically we needed receipts. We had to have an observable effect through these vulnerabilities or it didn't happen. It was not something that was exploitable. And so we're gonna walk through a little bit more around these and how we structured the program. So when we started the hunting, we really came up with a methodology that started with model, hunt, refute, prove and judge."
+ },
+ {
+  "segment_id": "s0072",
+  "start_seconds": 2217.34,
+  "end_seconds": 2248.54,
+  "text": "Those stages as we go through, and you'll notice that three of those were specifically around validation and proving that those vulnerabilities exist. So there's basically three different parts of the five stage kill chain where the vulnerabilities can be stopped and we no longer focus on those as a kill chain object. To operate in this new environment and this new harness we built,"
+ },
+ {
+  "segment_id": "s0073",
+  "start_seconds": 2248.54,
+  "end_seconds": 2279.92,
+  "text": "we basically found out that our analysts were using four different modes to work with this. We gave them little pithy names like the conversationalist. This is probably what your interaction is when you're working with AI, where you have your chat GPT or your cloud code open, you ask it a question, you wait for a result and you just refine based off your chat with the AI agent. That's what we consider to be the conversationalist. It was a really good first contact"
+ },
+ {
+  "segment_id": "s0074",
+  "start_seconds": 2279.92,
+  "end_seconds": 2313.28,
+  "text": "and we use that to build the first threat models and find the first threads, but ultimately you can do that all day, but it doesn't scale. So we moved out onto sort of the agentic teamster, which is we developed a squad of specialist agents. You can think of these as your normal red team elements. So I have a red teamer, I have an infrastructure specialist, I have a vulnerability researcher, I have someone that can do open intelligence research,"
+ },
+ {
+  "segment_id": "s0075",
+  "start_seconds": 2313.28,
+  "end_seconds": 2344.18,
+  "text": "I have people that can look through closed intelligence, I have people that are an agent that will go through and look through our own contextual data on attacks that we've seen through our services engagement. Like all of those were very specialist and they were very honed in to look at a specific problem once it was identified. But the challenge is, how did we identify that? And so that next mode really comes into play, which is the workflow scaler. We built out a deterministic method"
+ },
+ {
+  "segment_id": "s0076",
+  "start_seconds": 2344.18,
+  "end_seconds": 2378.06,
+  "text": "for hundreds or thousands of sub-agents to look through the repos, look at the focus areas, and really do an org-wide breadth search that really brought those first strings in that we could then point the agentic teamster at to really pull those models and look at the vulnerabilities a lot closer. And then ultimately that led into what we call the harness wrangler, which is we built out a autonomous harness that we could use to verify and really run the proof."
+ },
+ {
+  "segment_id": "s0077",
+  "start_seconds": 2378.06,
+  "end_seconds": 2410.36,
+  "text": "Like we must see this run and break and develop an exploit and report on it and really get that final verification so that we know that we had that value. An interesting thing around all of these is first, no one of these is the silver bullet. You really do need all four modes running in one pipeline. line to flesh out all of the types of vulnerabilities and exploitation that you can across the product. And also, they're not interchangeable from a price point."
+ },
+ {
+  "segment_id": "s0078",
+  "start_seconds": 2410.36,
+  "end_seconds": 2442.56,
+  "text": "So, if you're budget conscious, right, the deep dive, really pointing that agentic teamster mode at something, they're going to give you the cheapest verification with the highest fidelity results. The more expensive one, the workflow scaler, that's where you use that to find where the initial attack vectors start. So, combining those two, really, they play off each other very well. So, but if you had, if you were so budget conscious, we found that the agentic teamster"
+ },
+ {
+  "segment_id": "s0079",
+  "start_seconds": 2442.56,
+  "end_seconds": 2474.44,
+  "text": "methodology was significantly cheaper. We're talking order of probably 30x cheaper to find a vulnerability and exploit it versus the workflow scaler on where you are in your journey. If you need to do more discovery, you would need to orient more towards the workflow scaling. But if you have very good context, you know where your threat vectors are, pointing the agentic teamster type of mode against the problem is also very valuable and probably the cheaper option as you're moving forward."
+ },
+ {
+  "segment_id": "s0080",
+  "start_seconds": 2474.44,
+  "end_seconds": 2506.64,
+  "text": "So, finally, we're kind of get into our methodology that we use. I mentioned before that it was model, hunt, refute, prove, and judge. If we have those four operating models and we have one human, 12 agent squads, and this workflow that will go across, that all must feed this same pipeline. The first thing that we do, we did, and you can kind of see that this has a very good analogy to what a defender is doing. So, if you think about the ICS kill chain, you can really see that influenced in our"
+ },
+ {
+  "segment_id": "s0081",
+  "start_seconds": 2506.64,
+  "end_seconds": 2543.48,
+  "text": "pipeline that we built here. The first thing that we do is we model. We went and looked through every one of the repos, identified the trust boundaries, what are the entry points, and catalog all of the mitigations that we already had in place. Because again, you point a model at one of these repos and you have it pointing at code, it's going to find vulnerabilities in that code. But what it can't necessarily determine is what are the controls that are around that. Are there service boundaries? Are there firewalls? Are there gating proxies that validate the content coming in that may defeat the attack"
+ },
+ {
+  "segment_id": "s0082",
+  "start_seconds": 2543.48,
+  "end_seconds": 2577.04,
+  "text": "in the beginning? Again, very good to get breadcrumbs, but not very good to determine whether or not something is completely vulnerable. We then moved into, we take those results and we feed them into the hunt step, which is really tuned for recall, which is go look at that, sort through the noise, and then turn this into a workflow that will span and fan out and try to do every possible attack against it from anything we found in that threat model result."
+ },
+ {
+  "segment_id": "s0083",
+  "start_seconds": 2577.04,
+  "end_seconds": 2608.14,
+  "text": "So again, that produces a lot of data and we expect noise at that step, but it's also relatively cheap, both from a runtime as well as from the analysis that we have to do after the fact. After that, we take all of those results and we run them through the refute step. So it's the valid, we have validators in this step that are, they never take the hunter's argument for granted. They always try to be cynical. They cannot be persuaded."
+ },
+ {
+  "segment_id": "s0084",
+  "start_seconds": 2608.14,
+  "end_seconds": 2642.06,
+  "text": "We don't actually look, we have those agents not look at the evidence that was provided. We're just asking them, is this valid or is it not? And again, this is the first point in the kill point where attacks can get thrown out for not being valid. The next stage, we take all of the eligible candidates and run it through another cynic step, which is prove. We point this at our product in a live environment and we do that where it's safe to do. We give it very good boundaries on what it's allowed to do and what it's not allowed to"
+ },
+ {
+  "segment_id": "s0085",
+  "start_seconds": 2642.06,
+  "end_seconds": 2674.46,
+  "text": "do and how it can attack and what are the attack vectors. And from here, like the outcome is exploits or it didn't happen. We asked the models to prove everything they did, including give us the exploit code that shows that you did the work and that the hole was absolutely there. All of that research and all of that data then goes into the last model, which is the judge. This is my favorite part of the personas and the methodology that we have, because it maybe"
+ },
+ {
+  "segment_id": "s0086",
+  "start_seconds": 2674.46,
+  "end_seconds": 2708.54,
+  "text": "embodies me a little bit more than others, but it's first that this is the cynic, right? The cynic attacks the argument, not the code. It's reading through all of the commentary that was developed and it ultimately puts out a refute verbatim when we have this report. We will see all of the results of model, hunt, refute, prove, and then we get an independent judge report that says, I believe this and this is where I am. This is where I am not convinced that this is a good argument and that an exploit is"
+ },
+ {
+  "segment_id": "s0087",
+  "start_seconds": 2708.54,
+  "end_seconds": 2744.46,
+  "text": "available through the controls that you have. An analyst, again, can look at that, look at the judgments that are made and really hone in on where the vulnerabilities are in this. Going back to our results, you can see how this model really hones into where the results are that we should really focus on as an engineering group. We identified over 2,000 vulnerable endpoints. From that, right from the initial refute skeptic panel, we crushed 81% of those."
+ },
+ {
+  "segment_id": "s0088",
+  "start_seconds": 2744.46,
+  "end_seconds": 2775.86,
+  "text": "Moving to that, we moved 402 survivors to triage and then that went through the cross-service kill chain, the actual prove that this happened. We reproduced five end-to-end and of those five end-to-end, 10 critical kill chains also identified and then we rated them on criticality. Moving from there, this is a very high-cost model, right, and we're using it with some of the most advanced models like anthropic mythos to do that."
+ },
+ {
+  "segment_id": "s0089",
+  "start_seconds": 2776.22,
+  "end_seconds": 2806.82,
+  "text": "If you're working in this space, you know that's an extremely costly endeavor. We wanted to be able to also provide our developers doing their daily work a method to do that. We took this same pipeline. We then applied it to a skill that we built into a reproducible deterministic workflow and then we applied it to every pull request that was made against the critical code base"
+ },
+ {
+  "segment_id": "s0090",
+  "start_seconds": 2806.82,
+  "end_seconds": 2836.94,
+  "text": "that we have that feeds into Draco's platform. That model is not using mythos. It's not using the highest-cost models. We actually figured out that at each stage, we can use some of the lower-cost models to really get similar results if we're looking at a repo basis. At the end of the day, a developer gets this same report to see, did the change I made to this code cause another vulnerability to open anywhere else across the platform?"
+ },
+ {
+  "segment_id": "s0091",
+  "start_seconds": 2836.94,
+  "end_seconds": 2868.06,
+  "text": "That happens in about 11 minutes and we apply it across every PR we do now to this. At the end of the day, an engineer making a change has the confidence to say, what I did solves the problem and also did not increase the risk to our platform and more importantly, our customers. If you're looking at this and you're like, what do I do next? I'd recommend these six things to steal and use and verify in your environment."
+ },
+ {
+  "segment_id": "s0092",
+  "start_seconds": 2868.06,
+  "end_seconds": 2901.54,
+  "text": "Number one is blind your verifiers, right? Make sure that persuasion is the failure mode. If your agent is trying to convince another agent that it's really right, it's probably wrong, right? So, make sure that you build that into your steps. And default to refuted. There's an asymmetric burden here on the proof, right? If you get more vulnerabilities in, then you can recognizably conquer or refute, right? It's just going to cause strain across your developers or your security team."
+ },
+ {
+  "segment_id": "s0093",
+  "start_seconds": 2901.54,
+  "end_seconds": 2932.14,
+  "text": "Next is you must record the mitigations and not just the risks. So, if you are doing this threat modeling as you're going through, look and say like there is a control in this service that stops this and make sure that's documented and make sure that's cataloged. So, for the next run that you do, you have, you know, you kill the false positives at any prompt turn or any loop. Then you must make the proof executable. You must be able to observe it or it didn't happen. It's not something you should pass on to your security teams."
+ },
+ {
+  "segment_id": "s0094",
+  "start_seconds": 2932.14,
+  "end_seconds": 2965.18,
+  "text": "The last two are let the pipeline overrule your answer key. Make sure you have a judge. Make sure you have something that is cynical towards the argument, not necessarily just the technical, but also looking at the entire thing from an advisory and vulnerability specialist kind of persona. And lastly, keep that cross-run state. Save and remember everything that came out every time you run this pipeline. The more data you have, the better fuel you have, the more that you can feed that into"
+ },
+ {
+  "segment_id": "s0095",
+  "start_seconds": 2965.18,
+  "end_seconds": 2998.18,
+  "text": "later models to improve and also make things less costly, improve the results that are coming out, and also reduce the amount of time it takes to run this across your program. So, with that, I think we're going to open it up for questions and I'll take those for anyone that has them. So, we just have a few minutes here for questions. So, I'm looking through the chat and I'll see what we have. A really great question that popped out me first is, how did you know you were not defending"
+ },
+ {
+  "segment_id": "s0096",
+  "start_seconds": 2998.18,
+  "end_seconds": 3030.94,
+  "text": "false negatives? So, that's a great question because, you know, you don't know what you don't know and those unknowns may keep you up at night. So, when we looked at that, we started by conceding that the shape of the problem is why we're making some of these concessions. So, a refute rate is the precision measurement. It tells you nothing about the recall and the pipeline tune to only refute rate. It's going to happily converge on refuting everything, but we built three things specifically"
+ },
+ {
+  "segment_id": "s0097",
+  "start_seconds": 3030.94,
+  "end_seconds": 3061.98,
+  "text": "to keep that from happening. First, we built that calibration gate, right? That's a recall test for us. It's not a precision test. When we had an analyst go through and look at the threat models that we verified and went through and augmented that with the data that we knew and knew about the attack vectors and the extra controls, right, that calibration is set and then it's used across every model before any new static mode was allowed to tread on new ground."
+ },
+ {
+  "segment_id": "s0098",
+  "start_seconds": 3061.98,
+  "end_seconds": 3095.94,
+  "text": "We made sure that was independently read and that at least when an agent ran through, it had to find at least four of the six different items that we identified in that calibration step blindly before we trusted any of its other results. So, that really helped us to narrow those things and also made sure that the wild guesses or the false negatives weren't necessarily there. But the calibration bar cuts both ways. One of the interesting things is the analysts that put this together, they made one assumption"
+ },
+ {
+  "segment_id": "s0099",
+  "start_seconds": 3095.94,
+  "end_seconds": 3128.74,
+  "text": "that was wrong. So, one of those six items was incorrect, but our validator that we had when it went down to the refuted step started to see that. And we started to see a lot of them refute that this was a wrong thing. So, now the bar then turned out to be find the five real ones and kill the bogus one. So, we built in a false negative by accident. I'll be humble about that. But we built in a false negative and then we, you know, the system caught it and it"
+ },
+ {
+  "segment_id": "s0100",
+  "start_seconds": 3128.74,
+  "end_seconds": 3161.46,
+  "text": "started to refute it and it started to tell us why. The burden here is asymmetric by design. It's not unbounded. Hunt is deliberately tuned for recall and forbidden from self-filtering. So, the refute filtering on an intentionally on an overbroad candidate set rather than an already pruned one. The panel is not uniform. There's a lot of rigor. There's a lot of different scales. There's a lot of different ways to refute this. But the place where false negatives would be the most expensive is in the place we spend"
+ },
+ {
+  "segment_id": "s0101",
+  "start_seconds": 3161.46,
+  "end_seconds": 3197.74,
+  "text": "the most skepticism budget on getting right in both directions. And then third, we did close the loop after the fact. Every confirmed bug, every structural signature that goes back into the product starts again through the pipeline with model, hunt, refute. We run that and we run those scenarios over and over again to make sure that those things survive and that we are not just overkilling because of a shape of a bug. If we were pressed on what's our actual miss rate, I'd say that the answer right now is"
+ },
+ {
+  "segment_id": "s0102",
+  "start_seconds": 3197.74,
+  "end_seconds": 3232.3,
+  "text": "we don't really know, you know, which is not a great answer. It's not one that I like, but I am pretty convinced that because we have the live target discipline that did the downgrading from the 10 chains we found and that's a really good false positive control. The false negative control, I do feel pretty confident in by running this over and over again, we're going to see where we are hitting those false negatives as we're driving new answers. Next question, which is a great one, which is what is the actual cost and how, if I was"
+ },
+ {
+  "segment_id": "s0103",
+  "start_seconds": 3232.3,
+  "end_seconds": 3263.02,
+  "text": "reporting to a CFO, would I defend how much money we spent? So to give you a ground truth of this, through the entire program, we spent about $150,000 in AI tokens. That is a large number and it's a large number for a lot of companies. But what we ended up with is earlier in the talk when I said we gave the engineers a Ferrari and let them do donuts, that was the most expensive part of this whole thing, the learning."
+ },
+ {
+  "segment_id": "s0104",
+  "start_seconds": 3263.02,
+  "end_seconds": 3294.7,
+  "text": "Once we actually figured out the methodology and built it, every run cost under $5,000 when we were running it. And again, that may seem like a large cost, but if you take that as a risk measurement and say, if an adversary found a vulnerability in the Dragos platform and then use that to attack our critical infrastructure customers, that's a worse day, right? I'll trade $5,000 for avoiding that attack any day and any argument that I make to the"
+ },
+ {
+  "segment_id": "s0105",
+  "start_seconds": 3294.7,
+  "end_seconds": 3326.78,
+  "text": "CFO would agree with me. Moving forward from that, we are using more of that agentic Teamster where it makes sense. We don't have to do so many large sweeps from the workflows anymore because we've done that initial trace work. But know that there's probably a high upfront cost. Maintenance of your threats and maintenance of your risk program is significantly cheaper. And then look at the risk to your business. If you can identify the vulnerability for X dollars, how much is that going to save"
+ },
+ {
+  "segment_id": "s0106",
+  "start_seconds": 3326.78,
+  "end_seconds": 3361.82,
+  "text": "you as you move forward? And I think that's a winning argument as you're moving through and developing programs that use AI defensively. And then the last great question that I have is, are we building the attackers tool for them? And we did publish this as a blog. So why did we publish this methodology at all? Why are we giving the attackers a leg up? And the answer is it goes back to similar to what Rob said. When you are looking at this, you have years of training data. Dragos has over 12 years of training data from every service engagement, every"
+ },
+ {
+  "segment_id": "s0107",
+  "start_seconds": 3361.82,
+  "end_seconds": 3394.06,
+  "text": "engineering practice, every build that we've had. So you look at all of that fuel and the outcome is an adversary doesn't have that. Right. They didn't start from the source code. They're starting from a black box. They don't know what the trust boundary is because they don't even know what the services are inside of the platform. So they need to do all of this discovery blind. Whereas we had the data upfront to to really feed that fuel into this pipeline and have a really concrete result."
+ },
+ {
+  "segment_id": "s0108",
+  "start_seconds": 3394.06,
+  "end_seconds": 3424.42,
+  "text": "And I'll be honest, I think this is one of the first times when I, as a defender, looked at this and saw that asymmetric problem where attackers had to find one vulnerability, but defenders had to find all of them and plug them is really starting to turn. If I'm looking at how me as a defender is looking at risk across my program, I can I can see now that I'm finally getting ahead because I can identify the vulnerabilities up front. This is another tool that we've added to our toolbox."
+ },
+ {
+  "segment_id": "s0109",
+  "start_seconds": 3424.42,
+  "end_seconds": 3450.54,
+  "text": "And honestly, if we're going to have an adversary, I want that adversary to be us first and verify harshly our program and believe what survives. So I think that's all the time we have. I want to thank everyone for participating today. I want to thank Rob for his insights at the beginning of this. And we look forward to continuing to safeguard civilization with you. And let's have a great day moving forward. Thank you."
+ }
+]
