@@ -1,0 +1,44 @@
+{
+  "review_id": "rev-971b18f0cdc82fc351b4cbf6",
+  "as_of_date": "2026-10-19",
+  "passed": true,
+  "error_count": 0,
+  "warning_count": 7,
+  "issues": [
+    {
+      "target": "articles/01.md",
+      "severity": "warning",
+      "explanation": "1011 words; target 600-900"
+    },
+    {
+      "target": "piece 01",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    },
+    {
+      "target": "articles/02.md",
+      "severity": "warning",
+      "explanation": "990 words; target 600-900"
+    },
+    {
+      "target": "video_scripts/02.md",
+      "severity": "warning",
+      "explanation": "770 words; target 400-750"
+    },
+    {
+      "target": "piece 02",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    },
+    {
+      "target": "articles/03.md",
+      "severity": "warning",
+      "explanation": "985 words; target 600-900"
+    },
+    {
+      "target": "piece 03",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    }
+  ]
+}

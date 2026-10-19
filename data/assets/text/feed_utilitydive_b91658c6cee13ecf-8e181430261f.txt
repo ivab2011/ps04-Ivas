@@ -1,0 +1,25 @@
+The effectiveness of a customer portal is often evaluated through familiar measures like number of logins per month or volume of completed payments. These measures matter for utilities, but they’re only one aspect of what self-service portals can deliver.
+A well-designed portal can help your utility improve key business outcomes that are central to operations and service delivery.
+Here are three examples of what’s possible when utilities design their portals as places where customers can go for helpful guidance to make informed choices.
+1. Grow participation in program enrollment
+A customer portal can help your utility identify specific customers who may be good candidates for programs like electric vehicle (EV) rates, e-bill or autopay enrollment, time-of-use rates, or peak-time rebates based on their usage patterns and preferences.
+From there, you can use the portal to target these customers with relevant messaging presented at times they’re most likely to act. For instance, you could present a customer on a standard residential rate who also owns an EV charger with an invitation to explore a time-of-use rate as they view a recent bill. They’ll be more likely to make the connection between the charges they’re looking at and the potential value of shifting charging to off-peak hours.
+For Minnesota-based Connexus, portal usage led to higher participation in programs that support energy reduction goals. “They crafted a program around that concept and were able to get 20,000 customers to enroll in peak-time rebates programs, which led to energy savings of 3.6 million kWh,” says Christina Schueneman, senior vice president of implementation and services at VertexOne. This was an important step in the utility’s efforts to meet a state-mandated energy-reduction target of 1.5%.
+2. Advance conservation and demand management goals
+Portals can serve as an education resource for customers — a place they can go to better understand their energy and water use and see options for managing those bills.
+For example, you could present information like:
+- Insights into personal usage (how consumption fluctuates over time or comparisons between customer and similar household/organization use)
+- Updates on external conditions that might impact bills, such as hot/dry weather or high-demand periods
+- Efficiency tips tailored to consumption patterns
+- Bill breakdowns and explanations to help customers understand charges
+- Steps customers can take to see changes on their next bill
+San Antonio Water System (SAWS), which serves more than 2 million customers, uses its portal to share near-real-time data on water consumption with account holders so they can see how usage changes and take action to prevent high bills.
+By pairing usage data with alerts about use, SAWS gives customers a way to reduce water waste quickly. Case in point: The utility reports that nearly half their customers adjust watering practices within the first few days of receiving notifications about excessive or non-compliant irrigation during drought periods.
+3. Strengthen collections outcomes and reduce delinquent debt
+The right utility portal can help spot points in the customer journey where proactive affordability outreach could be helpful, such as when a customer misses a payment or a past-due balance grows to a certain level. This can prevent missed payments from turning into shutoffs and collections escalation.
+Through self-service tools, you can give customers a way to set up payment support and arrangements without having to speak with a utility representative about their financial hardships. The ability to make these requests digitally also reduces administrative costs associated with handling these requests in person or via phone.
+To help customers resolve past-due balances earlier, the Village of Lombard in Illinois created an outreach process using its utility portal as the foundation. As a result, water shutoffs dropped by approximately 75%. When customers can review payment options on their own and make a decision when they’re comfortable, they’re more likely to address balances earlier so delinquent debt has less time to build up.
+Design your portal for results
+To design a portal experience that will serve your customers and deliver the results you need, begin with the outcome you want to improve. Then, work backward to identify the customer decisions and actions that can help make it happen.
+Use data available to you through the portal to see where customers are completing intended journeys and where they’re getting stuck. This offers a practical way to refine the experience over time.
+“Adoption numbers just tell you someone showed up,” says Andreya Shaak, senior vice president of product strategy at VertexOne. “But outcomes tell you whether it was worth their time.”

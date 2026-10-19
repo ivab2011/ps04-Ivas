@@ -1,0 +1,40 @@
+The regions attracting the most data center development are, almost without exception, the least prepared to connect it. That's the finding from Enverus Intelligence® Research (EIR), which graded ISO/RTO large-load readiness against the five reform areas FERC identified in its June 2026 show-cause orders — orders requiring every grid operator to prove its interconnection framework can handle the 62 GW of new U.S. data center capacity expected by 2030.
+Some FERC-controlled regions are further along in updating their load interconnection processes than others, while a few have barely started. ERCOT, outside FERC's jurisdiction, is also rewriting its rulebook. The result is a patchwork of timelines, costs and risk that developers and investors must now navigate largely on their own.
+Meanwhile, the legal and structural burden of evolving interconnection processes falls on utilities, which must rewrite operational playbooks, plan for short-term grid impacts, account for the unpredictable load behaviors and revise capital expenditure forecasts.
+Utilities, developers and investors are all left asking the same question: how close is each grid operator to meeting FERC’s mandate?
+What FERC’s large-load order means for each ISO/RTO
+FERC doesn’t expect a one-size-fits-all solution. In fact, it encourages each regional grid operator to tailor reforms to its specific system and needs. It identified five reform categories:
+- Application and study processes
+- Cost allocation
+- Co-location and behind-the-meter generation
+- Flexible-load services
+- Processes for generation serving nearby or co-located loads
+SPP: High preparedness, low large-load demand
+As the only region with FERC-approved large-load tariffs, SPP has the most advanced framework for connecting large loads and associated generation. Its High Impact Large Load (HILL) and High Impact Large Load Generation Assessment (HILLGA) frameworks pair generation with load, reduce network upgrade costs, facilitate colocation, limit cost sharing to ratepayers and improve study efficiency.
+SPP also offers the most flexible pathway to faster grid access with its Conditional High Impact Large Load Service (CHILLS). CHILLS transmission service enables an almost immediate grid connection to a new or expanding large load, assuming it accepts conditional, non-firm service for 7 years during upgrades, plus peak demand curtailment risks.
+While EIR rated SPP as the leader in preparedness, the region represents only about 5% of the identified high-confidence large load project pipeline — projects where the developer has land ownership, access to power, gas and fiber infrastructure and the project has been announced.
+PJM: Overcoming hurdles to meet speed to power needs
+PJM has the largest high-confidence pipeline at approximately 11.8 GW, with more than half (58%) expected to be served behind the meter (BTM) — signaling that speed to power is a top priority for developers.
+Bypassing the grid should, in theory, speed up energization, explained Amyra Mardhani, power and energy transition associate at EIR. But because BTM and co-located loads still draw from and feed into the grid at the margins, “loads that expected to bypass both the policy uncertainty and the delays of a grid interconnection are now caught up in it too,” Mardhani said. “They still hold some advantage over fully grid-connected projects, but less than they were counting on.”
+PJM is stronger than most ISO/RTOs on co-location, thanks to its Bring Your Own Generation framework, which includes an expedited interconnection process for co-located projects. PJM also has partial readiness in BTM netting reform and interim NITS/contract demand.
+MISO: Gradual gains across FERC objectives
+MISO’s pipeline is approximately 11.6 GW, with 78% expected to be grid-connected. It has made good progress in three of the five FERC reform categories, though some policies are not yet fully FERC-approved or are in development:
+- Cost Allocation: Contribution in Aid of Construction (CIAC) requires large loads to fund network upgrades upfront, reducing cost shifting to ratepayers.
+- Co-Location and BTM Generation: Zero-Export Generation Interconnection Agreement (ZGIA) pairs new load and generation, prevents exporting power to the grid, helps mitigate transmission costs and expedites connection.
+- Flexible-Load Services: Firm Step-Up Service enables incremental load connection as upgraded assets come online.
+NY-ISO, ISO-NE, CAISO
+The remaining ISO/RTOs in FERC’s jurisdiction have limited or no large-load frameworks. CAISO has some demand response tools, but there is little direct alignment with FERC’s reform categories.
+“If speed matters more than location, SPP and PJM are the better bet,” Mardhani said. SPP is currently the only region where regulatory timing and cost risks are largely resolved, which may extend its speed-to-power advantage further.
+ERCOT
+Meanwhile, ERCOT’s Batch Zero process is shifting from sequential, first-come, first-served large load studies to batch studies. Studying multiple projects together better suits today’s fast-growing market, can reduce instances of a new study invalidating a prior one and could accelerate interconnection timelines.
+On August 3, Texas Governor Greg Abbot called for a moratorium on new data center interconnections until questions around the use of energy, water and public funds could be answered — delaying the first set of Batch Zero projects.
+Untangling the uncertainty: ‘No one knows what each ISO will do’
+With FERC’s new transparency and cost-shift prevention mandate, the load itself must pay for the supporting infrastructure. Data centers now need to model the transmission grid in detail to identify the best points of interconnection and minimize their exposure to time, risk, transmission upgrade and curtailment costs.
+“The show-cause orders are driving tariff changes and no one knows exactly what each ISO will do or on what timeline. That makes it difficult to site large loads, whether or not the project intends to interconnect to the grid,” Mardhani said. “Neither developers nor utilities want to build or allocate capital blindly, only to have the tariffs change and force relocation or additional investment.”
+Interconnect, offered by Enverus, uses advanced grid modeling and automation to show the cost and risk of connecting at a specific location, helping developers, large load customers and any stakeholder exposed to interconnection risk:
+- Compare points of interconnection for generation, large load and co-located projects.
+- Predict network upgrade costs and cost allocation for queued generation.
+- Screen withdrawal capacity and upgrade risk at candidate data center sites.
+- Accelerate time-consuming interconnection study workflows.
+Critically, Interconnect is a physics-based simulation and optimization engine. It orchestrates the complex grid simulations interconnection analysis requires and every output depends on the inputs and the physics of the grid, so results can be checked and verified. Judgment remains with people. Engineers and developers decide which inputs are most meaningful to study, interpret what the results mean for their projects and stay accountable for the development decisions those results inform.
+To learn how Interconnect can help you price risk, watch our new on-demand webinar, The New Rules of Large-Load Interconnection, or contact Enverus.

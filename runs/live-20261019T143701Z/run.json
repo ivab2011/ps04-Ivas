@@ -1,0 +1,11 @@
+{
+  "run_id": "live-20261019T143701Z",
+  "started_at": "2026-10-19T14:37:01Z",
+  "as_of_date": "2026-10-19",
+  "mode": "live",
+  "previous_run_id": "live-20261019T140450Z",
+  "simulated_failure": {
+    "source_id": "atlanticcouncil",
+    "note": "Deliberately simulated collection failure (labelled test)"
+  }
+}

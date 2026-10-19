@@ -1,0 +1,13 @@
+{
+  "stage": "check_content",
+  "status": "completed",
+  "input_count": 1,
+  "output_count": 8,
+  "started_at": "2026-10-19T14:45:23Z",
+  "finished_at": "2026-10-19T14:45:24Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0.0,
+  "errors": []
+}

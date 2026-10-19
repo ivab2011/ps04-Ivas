@@ -1,0 +1,15 @@
+{
+  "stage": "fetch_feeds",
+  "status": "incomplete",
+  "input_count": 3,
+  "output_count": 16,
+  "started_at": "2026-10-19T14:37:01Z",
+  "finished_at": "2026-10-19T14:37:03Z",
+  "tools": [
+    "python3-urllib"
+  ],
+  "cost_usd": 0.0,
+  "errors": [
+    "atlanticcouncil: RuntimeError: SIMULATED FAILURE (deliberate test via SIMULATE_FAIL_SOURCE)"
+  ]
+}
