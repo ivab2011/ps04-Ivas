@@ -1,0 +1,13 @@
+{
+  "stage": "create_briefs",
+  "status": "completed",
+  "input_count": 16,
+  "output_count": 3,
+  "started_at": "2026-10-19T14:37:57Z",
+  "finished_at": "2026-10-19T14:39:16Z",
+  "tools": [
+    "openai:gpt-5.5"
+  ],
+  "cost_usd": null,
+  "errors": []
+}

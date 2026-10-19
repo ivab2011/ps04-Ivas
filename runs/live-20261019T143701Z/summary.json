@@ -1,0 +1,87 @@
+{
+  "run_id": "live-20261019T143701Z",
+  "status": "awaiting_review",
+  "as_of_date": "2026-10-19",
+  "mode": "live",
+  "previous_run_id": "live-20261019T140450Z",
+  "simulated_failure": {
+    "source_id": "atlanticcouncil",
+    "note": "Deliberately simulated collection failure (labelled test)"
+  },
+  "counts": {
+    "discovered": 34,
+    "extracted": 34,
+    "new": 0,
+    "changed": 0,
+    "unchanged": 34,
+    "eligible": 53,
+    "excluded": 1,
+    "accepted": 14,
+    "rejected": 36,
+    "deferred": 3,
+    "articles": 3,
+    "video_scripts": 3,
+    "duplicate_observations": 0
+  },
+  "coverage": {
+    "distinct_items": 53,
+    "by_kind": {
+      "feed": 33,
+      "podcast": 7,
+      "youtube": 13
+    },
+    "independent_publishers": [
+      "atlantic-council",
+      "csis",
+      "dragos",
+      "ibm",
+      "industrial-cyber",
+      "industry-dive",
+      "lawfare"
+    ],
+    "independent_publisher_count": 7
+  },
+  "collection": {
+    "complete": false,
+    "problems": [
+      "fetch_feeds:exit_1"
+    ]
+  },
+  "failed_or_incomplete_stages": [
+    {
+      "stage": "fetch_feeds",
+      "status": "incomplete",
+      "errors": [
+        "atlanticcouncil: RuntimeError: SIMULATED FAILURE (deliberate test via SIMULATE_FAIL_SOURCE)"
+      ]
+    }
+  ],
+  "review_passed": false,
+  "human_approval": null,
+  "elapsed_seconds": 503,
+  "tools_and_models": [
+    "ffmpeg",
+    "openai:gpt-5.4-mini",
+    "openai:gpt-5.5",
+    "openai:whisper-1",
+    "python3",
+    "python3-urllib",
+    "sqlite3",
+    "trafilatura",
+    "yt-dlp"
+  ],
+  "cost_usd_known": 0.0,
+  "cost_note": "Whisper cost is computed from audio minutes; model costs are estimates from token counts",
+  "stages_with_unknown_cost": [
+    "create_briefs",
+    "select_items",
+    "write_articles",
+    "write_video_scripts"
+  ],
+  "published_links": null,
+  "remaining_manual_actions": [
+    "Read drafts and review.json, fix issues, record decision in approval.json, then run: bash run.sh --package runs/live-20261019T143701Z",
+    "Produce 3 narrated videos (text-to-speech + ffmpeg) from package/video_scripts",
+    "Publish 3 Substack articles and 3 YouTube videos, then fill package/publication_links.json"
+  ]
+}

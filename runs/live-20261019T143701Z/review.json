@@ -1,0 +1,49 @@
+{
+  "review_id": "rev-93c3103b2d279c82c239b1fc",
+  "as_of_date": "2026-10-19",
+  "passed": false,
+  "error_count": 1,
+  "warning_count": 7,
+  "issues": [
+    {
+      "target": "03-c4",
+      "severity": "error",
+      "explanation": "quote not found verbatim in feed:industrialcyber:a09983ad186a48ff: 'They should also be able to confirm that they have identified and classified all'"
+    },
+    {
+      "target": "articles/01.md",
+      "severity": "warning",
+      "explanation": "1022 words; target 600-900"
+    },
+    {
+      "target": "piece 01",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    },
+    {
+      "target": "articles/02.md",
+      "severity": "warning",
+      "explanation": "939 words; target 600-900"
+    },
+    {
+      "target": "video_scripts/02.md",
+      "severity": "warning",
+      "explanation": "801 words; target 400-750"
+    },
+    {
+      "target": "piece 02",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    },
+    {
+      "target": "articles/03.md",
+      "severity": "warning",
+      "explanation": "1122 words; target 600-900"
+    },
+    {
+      "target": "piece 03",
+      "severity": "warning",
+      "explanation": "Human judgment required: check that interpretations are sound, fact/claim/inference labels are right, and the limitation is fairly stated."
+    }
+  ]
+}

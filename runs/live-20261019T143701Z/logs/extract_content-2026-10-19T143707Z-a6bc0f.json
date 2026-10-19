@@ -1,0 +1,16 @@
+{
+  "stage": "extract_content",
+  "status": "completed",
+  "input_count": 34,
+  "output_count": 34,
+  "started_at": "2026-10-19T14:37:03Z",
+  "finished_at": "2026-10-19T14:37:07Z",
+  "tools": [
+    "trafilatura",
+    "yt-dlp",
+    "ffmpeg",
+    "openai:whisper-1"
+  ],
+  "cost_usd": 0.0,
+  "errors": []
+}

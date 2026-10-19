@@ -1,0 +1,140 @@
+[
+ {
+  "segment_id": "s0001",
+  "start_seconds": 0.0,
+  "end_seconds": 31.24,
+  "text": "Loop engineering is a term that's related to working with AI agents and it's kind of like the the newer cooler version of prompt engineering. But, with prompt engineering, that's all about writing V1 perfect ultimate prompt and then sending that prompt to a large language model. Then the model comes back with a response and you need"
+ },
+ {
+  "segment_id": "s0002",
+  "start_seconds": 28.32,
+  "end_seconds": 59.8,
+  "text": "to write the next perfect prompt and so forth. Now, loop engineering is the practice of designing a system that does all that prompting work for you. So, what loop engineering does is it takes a prompt and sends it to an AI agent. Then loop engineering checks the agent's work and prompts it again. So, we go back and forth, back and forth like"
+ },
+ {
+  "segment_id": "s0003",
+  "start_seconds": 57.04,
+  "end_seconds": 88.04,
+  "text": "this, looping until we're done, but we're not having to manually engineer every prompt. That's the job of loop engineering. There's minimal human intervention. Although, I'll be coming back to the the word minimal a bit later. Anyway, let's give an agent a job. Let's say there is a checkout service with a bunch of failing unit tests and the job is to get the failing unit tests to stop"
+ },
+ {
+  "segment_id": "s0004",
+  "start_seconds": 85.92,
+  "end_seconds": 118.88,
+  "text": "failing. So, for that, we're going to use a loop. Now, the loop starts with a goal. In this case, get the checkout unit tests to pass. Now, the AI agent takes an action. That's the next stage in the loop. And for a coding agent, that's something like maybe opening a file or editing some code. Then the next stage in the loop is the"
+ },
+ {
+  "segment_id": "s0005",
+  "start_seconds": 115.64,
+  "end_seconds": 146.0,
+  "text": "agent observes the output. And the last stop on the loop is to adjust based upon that. So, if the test went green, yay, that one's done, moves on to the next. Failing one, and if the test is still red, then it would try a different fix. And then it kind of goes back around to the goal."
+ },
+ {
+  "segment_id": "s0006",
+  "start_seconds": 142.6,
+  "end_seconds": 172.76,
+  "text": "Are we done yet? Nope, okay, go again. And we keep going around the loop. So, uh specifying a good goal is quite important because the goal is going to get evaluated every time the agent goes around the loop. It's what decides whether the agent keeps going. So, a goal of make the checkout faster is pretty bad goal in much the same way that be happier is a pretty bad New"
+ },
+ {
+  "segment_id": "s0007",
+  "start_seconds": 170.68,
+  "end_seconds": 202.08,
+  "text": "Year's resolution. They both have no measurable test. So, the agent could go around forever, or it could stop after just one pass and declare victory. Whereas, a goal of stop when every unit test in the checkout suite passes is verifiable. So, the agent will know for sure when it's met. A good goal is specific with an end condition, a stopping condition. So, that's the loop. Basically, these"
+ },
+ {
+  "segment_id": "s0008",
+  "start_seconds": 199.16,
+  "end_seconds": 229.84,
+  "text": "four stages. Not much to it, huh? Doesn't really seem like we need a whole engineering discipline named after it. So, why do we? Well, loop engineering is really what gets built around this loop. So, let's take a look at that. So, something has to kick this loop off. Now, something that might kick it off is a schedule. Uh or something that could kick it off is"
+ },
+ {
+  "segment_id": "s0009",
+  "start_seconds": 227.32,
+  "end_seconds": 258.28,
+  "text": "called a hook. So, a schedule is just something simple like run the checkout loop every night. And a lot of teams would do that with just like a plain old cron job. And then a hook is event-driven, meaning the hook is invoked when something specific happens, like a file changing or a or a pull request opening. Developers largely use hooks for security and quality, such as to enforce policies. Now, every trip around the agentic loop"
+ },
+ {
+  "segment_id": "s0010",
+  "start_seconds": 256.36,
+  "end_seconds": 287.84,
+  "text": "is going to generate something. It's going to generate context. Stuff like test output would be context or file contents. And context can really start piling up, which can make it hard for an agent to focus its attention on the important stuff. So, another engineering context engineering is choosing which parts actually the"
+ },
+ {
+  "segment_id": "s0011",
+  "start_seconds": 284.4,
+  "end_seconds": 316.28,
+  "text": "loop gets to see. Now, that could mean that we need to do some operations on this context, like compact it. So, compaction would be one thing we can do. Or we could use the progressive disclosure of agent skills, which contain instructions for how to do something, how a particular recurring job happens. Now, inside the loop is something that I'm going to call"
+ },
+ {
+  "segment_id": "s0012",
+  "start_seconds": 313.28,
+  "end_seconds": 346.56,
+  "text": "a spine. And this is really persistent state. So, maybe that's some markdown files where the agent writes down what it did and whether it worked. And the information stored in the spine can inform future iterations of the loop on what to do, what's worked so far, and maybe what hasn't worked. Now, for this stage here, the action stage, the agent might need to call out to external resources. So, it would do that using"
+ },
+ {
+  "segment_id": "s0013",
+  "start_seconds": 342.8,
+  "end_seconds": 373.92,
+  "text": "tool access. Now, that might be using standards like MCP, the model context protocol, or maybe we'll do tool calling directly with APIs. Agents use tools to execute code, to access file systems, to run commands in the terminal, to query databases, all that sort of stuff. That's action. At the observe stage,"
+ },
+ {
+  "segment_id": "s0014",
+  "start_seconds": 371.36,
+  "end_seconds": 402.12,
+  "text": "rather than have the same agent that wrote the code check the code, good loop engineering brings in a second agent. We can think of that second agent as being a sub agent. And that kind of acts as a checker and a co-worker to farm tasks out to. And the sub agent has its own instructions and its own context, and it may be powered by a different AI model"
+ },
+ {
+  "segment_id": "s0015",
+  "start_seconds": 399.84,
+  "end_seconds": 431.04,
+  "text": "than the main AI agent before sending its results back again. So, that's the loop. There's a a trigger to start the loop. There's context and skills to feed it information. There's a spine to remember what happened. There are tools to let it act on tasks, and there are sub agents to verify the result. Which still leaves the question of what"
+ },
+ {
+  "segment_id": "s0016",
+  "start_seconds": 429.12,
+  "end_seconds": 460.36,
+  "text": "the human is doing while all of this is looping away. All right, so back to minimal human involvement. Because I said loop engineering requires minimal human involvement compared to prompt engineering because an agent writes its own prompts rather than having a person submit them manually. But even a well-built loop with a checker and a sub agent and a spine and all the rest of that, it still needs human involvement. A human"
+ },
+ {
+  "segment_id": "s0017",
+  "start_seconds": 458.4,
+  "end_seconds": 489.24,
+  "text": "in the loop approach helps avoid the most dangerous pitfalls that can happen with automated code generation. And which pitfalls am I talking about? Well, I've got four for you. Starting with unverified code. So, a checker sub-agent is still just an agent. Human developers are ultimately responsible for all shipped code. And that means a real"
+ },
+ {
+  "segment_id": "s0018",
+  "start_seconds": 486.48,
+  "end_seconds": 516.56,
+  "text": "person has to read and verify that code. And the gap between the total amount of code in a system and the degree to which humans understand it is known as comprehension debt. As agents write more code and humans check less of it, well, comprehension debt is going to keep going up. And it can build up pretty fast because well, agents write a lot of code. And if left unmitigated, comprehension debt can"
+ },
+ {
+  "segment_id": "s0019",
+  "start_seconds": 514.56,
+  "end_seconds": 545.84,
+  "text": "be a big problem when human developers need to address urgent production failures or humans need to architect migration. And there's a there's another debt as well we can put under pitfalls, and that is intent debt. An agent can read what a system does, but working out why the system does it can be a bit harder unless that's something has been written down somewhere, perhaps in an agents.md file. Without that, an agent can make a"
+ },
+ {
+  "segment_id": "s0020",
+  "start_seconds": 543.6,
+  "end_seconds": 574.88,
+  "text": "change that is technically sound but goes against a project's objectives. So, in our checkout loop example, maybe the agent fixes a failing test by, let's say, relaxing the validation on a discount code, which is a perfectly good fix as far as the tests are concerned, but a perfectly bad one as far as the business's bottom line is concerned. So, the human's job here is to write the intent down, keep it up to date, and keep it visible to the AI agent. And"
+ },
+ {
+  "segment_id": "s0021",
+  "start_seconds": 572.28,
+  "end_seconds": 602.8,
+  "text": "then, just a fourth pitfall that I want to I is the rather severe sounding cognitive surrender. Yeah, we definitely don't want that, but it's very easy to do. Offloading work can lead to cognitive surrender when a person just blindly accepts whatever came out of the loop. So, if the AI did it, I'm sure it's right. Yeah. When that happens, comprehension debt is also going to go up because now nobody is even trying to"
+ },
+ {
+  "segment_id": "s0022",
+  "start_seconds": 598.4,
+  "end_seconds": 628.96,
+  "text": "understand the generated AI output. So, minimal human intervention turns out to be quite a specific amount of human intervention. So, the human, they need to write the goal with the stopping condition. The human needs to write the intent where the agent can find it. And the human needs to read the output from the"
+ },
+ {
+  "segment_id": "s0023",
+  "start_seconds": 625.52,
+  "end_seconds": 637.88,
+  "text": "agent. Loop engineering works best when there's a human in that loop. Are you engineering agentic loops in your own work? Let me know in the comments."
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "stage": "fetch_feeds",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 24,
+  "started_at": "2026-10-19T14:04:51Z",
+  "finished_at": "2026-10-19T14:04:52Z",
+  "tools": [
+    "python3-urllib"
+  ],
+  "cost_usd": 0.0,
+  "errors": []
+}
