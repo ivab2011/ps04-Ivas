@@ -3,3 +3,4 @@ data/media/
 .env
 __pycache__/
 .venv-tts/
+production/out/
