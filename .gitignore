@@ -4,3 +4,5 @@ data/media/
 __pycache__/
 .venv-tts/
 production/out/
+production/voice.wav
+.DS_Store
