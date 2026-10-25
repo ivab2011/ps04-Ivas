@@ -34,7 +34,7 @@ All three come from the approved run `runs/replay-20261018T205452Z` (evidence as
 embeds its video; each video description links the article and lists every claim with its sources and timestamps.
 Videos are narrated with AI text-to-speech in my own voice (Chatterbox), as allowed by the course update.
 
-**Separate technical demonstration video:** ADD LINK
+**Separate technical demonstration video:** https://youtu.be/TDscox2zpNA
 
 ## Setup and Execution
 
