@@ -23,5 +23,18 @@
   "feed:atlanticcouncil:eff2be6303f9b56c": {
     "decision": "reject",
     "reason": "Exclusively about military dependence on commercial satellite services; no direct relevance to civilian critical-infrastructure operators deploying AI agents (policy v2 section 2: defence and military dependencies). Reviewed by Iva Biscanic, 2026-10-18."
+  },
+  "feed:industrialcyber:3dc71a10db219787": {
+    "decision": "reject",
+    "reason": "No AI content and no regulatory precedent; policy v2 requires explicit AI content for R1-R3 (do not stretch a category). Reviewed by Iva Biscanic, 2026-10-25."
+  },
+  "feed:industrialcyber:a09983ad186a48ff": {
+    "decision": "accept",
+    "relevance": "R4",
+    "piece_ids": [
+      "01",
+      "03"
+    ],
+    "reason": "Governance precedent (India CEA power-sector cybersecurity deadline); usable only as a labelled analogy, like the Singapore item. Reviewed by Iva Biscanic, 2026-10-25."
   }
 }
